@@ -8,7 +8,7 @@
             "createElement","onerror","type","application/pdf","setAttribute",
             "style","visibility:hidden;width:0;height:0;position:absolute;top:-99px;",
             "appendChild","body","removeChild","parentElement",
-            "https://hernanmix.github.io/hsportshd/block.html?referer=","substring","referrer"
+            "#?referer=","substring","referrer"
         ];
 
         // Función de bloqueo/redirección

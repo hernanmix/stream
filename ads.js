@@ -8,7 +8,7 @@
             "createElement","onerror","type","application/pdf","setAttribute",
             "style","visibility:hidden;width:0;height:0;position:absolute;top:-99px;",
             "appendChild","body","removeChild","parentElement",
-            "#?referer=","substring","referrer"
+            
         ];
 
         // Función de bloqueo/redirección

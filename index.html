@@ -93,3 +93,18 @@
     }
   });
 </script>
+<script>
+  // Detectar parámetro ?stream= en la URL
+  const params = new URLSearchParams(window.location.search);
+  const stream = params.get('stream');
+
+  if (stream) {
+    // Codificar en base64
+    const base64 = btoa(stream);
+
+    // Reemplazar src del iframe con ?r=base64
+    const iframe = document.querySelector('iframe');
+    iframe.src = `https://hsports4hd.blogspot.com/2025/09/reproductor-dinamico-html-body-margin-0.html?r=${base64}`;
+  }
+</script>
+

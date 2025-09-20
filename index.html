@@ -103,18 +103,7 @@
     });
   </script>
 
-  <script>
-  const params = new URLSearchParams(window.location.search);
-  const canal = params.get('stream');
-
-  if (canal) {
-    const urlFinal = `https://streamtp22.com/global1.php?stream=${canal}`;
-    const base64 = btoa(urlFinal);
-
-    const iframe = document.getElementById('embed');
-    iframe.src = `https://streamtp22.com/global1.php?stream?r=${base64}`;
-  }
-</script>
+  
 
 </body>
 </html>

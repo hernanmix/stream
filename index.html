@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Reproductor Dinámico</title>
+  <title>Reproductor Codificado</title>
   <style>
     html, body {
       margin: 0;
@@ -42,17 +42,21 @@
 <body>
   <div class="contenedor-reproductor" id="contenedor">
     <button class="boton-flotante" id="boton-toggle">Pantalla Completa</button>
-    <iframe id="embed" allow="fullscreen; autoplay; encrypted-media; picture-in-picture"></iframe>
+    <iframe id="embed" allowfullscreen></iframe>
   </div>
 
   <script>
-    // Detectar ?stream= en la URL y construir la URL final
+    // Detectar ?stream= en la URL
     const params = new URLSearchParams(window.location.search);
     const canal = params.get('stream');
 
     if (canal) {
-      const urlFinal = `https://streamtp22.com/global1.php?stream=${canal}`;
-      document.getElementById('embed').src = urlFinal;
+      // Construir la URL original
+      const urlOriginal = `https://streamtp22.com/global1.php?stream=${canal}`;
+      // Codificar en base64
+      const base64 = btoa(urlOriginal);
+      // Insertar como ?r= en el iframe
+      document.getElementById('embed').src = `https://streamtp22.com/global1.php?r=${base64}`;
     }
 
     // Pantalla completa forzada horizontal
@@ -94,7 +98,6 @@
       }
     });
 
-    // Detectar salida manual de fullscreen
     document.addEventListener('fullscreenchange', () => {
       if (!document.fullscreenElement) {
         botonToggle.textContent = 'Pantalla Completa';

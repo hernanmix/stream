@@ -51,8 +51,8 @@
     const stream = params.get('stream');
 
     if (stream) {
-      const base64 = btoa(`https://streamtp22.com/global1.php?stream=${stream}`);
-      document.getElementById('embed').src = `https://streamtp22.com/global1.php?stream?espn?r=${base64}`;
+      const base64 = btoa(`https://streamtp22.com/global1.php?stream=espn${stream}`);
+      document.getElementById('embed').src = `https://streamtp22.com/global1.php?stream?espn=${base64}`;
     }
 
     // Lógica de pantalla completa forzada horizontal

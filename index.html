@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Reproductor Codificado</title>
+  <title>Reproductor Dinámico</title>
   <style>
     html, body {
       margin: 0;
@@ -51,9 +51,8 @@
     const canal = params.get('stream');
 
     if (canal) {
-      const urlOriginal = `https://streamtp22.com/global1.php?stream=${canal}`;
-      const base64 = btoa(urlOriginal);
-      document.getElementById('embed').src = `https://streamtp22.com/global1.php?r=${base64}`;
+      const urlFinal = `https://streamtp22.com/global1.php?stream=${canal}`;
+      document.getElementById('embed').src = urlFinal;
     }
 
     // Pantalla completa forzada horizontal
@@ -104,3 +103,4 @@
   </script>
 </body>
 </html>
+

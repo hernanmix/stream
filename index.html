@@ -46,17 +46,23 @@
   </div>
 
   <script>
-    // Detectar ?stream= en la URL
     const params = new URLSearchParams(window.location.search);
     const canal = params.get('stream');
+    const codificado = params.get('r');
 
-    if (canal) {
-      // Construir la URL original
+    if (canal && !codificado) {
       const urlOriginal = `https://streamtp22.com/global1.php?stream=${canal}`;
-      // Codificar en base64
       const base64 = btoa(urlOriginal);
-      // Insertar como ?r= en el iframe
+
+      // Reescribir la URL en la barra del navegador
+      const nuevaURL = `${window.location.origin}${window.location.pathname}?r=${base64}`;
+      history.replaceState(null, '', nuevaURL);
+
+      // Cargar el iframe
       document.getElementById('embed').src = `https://streamtp22.com/global1.php?r=${base64}`;
+    } else if (codificado) {
+      // Si ya está codificado, cargar directamente
+      document.getElementById('embed').src = `https://streamtp22.com/global1.php?r=${codificado}`;
     }
 
     // Pantalla completa forzada horizontal

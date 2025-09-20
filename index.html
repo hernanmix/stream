@@ -1,0 +1,95 @@
+/<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .contenedor-reproductor {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+
+  .boton-flotante {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.6);
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+  }
+</style>
+
+<div class="contenedor-reproductor" id="contenedor">
+  <button class="boton-flotante" id="boton-toggle">Pantalla Completa</button>
+  <iframe
+    src="https://hsports4hd.blogspot.com/2025/09/reproductor-dinamico-html-body-margin-0.html?stream=espn"
+    allow="fullscreen; autoplay; encrypted-media; picture-in-picture"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<script>
+  const contenedor = document.getElementById('contenedor');
+  const botonToggle = document.getElementById('boton-toggle');
+  let enPantallaCompleta = false;
+
+  botonToggle.addEventListener('click', () => {
+    if (!enPantallaCompleta) {
+      // Entrar en fullscreen
+      if (contenedor.requestFullscreen) {
+        contenedor.requestFullscreen();
+      } else if (contenedor.webkitRequestFullscreen) {
+        contenedor.webkitRequestFullscreen();
+      } else if (contenedor.msRequestFullscreen) {
+        contenedor.msRequestFullscreen();
+      }
+
+      if (screen.orientation && screen.orientation.lock) {
+        screen.orientation.lock('landscape').catch(() => {});
+      }
+
+      botonToggle.textContent = 'Salir';
+      enPantallaCompleta = true;
+    } else {
+      // Salir de fullscreen
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+      }
+
+      if (screen.orientation && screen.orientation.unlock) {
+        screen.orientation.unlock();
+      }
+
+      botonToggle.textContent = 'Pantalla Completa';
+      enPantallaCompleta = false;
+    }
+  });
+
+  // Detectar salida manual de fullscreen
+  document.addEventListener('fullscreenchange', () => {
+    if (!document.fullscreenElement) {
+      botonToggle.textContent = 'Pantalla Completa';
+      enPantallaCompleta = false;
+    }
+  });
+</script>

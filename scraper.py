@@ -4,23 +4,19 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from difflib import SequenceMatcher
 
-# COMPARADOR FLEXIBLE
 def similares(a, b):
-    return SequenceMatcher(None, a.lower(), b.lower()).ratio() > 0.6
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio() > 0.7
 
-# CONVERSIÓN DE HORA A FORMATO 24H
-def normalizar_hora(hora_raw):
+def hora_24(hora_raw):
     try:
         return datetime.strptime(hora_raw.strip(), "%I:%M %p").strftime("%H:%M")
     except:
         return hora_raw.strip()
 
-# CARGAR AGENDA
 def cargar_agenda():
     with open("marcadores.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
-# SCRAPING DE LIVESOCCERTV
 def extraer_eventos_con_marcador():
     fecha = datetime.now().strftime("%Y-%m-%d")
     url = f"https://www.livesoccertv.com/es/schedules/{fecha}/"
@@ -39,19 +35,17 @@ def extraer_eventos_con_marcador():
 
         if equipos and hora and liga:
             lista.append({
-                "hora": normalizar_hora(hora.text),
+                "hora": hora_24(hora.text),
                 "equipos": equipos.text.strip(),
                 "liga": liga.text.strip(),
                 "marcador": marcador.text.strip() if marcador else ""
             })
     return lista
 
-# GUARDAR AGENDA ACTUALIZADA
 def guardar_agenda(data):
     with open("marcadores.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-# EJECUCIÓN PRINCIPAL
 agenda = cargar_agenda()
 eventos_live = extraer_eventos_con_marcador()
 

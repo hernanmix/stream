@@ -1,5 +1,3 @@
 [
-  { "hora": "15:30", "equipos": "Aucas vs Emelec", "liga": "LigaPro Ecuador" },
-  { "hora": "18:00", "equipos": "Argentina Sub-20 vs Marruecos Sub-20", "liga": "Copa Mundial Sub-20" },
-  { "hora": "19:20", "equipos": "Falcons vs 49ers", "liga": "NFL" }
+  { "hora": "00:00", "equipos": "Inicial vs Vacío", "liga": "Sin datos" }
 ]

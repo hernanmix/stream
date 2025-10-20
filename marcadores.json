@@ -20,3 +20,17 @@
     "marcador": "Falcons vs 49ers (19:20)"
   }
 }
+
+
+<div class="evento" id="argentina sub-20-marruecos sub-20" data-hora="2025-10-19T18:00:00">
+    <div class="fila">
+      <span class="estado">12:00</span>
+      <span class="nombre" onclick="mostrarCanales(this)">
+Copa Mundial Sub-20 de la FIFA: Argentina Sub-20 vs Marruecos Sub-20 | Final
+</span>
+    </div>
+    <div class="canales">
+      <a href="#" onclick="abrirReproductor('https://hsports4hd.blogspot.com/2025/09/Streamp2.html?channel=dsports')">DSPORTS</a>
+      <a href="#" onclick="abrirReproductor('https://hsports4hd.blogspot.com/2025/09/Streamp2.html?channel=tyc')">TYC</a>
+    </div>
+  </div>

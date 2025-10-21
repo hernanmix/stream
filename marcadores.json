@@ -1,7 +1,23 @@
 [
   {
-    "hora": "00:00",
-    "equipos": "Prueba vs Confirmaci\u00f3n",
-    "liga": "Test GitHub"
+    "id": "ucl-barcelona-olympiakos",
+    "golesA": 2,
+    "golesB": 1
+  },
+  {
+    "id": "ucl-psg-milan",
+    "golesA": 0,
+    "golesB": 0
+  },
+  {
+    "id": "nba-thunder-rockets",
+    "golesA": 1,
+    "golesB": 0
+  },
+  {
+    "id": "ucl-realmanchester",
+    "golesA": 3,
+    "golesB": 2
   }
+  // ... agrega todos los que necesites
 ]

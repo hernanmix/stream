@@ -2,11 +2,11 @@ name: Actualizar marcadores
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Ejecuta cada hora
-  workflow_dispatch:     # Permite ejecutarlo manualmente
+    - cron: '*/5 * * * *'  # Cada 5 minutos
+  workflow_dispatch:       # Permite ejecutarlo manualmente desde GitHub
 
 jobs:
-  run-scraper:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,15 +19,15 @@ jobs:
           python-version: '3.10'
 
       - name: Instalar dependencias
-        run: pip install requests beautifulsoup4
+        run: pip install requests
 
-      - name: Ejecutar script
+      - name: Ejecutar scraper
         run: python scraper.py
 
-      - name: Subir cambios
+      - name: Subir cambios a GitHub
         run: |
-          git config user.name "HERMIXER"
-          git config user.email "hernantv94@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add marcadores.json
-          git commit -m "Actualización automática de marcadores"
+          git commit -m "🔁 Actualización automática de marcadores"
           git push

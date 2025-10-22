@@ -1,59 +1,37 @@
 import requests
 import json
-from bs4 import BeautifulSoup
-from datetime import datetime
-from difflib import SequenceMatcher
 
-def similares(a, b):
-    return SequenceMatcher(None, a.lower(), b.lower()).ratio() > 0.7
+# ID del partido Bayern vs Club Brugge (puedes agregar más luego)
+eventos = {
+    "bayern-brugge": 14566571
+}
 
-def hora_24(hora_raw):
-    try:
-        return datetime.strptime(hora_raw.strip(), "%I:%M %p").strftime("%H:%M")
-    except:
-        return hora_raw.strip()
+# Diccionario final para tu agenda
+marcadores = {}
 
-def cargar_agenda():
-    with open("marcadores.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+for nombre, event_id in eventos.items():
+    url = f"https://api.sofascore.com/api/v1/event/{event_id}/summary"
+    res = requests.get(url)
+    if res.status_code == 200:
+        data = res.json()
+        home = data["event"]["homeTeam"]["name"]
+        away = data["event"]["awayTeam"]["name"]
+        home_score = data["event"]["homeScore"]["current"]
+        away_score = data["event"]["awayScore"]["current"]
+        status = data["event"]["status"]["type"]  # "inprogress", "finished", etc.
 
-def extraer_eventos_con_marcador():
-    fecha = datetime.now().strftime("%Y-%m-%d")
-    url = f"https://www.livesoccertv.com/es/schedules/{fecha}/"
-    headers = { "User-Agent": "Mozilla/5.0" }
+        estado = "EN JUEGO" if status == "inprogress" else "FINALIZADO" if status == "finished" else "PRÓXIMO"
 
-    r = requests.get(url, headers=headers)
-    soup = BeautifulSoup(r.text, "html.parser")
-    eventos = soup.find_all("div", class_="match-row")
+        marcador = f"{home} {home_score} - {away_score} {away}"
+        marcadores[nombre] = {
+            "score": marcador,
+            "estado": estado
+        }
+    else:
+        print(f"Error al obtener datos para {nombre}")
 
-    lista = []
-    for e in eventos:
-        equipos = e.find("div", class_="teams")
-        hora = e.find("div", class_="time")
-        liga = e.find("div", class_="competition")
-        marcador = e.find("div", class_="score")
+# Guardar como JSON
+with open("marcadores.json", "w", encoding="utf-8") as f:
+    json.dump(marcadores, f, ensure_ascii=False, indent=2)
 
-        if equipos and hora and liga:
-            lista.append({
-                "hora": hora_24(hora.text),
-                "equipos": equipos.text.strip(),
-                "liga": liga.text.strip(),
-                "marcador": marcador.text.strip() if marcador else ""
-            })
-    return lista
-
-def guardar_agenda(data):
-    with open("marcadores.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-agenda = cargar_agenda()
-eventos_live = extraer_eventos_con_marcador()
-
-print("📋 Coincidencias encontradas:")
-for evento in agenda:
-    for live in eventos_live:
-        if evento["hora"] == live["hora"] and similares(evento["equipos"], live["equipos"]):
-            print(f"✅ {evento['hora']} | {evento['equipos']} → {live['marcador']}")
-            evento["marcador"] = live["marcador"]
-
-guardar_agenda(agenda)
+print("✅ Archivo marcadores.json actualizado")

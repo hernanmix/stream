@@ -1,7 +1,11 @@
-[
-  {
-    "id": "ucl-barcelona-olympiakos",
-    "golesA": 2,
-    "golesB": 1
+{
+  "bayern-brugge": {
+    "score": "1 - 0",
+    "estado": "EN JUEGO"
+  },
+  "arsenal-psg": {
+    "score": "2 - 2",
+    "estado": "FINALIZADO"
   }
-]
+}
+

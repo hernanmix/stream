@@ -7,22 +7,22 @@
   {
     "nombre": "UEFA Europa League: Go Ahead Eagles vs Aston Villa",
     "hora": "2025-10-23T11:45:00",
-    "canales": []
+    "canales": ["espn2", "fox1mx"]
   },
   {
     "nombre": "UEFA Europa League: Olympique Lyonnais vs Basel",
     "hora": "2025-10-23T11:45:00",
-    "canales": []
+    "canales": ["espn3",]
   },
   {
     "nombre": "UEFA Europa League: Feyenoord vs Panathinaikos",
     "hora": "2025-10-23T11:45:00",
-    "canales": []
+    "canales": ["espn4",]
   },
   {
     "nombre": "UEFA Europa League: FCSB vs Bologna",
     "hora": "2025-10-23T11:45:00",
-    "canales": []
+    "canales": ["espn5",]
   },
   {
     "nombre": "UEFA Europa League: Fenerbahçe vs Stuttgart",

@@ -1,12 +1,12 @@
 [
   {
-    "nombre": "Barcelona vs Real Madrid",
-    "hora": "2025-10-22T21:47:00",
-    "canales": ["espn", "espn2", "tudnus"]
+    "nombre": "UEFA Europa League: Genk vs Real Betis",
+    "hora": "2025-10-23T11:45:00",
+    "canales": ["espn", "espn4mx"]
   },
   {
-    "nombre": "Barcelona vs Real Madrid",
-    "hora": "2025-10-22T21:47:00",
-    "canales": ["espn", "espn2"]
+    "nombre": "UEFA Europa League: Go Ahead Eagles vs Aston Villa",
+    "hora": "2025-10-22T11:45:00",
+    "canales": ["espn2", "fox1mx"]
   }
 ]

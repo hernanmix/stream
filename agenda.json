@@ -57,17 +57,17 @@
   {
     "nombre": "UEFA Conference League: AEK Athens vs Aberdeen",
     "hora": "2025-10-23T11:45:00",
-    "canales": ["disney", "fox3mx"]
+    "canales": ["disney12", "fox3mx"]
   },
   {
     "nombre": "Liga Profesional Saudí: Al Najma vs Al-Ahli",
     "hora": "2025-10-23T13:00:00",
-    "canales": []
+    "canales": ["foxdeportes"]
   },
   {
     "nombre": "UEFA Europa League: Roma vs Viktoria Plzeň",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["disney1", "espn", "fox2mx"]
   },
   {
     "nombre": "UEFA Europa League: Nottingham Forest vs Porto",

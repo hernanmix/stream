@@ -27,7 +27,7 @@
   {
     "nombre": "UEFA Europa League: Fenerbahçe vs Stuttgart",
     "hora": "2025-10-23T11:45:00",
-    "canales": []
+    "canales": ["espn7", "espn2mx", "tudnus"]
   },
   {
     "nombre": "UEFA Europa League: Sporting Braga vs Crvena Zvezda",

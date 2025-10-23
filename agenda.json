@@ -152,7 +152,7 @@
   {
     "nombre": "Copa Libertadores: LDU Quito vs Palmeiras",
     "hora": "2025-10-23T19:30:00",
-    "canales": ["fox1ar", "espn", "espn2mx"]
+    "canales": ["disney1", "fox1ar", "espn", "espn2mx"]
   },
   {
     "nombre": "Liga 1: Sporting Cristal vs Universitario",
@@ -162,16 +162,16 @@
   {
     "nombre": "CONCACAF Central American Cup: Alajuelense vs Olimpia",
     "hora": "2025-10-23T21:00:00",
-    "canales": []
+    "canales": ["disney3"]
   },
   {
     "nombre": "NBA: Warriors vs Nuggets",
     "hora": "2025-10-23T21:00:00",
-    "canales": []
+    "canales": ["espn2", "espndeportes", "espnmx"]
   },
   {
     "nombre": "Amistoso Internacional (F): México vs Nueva Zelanda",
     "hora": "2025-10-23T21:00:00",
-    "canales": []
+    "canales": ["disney3"]
   }
 ]

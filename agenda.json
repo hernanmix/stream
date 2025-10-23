@@ -173,5 +173,13 @@
     "nombre": "Amistoso Internacional (F): México vs Nueva Zelanda",
     "hora": "2025-10-23T21:00:00",
     "canales": ["disney3"]
+  },
+      {
+    "nombre": "UEFA Europa League: Genk vs Real Betis",
+    "hora": "2025-10-24T11:45:00",
+    "canales": [
+      "espn",
+      "espn",
+      "disney28"
   }
 ]

@@ -1,4 +1,4 @@
-[
+window.eventosAgenda = [
   {
     "nombre": "Barcelona vs Real Madrid",
     "hora": "2025-10-22T21:47:00",
@@ -8,11 +8,5 @@
     "nombre": "Juventus vs Napoli",
     "hora": "2025-10-23T14:00:00",
     "canales": ["tntar", "calientetv1", "foxsports", "espn3"]
-  },
-  {
-    "nombre": "River vs Boca",
-    "hora": "2025-10-23T16:00:00",
-    "canales": ["tnt", "tntar", "espn", "calientetv2"]
   }
-  // ... hasta 50 eventos
-]
+];

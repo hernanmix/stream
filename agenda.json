@@ -72,47 +72,47 @@
   {
     "nombre": "UEFA Europa League: Nottingham Forest vs Porto",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["disney2"]
   },
   {
     "nombre": "UEFA Europa League: Celta de Vigo vs Nice",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["disney3"]
   },
   {
     "nombre": "UEFA Europa League: Celtic vs Sturm Graz",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["disney4"]
   },
   {
     "nombre": "UEFA Europa League: Lille vs PAOK",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["disney5"]
   },
   {
     "nombre": "UEFA Europa League: Malmö FF vs Dinamo Zagreb",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["disney6"]
   },
   {
     "nombre": "UEFA Europa League: Freiburg vs Utrecht",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["disney7"]
   },
   {
     "nombre": "UEFA Europa League: Maccabi Tel Aviv vs Midtjylland",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["disney8"]
   },
   {
     "nombre": "UEFA Europa League: Young Boys vs Ludogorets",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["disney9"]
   },
   {
     "nombre": "UEFA Conference League: Crystal Palace vs AEK Larnaca",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["disney19"]
   },
   {
     "nombre": "UEFA Conference League: Mainz 05 vs Zrinjski",

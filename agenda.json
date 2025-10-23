@@ -147,17 +147,17 @@
   {
     "nombre": "NFL: Chargers vs Vikings",
     "hora": "2025-10-23T19:15:00",
-    "canales": []
+    "canales": ["espn5", "fox1mx"]
   },
   {
     "nombre": "Copa Libertadores: LDU Quito vs Palmeiras",
     "hora": "2025-10-23T19:30:00",
-    "canales": []
+    "canales": ["fox1ar", "espn", "espn2mx"]
   },
   {
     "nombre": "Liga 1: Sporting Cristal vs Universitario",
     "hora": "2025-10-23T20:00:00",
-    "canales": []
+    "canales": ["liga1mx"]
   },
   {
     "nombre": "CONCACAF Central American Cup: Alajuelense vs Olimpia",

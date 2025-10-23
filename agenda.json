@@ -1,12 +1,12 @@
 [
   {
     "nombre": "Barcelona vs Real Madrid",
-    "hora": "2025-10-22T21:43:00",
-    "canales": ["calientetv2", "espn"]
+    "hora": "2025-10-22T21:47:00",
+    "canales": ["espn5", "espn5"]
   },
   {
     "nombre": "Juventus vs Napoli",
     "hora": "2025-10-23T14:00:00",
-    "canales": ["tnt", "calientetv1"]
+    "canales": ["tntar", "tntar"]
   }
 ]

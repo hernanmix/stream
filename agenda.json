@@ -137,12 +137,12 @@
   {
     "nombre": "NBA: Pacers vs Thunders",
     "hora": "2025-10-23T18:30:00",
-    "canales": []
+    "canales": ["espn2", "espndeportes", "espnmx"]
   },
   {
     "nombre": "Copa Argentina: Belgrano vs Argentinos Juniors",
     "hora": "2025-10-23T19:10:00",
-    "canales": []
+    "canales": ["tyc"]
   },
   {
     "nombre": "NFL: Chargers vs Vikings",

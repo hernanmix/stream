@@ -177,9 +177,6 @@
   {
     "nombre": "UEFA Europa League: Genk vs Real Betis",
     "hora": "2025-10-24T11:45:00",
-    "canales": [
-      "espn",
-      "espn",
-      "disney28"]
+    "canales": ["espn", "espn", "espn2"]
   }
 ]

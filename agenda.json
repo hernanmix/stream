@@ -1,15 +1,5 @@
 [
   {
-    "nombre": "Copa Paraguay: Cerro Porteño vs General Caballero JLM",
-    "hora": "2025-10-23T16:30:00",
-    "canales": ["eventos1"]
-  },
-  {
-    "nombre": "Copa Sudamericana: Universidad Chile vs Lanús",
-    "hora": "2025-10-23T17:00:00",
-    "canales": ["disney1", "dsports", "espn", "espn2mx"]
-  },
-  {
     "nombre": "NBA: Pacers vs Thunders",
     "hora": "2025-10-23T18:30:00",
     "canales": ["espn2", "espndeportes", "espnmx"]
@@ -32,7 +22,7 @@
   {
     "nombre": "Liga 1: Sporting Cristal vs Universitario",
     "hora": "2025-10-23T20:00:00",
-    "canales": ["liga1mx"]
+    "canales": ["liga1max"]
   },
   {
     "nombre": "CONCACAF Central American Cup: Alajuelense vs Olimpia",

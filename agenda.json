@@ -1,7 +1,156 @@
+
 [
   {
-    "nombre": "UEFA Europa League: Genk vs Real Betis",
-    "hora": "2025-10-23T12:28:00",
-    "canales": ["espn", "espn", "espn2"]
+    "nombre": "Liga Profesional Saudí: Al Ittihad vs Al Hilal",
+    "hora": "2025-10-24T13:00:00",
+    "canales": [
+      "sportv1"
+    ]
+  },
+  {
+    "nombre": "LaLiga 2: Huesca vs Las Palmas",
+    "hora": "2025-10-24T13:30:00",
+    "canales": [
+      "hyper1"
+    ]
+  },
+  {
+    "nombre": "Bundesliga: Werder Bremen vs Union Berlin",
+    "hora": "2025-10-24T13:30:00",
+    "canales": [
+      "espn3",
+      "skysportsbundesliga"
+    ]
+  },
+  {
+    "nombre": "Serie A: Milan vs Pisa",
+    "hora": "2025-10-24T13:45:00",
+    "canales": [
+      "espn4",
+      "foxdeportes"
+    ]
+  },
+  {
+    "nombre": "Ligue 1: Paris vs Nantes",
+    "hora": "2025-10-24T13:45:00",
+    "canales": [
+      "calientetv1",
+      "disney3"
+    ]
+  },
+  {
+    "nombre": "Premier League: Leeds United vs West Ham United",
+    "hora": "2025-10-24T14:00:00",
+    "canales": [
+      "espn",
+      "max1"
+    ]
+  },
+  {
+    "nombre": "LaLiga: Real Sociedad vs Sevilla",
+    "hora": "2025-10-24T14:00:00",
+    "canales": [
+      "skyliga",
+      "canal5mx"
+    ]
+  },
+  {
+    "nombre": "Superliga Argentina: Sarmiento vs Rosario Central",
+    "hora": "2025-10-24T14:00:00",
+    "canales": [
+      "max1"
+    ]
+  },
+  {
+    "nombre": "Primera División: Palestino vs Everton",
+    "hora": "2025-10-24T15:00:00",
+    "canales": [
+      "max2"
+    ]
+  },
+  {
+    "nombre": "Liga 1: Juan Pablo II College vs Comerciantes Unidos",
+    "hora": "2025-10-24T15:00:00",
+    "canales": [
+      "liga1max"
+    ]
+  },
+  {
+    "nombre": "Superliga Argentina: Independiente vs Platense",
+    "hora": "2025-10-24T16:00:00",
+    "canales": [
+      "tntar"
+    ]
+  },
+  {
+    "nombre": "Liga BetPlay: Alianza vs La Equidad",
+    "hora": "2025-10-24T16:00:00",
+    "canales": [
+      "winplus"
+    ]
+  },
+  {
+    "nombre": "Primera División: Defensor Sporting vs Torque",
+    "hora": "2025-10-24T17:30:00",
+    "canales": [
+      "disney5"
+    ]
+  },
+  {
+    "nombre": "Liga BetPlay: Fortaleza CEIF vs Deportivo Pasto",
+    "hora": "2025-10-24T18:00:00",
+    "canales": [
+      "winplus"
+    ]
+  },
+  {
+    "nombre": "MLS: Inter Miami vs Nashville SC",
+    "hora": "2025-10-24T19:00:00",
+    "canales": [
+      "mls1"
+    ]
+  },
+  {
+    "nombre": "LigaPro: Orense vs Universidad Católica",
+    "hora": "2025-10-24T19:00:00",
+    "canales": [
+      "eventos1"
+    ]
+  },
+  {
+    "nombre": "Liga MX: Juárez vs Puebla",
+    "hora": "2025-10-24T20:00:00",
+    "canales": [
+      "universousa"
+    ]
+  },
+  {
+    "nombre": "Copa Argentina: Independiente Rivadavia vs River Plate",
+    "hora": "2025-10-24T20:10:00",
+    "canales": [
+      "tyc"
+    ]
+  },
+  {
+    "nombre": "Liga BetPlay: América de Cali vs Junior",
+    "hora": "2025-10-24T20:10:00",
+    "canales": [
+      "winplus"
+    ]
+  },
+  {
+    "nombre": "Liga BetPlay: Deportivo Pereira vs Rionegro Águilas",
+    "hora": "2025-10-24T20:10:00",
+    "canales": [
+      "winsports"
+    ]
+  },
+  {
+    "nombre": "Liga MX: Mazatlán vs América",
+    "hora": "2025-10-24T22:00:00",
+    "canales": [
+      "azteca7",
+      "tudnus"
+    ]
   }
 ]

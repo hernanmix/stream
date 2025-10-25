@@ -395,9 +395,9 @@
     ]
   },
   {
-    "nombre": "Brasileirão: São Paulo vs Bahia sportstv1, premiere3",
+    "nombre": "Brasileirão: São Paulo vs Bahia",
     "hora": "2025-10-25T19:30:00",
-    "canales": []
+    "canales": ["premiere3", "sportv1"]
   },
   {
     "nombre": "Liga MX: León vs Pumas UNAM",

@@ -71,7 +71,7 @@
     "nombre": "Bundesliga: Borussia M'gladbach vs Bayern München",
     "hora": "2025-10-25T08:30:00",
     "canales": [
-      "sportv3",
+      "sportv1",
       "espn"
     ]
   },
@@ -388,7 +388,7 @@
     "nombre": "Brasileirão: Fortaleza vs Flamengo",
     "hora": "2025-10-25T17:30:00",
     "canales": [
-      "sportstv1",
+      "sportv1",
       "premiere1"
     ]
   },

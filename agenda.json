@@ -1,48 +1,6 @@
 
 [
   {
-    "nombre": "Primeira Liga: Benfica vs Arouca",
-    "hora": "2025-10-25T14:30:00",
-    "canales": [
-      "goltv"
-    ]
-  },
-  {
-    "nombre": "Liga BetPlay: Deportes Tolima vs Deportivo Cali",
-    "hora": "2025-10-25T15:00:00",
-    "canales": [
-      "winsports"
-    ]
-  },
-  {
-    "nombre": "Liga 1: Alianza Atlético vs Cienciano",
-    "hora": "2025-10-25T15:15:00",
-    "canales": [
-      "liga1max"
-    ]
-  },
-  {
-    "nombre": "Brasileirão: Fluminense vs Internacional",
-    "hora": "2025-10-25T15:30:00",
-    "canales": [
-      "eventos2"
-    ]
-  },
-  {
-    "nombre": "Primera División: Huachipato vs Deportes Iquique",
-    "hora": "2025-10-25T15:30:00",
-    "canales": [
-      "max1"
-    ]
-  },
-  {
-    "nombre": "Primera División: Atlético Tembetary vs Sportivo Luqueño",
-    "hora": "2025-10-25T15:30:00",
-    "canales": [
-      "eventos3"
-    ]
-  },
-  {
     "nombre": "Liga BetPlay: Atlético Bucaramanga vs Llaneros",
     "hora": "2025-10-25T16:10:00",
     "canales": [

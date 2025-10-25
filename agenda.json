@@ -1,54 +1,6 @@
 
 [
   {
-    "nombre": "Serie A: Napoli vs Internazionale",
-    "hora": "2025-10-25T11:00:00",
-    "canales": [
-      "foxdeportes",
-      "espn",
-      "disney13"
-    ]
-  },
-  {
-    "nombre": "Premier League: Manchester United vs Brighton & Hove Albion",
-    "hora": "2025-10-25T11:30:00",
-    "canales": [
-      "disney14",
-      "tntmx",
-      "universousa"
-    ]
-  },
-  {
-    "nombre": "LaLiga: Athletic Club vs Getafe",
-    "hora": "2025-10-25T11:30:00",
-    "canales": [
-      "skyliga",
-      "espn3",
-      "espndeportes"
-    ]
-  },
-  {
-    "nombre": "LaLiga 2: Granada vs Cádiz",
-    "hora": "2025-10-25T11:30:00",
-    "canales": [
-      "hyper1"
-    ]
-  },
-  {
-    "nombre": "Bundesliga: Borussia Dortmund vs Köln",
-    "hora": "2025-10-25T11:30:00",
-    "canales": [
-      "disney17"
-    ]
-  },
-  {
-    "nombre": "Primera División: Juventud vs Plaza Colonia",
-    "hora": "2025-10-25T11:30:00",
-    "canales": [
-      "disney17"
-    ]
-  },
-  {
     "nombre": "Ligue 1: Monaco vs Toulouse",
     "hora": "2025-10-25T12:00:00",
     "canales": [

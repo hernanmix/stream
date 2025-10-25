@@ -1,29 +1,6 @@
 
 [
   {
-    "nombre": "LaLiga: Espanyol vs Elche",
-    "hora": "2025-10-25T09:15:00",
-    "canales": [
-      "espndeportes",
-      "dsports"
-    ]
-  },
-  {
-    "nombre": "LaLiga 2: Albacete vs Córdoba",
-    "hora": "2025-10-25T09:15:00",
-    "canales": [
-      "hyper1"
-    ]
-  },
-  {
-    "nombre": "Ligue 1: Brest vs PSG",
-    "hora": "2025-10-25T10:00:00",
-    "canales": [
-      "calientetv2",
-      "disney12"
-    ]
-  },
-  {
     "nombre": "Serie A: Napoli vs Internazionale",
     "hora": "2025-10-25T11:00:00",
     "canales": [

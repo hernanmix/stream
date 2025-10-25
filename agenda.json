@@ -1,34 +1,6 @@
 
 [
   {
-    "nombre": "Liga MX: Juárez vs Puebla",
-    "hora": "2025-10-24T20:00:00",
-    "canales": [
-      "universousa"
-    ]
-  },
-  {
-    "nombre": "Copa Argentina: Independiente Rivadavia vs River Plate",
-    "hora": "2025-10-24T20:10:00",
-    "canales": [
-      "tycar"
-    ]
-  },
-  {
-    "nombre": "Liga BetPlay: América de Cali vs Junior",
-    "hora": "2025-10-24T20:10:00",
-    "canales": [
-      "winplus"
-    ]
-  },
-  {
-    "nombre": "Liga BetPlay: Deportivo Pereira vs Rionegro Águilas",
-    "hora": "2025-10-24T20:10:00",
-    "canales": [
-      "winsports"
-    ]
-  },
-  {
     "nombre": "Liga MX: Mazatlán vs América",
     "hora": "2025-10-24T22:00:00",
     "canales": [

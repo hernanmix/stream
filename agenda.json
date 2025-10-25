@@ -1,31 +1,6 @@
 
 [
   {
-    "nombre": "Premier League: Newcastle United vs Fulham",
-    "hora": "2025-10-25T09:00:00",
-    "canales": [
-      "calientetv1",
-      "disney9",
-      "universo"
-    ]
-  },
-  {
-    "nombre": "Premier League: Chelsea vs Sunderland",
-    "hora": "2025-10-25T09:00:00",
-    "canales": [
-      "espn2",
-      "disney10",
-      "tntmx"
-    ]
-  },
-  {
-    "nombre": "UFC 321: Tom Aspinall vs Ciryl Gane",
-    "hora": "2025-10-25T09:00:00",
-    "canales": [
-      "disney11"
-    ]
-  },
-  {
     "nombre": "LaLiga: Espanyol vs Elche",
     "hora": "2025-10-25T09:15:00",
     "canales": [

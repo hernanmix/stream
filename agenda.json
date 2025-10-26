@@ -1,49 +1,5 @@
 [
   {
-    "nombre": "Serie A: Fiorentina vs Bologna",
-    "hora": "2025-10-26T12:00:00",
-    "canales": [
-      "espnmx",
-      "espnmxdash",
-      "disney1"
-    ]
-  },
-  {
-    "nombre": "NFL: Giants vs Eagles",
-    "hora": "2025-10-26T12:00:00",
-    "canales": [
-      "espn5",
-      "fox1mx"
-    ]
-  },
-  {
-    "nombre": "NFL: 49eras vs Texans",
-    "hora": "2025-10-26T12:00:00",
-    "canales": [
-      "espn7",
-      "fox2mx"
-    ]
-  },
-  {
-    "nombre": "LaLiga: Osasuna vs Celta de Vigo espn3, disney2, skyliga",
-    "hora": "2025-10-26T12:30:00",
-    "canales": []
-  },
-  {
-    "nombre": "LaLiga 2: Sporting Gijón vs Real Zaragoza",
-    "hora": "2025-10-26T12:30:00",
-    "canales": [
-      "hyper1"
-    ]
-  },
-  {
-    "nombre": "LaLiga 2: Almería vs CD Castellon",
-    "hora": "2025-10-26T12:30:00",
-    "canales": [
-      "disney3"
-    ]
-  },
-  {
     "nombre": "LigaPro: Vinotinto vs Técnico Universitario",
     "hora": "2025-10-26T13:00:00",
     "canales": [

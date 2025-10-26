@@ -1,52 +1,5 @@
 [
   {
-    "nombre": "Ligue 1: Rennes vs Nice",
-    "hora": "2025-10-26T11:15:00",
-    "canales": [
-      "calientetv1",
-      "disney15"
-    ]
-  },
-  {
-    "nombre": "Ligue 1: Auxerre vs Le Havre",
-    "hora": "2025-10-26T11:15:00",
-    "canales": [
-      "calientetv2",
-      "disney16"
-    ]
-  },
-  {
-    "nombre": "Ligue 1: Angers SCO vs Lorient",
-    "hora": "2025-10-26T11:15:00",
-    "canales": [
-      "calientetv3",
-      "disney17"
-    ]
-  },
-  {
-    "nombre": "Premier League: Everton vs Tottenham Hotspur",
-    "hora": "2025-10-26T11:30:00",
-    "canales": [
-      "espn2",
-      "tntmx",
-      "disney18"
-    ]
-  },
-  {
-    "nombre": "Bundesliga: Stuttgart vs Mainz 05",
-    "hora": "2025-10-26T11:30:00",
-    "canales": [
-      "disney19"
-    ]
-  },
-  {
-    "nombre": "Primera División: Danubio vs River Plate",
-    "hora": "2025-10-26T11:30:00",
-    "canales": [
-      "disney20"
-    ]
-  },
-  {
     "nombre": "Serie A: Fiorentina vs Bologna",
     "hora": "2025-10-26T12:00:00",
     "canales": [

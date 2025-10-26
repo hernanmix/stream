@@ -29,5 +29,487 @@
       "canal5mx",
       "tudnus"
     ]
+  },
+  {
+    "nombre": "Eredivisie: Twente vs Ajax",
+    "hora": "2025-10-25T06:15:00",
+    "canales": [
+      "espn2",
+      "espn3mxdash",
+      "espn3mx",
+      "disney1"
+    ]
+  },
+  {
+    "nombre": "Serie A: Torino vs Genoa",
+    "hora": "2025-10-25T06:30:00",
+    "canales": [
+      "espnmxdash",
+      "espnmx",
+      "disney2"
+    ]
+  },
+  {
+    "nombre": "LaLiga: Mallorca vs Levante",
+    "hora": "2025-10-25T08:00:00",
+    "canales": [
+      "dsports",
+      "espndeportes",
+      "skyliga"
+    ]
+  },
+  {
+    "nombre": "LaLiga 2: Málaga vs FC Andorra",
+    "hora": "2025-10-25T08:00:00",
+    "canales": [
+      "hyper1"
+    ]
+  },
+  {
+    "nombre": "Eredivisie: Feyenoord vs PSV",
+    "hora": "2025-10-25T08:30:00",
+    "canales": [
+      "disney3"
+    ]
+  },
+  {
+    "nombre": "Premier League: Arsenal vs Crystal Palace",
+    "hora": "2025-10-25T09:00:00",
+    "canales": [
+      "disney4",
+      "calientetv1"
+    ]
+  },
+  {
+    "nombre": "Premier League: Wolves vs Burnley",
+    "hora": "2025-10-25T09:00:00",
+    "canales": [
+      "disney5",
+      "calientetv2"
+    ]
+  },
+  {
+    "nombre": "Premier League: Aston Villa vs Manchester City",
+    "hora": "2025-10-25T09:00:00",
+    "canales": [
+      "disney6",
+      "calientetv3"
+    ]
+  },
+  {
+    "nombre": "Premier League: AFC Bournemouth vs Nottingham Forest",
+    "hora": "2025-10-25T09:00:00",
+    "canales": [
+      "disney7",
+      "calientetv4"
+    ]
+  },
+  {
+    "nombre": "Serie A: Sassuolo vs Roma",
+    "hora": "2025-10-25T09:00:00",
+    "canales": [
+      "disney8",
+      "espnmx",
+      "espnmxdash"
+    ]
+  },
+  {
+    "nombre": "Serie A: Hellas Verona vs Cagliari",
+    "hora": "2025-10-25T09:00:00",
+    "canales": [
+      "disney9"
+    ]
+  },
+  {
+    "nombre": "Ligue 1: Lille vs Metz",
+    "hora": "2025-10-25T09:00:00",
+    "canales": [
+      "calientetv5",
+      "disney10"
+    ]
+  },
+  {
+    "nombre": "Super Lig: Galatasaray vs Göztepe",
+    "hora": "2025-10-25T12:30:00",
+    "canales": [
+      "disney11"
+    ]
+  },
+  {
+    "nombre": "Bundesliga: Bayer Leverkusen vs Freiburg",
+    "hora": "2025-10-25T09:30:00",
+    "canales": [
+      "espn2",
+      "disney12"
+    ]
+  },
+  {
+    "nombre": "LaLiga: Real Madrid vs Barcelona",
+    "hora": "2025-10-25T10:15:00",
+    "canales": [
+      "skyliga",
+      "disney13",
+      "espndeportes",
+      "espn"
+    ]
+  },
+  {
+    "nombre": "Primera División: Universidad Católica vs Universidad Chile",
+    "hora": "2025-10-25T10:30:00",
+    "canales": [
+      "max1"
+    ]
+  },
+  {
+    "nombre": "Eredivisie: AZ vs Utrecht",
+    "hora": "2025-10-25T10:45:00",
+    "canales": [
+      "espn2mx",
+      "espn2mxdash",
+      "disney14"
+    ]
+  },
+  {
+    "nombre": "Liga 1: Sporting Cristal vs Los Chankas",
+    "hora": "2025-10-25T11:00:00",
+    "canales": [
+      "liga1mx"
+    ]
+  },
+  {
+    "nombre": "Ligue 1: Rennes vs Nice",
+    "hora": "2025-10-25T11:15:00",
+    "canales": [
+      "calientetv1",
+      "disney15"
+    ]
+  },
+  {
+    "nombre": "Ligue 1: Auxerre vs Le Havre",
+    "hora": "2025-10-25T11:15:00",
+    "canales": [
+      "calientetv2",
+      "disney16"
+    ]
+  },
+  {
+    "nombre": "Ligue 1: Angers SCO vs Lorient",
+    "hora": "2025-10-25T11:15:00",
+    "canales": [
+      "calientetv3",
+      "disney17"
+    ]
+  },
+  {
+    "nombre": "Premier League: Everton vs Tottenham Hotspur",
+    "hora": "2025-10-25T11:30:00",
+    "canales": [
+      "espn2",
+      "tntmx",
+      "disney18"
+    ]
+  },
+  {
+    "nombre": "Bundesliga: Stuttgart vs Mainz 05",
+    "hora": "2025-10-25T11:30:00",
+    "canales": [
+      "disney19"
+    ]
+  },
+  {
+    "nombre": "Primera División: Danubio vs River Plate",
+    "hora": "2025-10-25T11:30:00",
+    "canales": [
+      "disney20"
+    ]
+  },
+  {
+    "nombre": "Serie A: Fiorentina vs Bologna",
+    "hora": "2025-10-25T12:00:00",
+    "canales": [
+      "espnmx",
+      "espnmxdash",
+      "disney1"
+    ]
+  },
+  {
+    "nombre": "NFL: Giants vs Eagles",
+    "hora": "2025-10-25T12:00:00",
+    "canales": [
+      "espn5",
+      "fox1mx"
+    ]
+  },
+  {
+    "nombre": "NFL: 49eras vs Texans",
+    "hora": "2025-10-25T12:00:00",
+    "canales": [
+      "espn7",
+      "fox2mx"
+    ]
+  },
+  {
+    "nombre": "LaLiga: Osasuna vs Celta de Vigo espn3, disney2, skyliga",
+    "hora": "2025-10-25T12:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "LaLiga 2: Sporting Gijón vs Real Zaragoza",
+    "hora": "2025-10-25T12:30:00",
+    "canales": [
+      "hyper1"
+    ]
+  },
+  {
+    "nombre": "LaLiga 2: Almería vs CD Castellon",
+    "hora": "2025-10-25T12:30:00",
+    "canales": [
+      "disney3"
+    ]
+  },
+  {
+    "nombre": "LigaPro: Vinotinto vs Técnico Universitario",
+    "hora": "2025-10-25T13:00:00",
+    "canales": [
+      "eventos1",
+      "zapping"
+    ]
+  },
+  {
+    "nombre": "Liga 1: UTC Cajamarca vs Alianza Universidad",
+    "hora": "2025-10-25T13:15:00",
+    "canales": [
+      "liga1max"
+    ]
+  },
+  {
+    "nombre": "Brasileirão: Botafogo vs Santos",
+    "hora": "2025-10-25T14:00:00",
+    "canales": [
+      "premiere1"
+    ]
+  },
+  {
+    "nombre": "Brasileirão: Palmeiras vs Cruzeiro",
+    "hora": "2025-10-25T14:00:00",
+    "canales": [
+      "sportv1",
+      "premiere3"
+    ]
+  },
+  {
+    "nombre": "Primera División: Cobresal vs Unión Española",
+    "hora": "2025-10-25T14:00:00",
+    "canales": [
+      "max2"
+    ]
+  },
+  {
+    "nombre": "Primera División: Liverpool vs Progreso",
+    "hora": "2025-10-25T14:00:00",
+    "canales": [
+      "disney4"
+    ]
+  },
+  {
+    "nombre": "Eredivisie: Go Ahead Eagles vs Excelsior",
+    "hora": "2025-10-25T14:00:00",
+    "canales": [
+      "disney5"
+    ]
+  },
+  {
+    "nombre": "Brasileirão: RB Bragantino vs Vasco da Gama",
+    "hora": "2025-10-25T16:30:00",
+    "canales": [
+      "sportv1",
+      "premiere2"
+    ]
+  },
+  {
+    "nombre": "Serie A: Lazio vs Juventus",
+    "hora": "2025-10-25T14:45:00",
+    "canales": [
+      "espnmxdash",
+      "disney6",
+      "foxdeportes",
+      "espn2"
+    ]
+  },
+  {
+    "nombre": "Ligue 1: Olympique Lyonnais vs Strasbourg",
+    "hora": "2025-10-25T14:45:00",
+    "canales": [
+      "calientetv4",
+      "disney7"
+    ]
+  },
+  {
+    "nombre": "LaLiga: Rayo Vallecano vs Deportivo Alavés",
+    "hora": "2025-10-25T15:00:00",
+    "canales": [
+      "skyliga",
+      "dsports"
+    ]
+  },
+  {
+    "nombre": "LaLiga 2: Deportivo La Coruña vs Real Valladolid",
+    "hora": "2025-10-25T15:00:00",
+    "canales": [
+      "hyper1"
+    ]
+  },
+  {
+    "nombre": "NFL: Cowboys vs Broncos",
+    "hora": "2025-10-25T15:25:00",
+    "canales": [
+      "espn5",
+      "fox1mx"
+    ]
+  },
+  {
+    "nombre": "NFL: Titans vs Colts",
+    "hora": "2025-10-25T15:25:00",
+    "canales": [
+      "fox2ar",
+      "fox2mx",
+      "espn7"
+    ]
+  },
+  {
+    "nombre": "Liga 1: ADT vs Universitario",
+    "hora": "2025-10-25T15:30:00",
+    "canales": [
+      "liga1max"
+    ]
+  },
+  {
+    "nombre": "LigaPro: El Nacional vs Macará",
+    "hora": "2025-10-25T15:30:00",
+    "canales": [
+      "eventos2"
+    ]
+  },
+  {
+    "nombre": "Primera División: Olimpia vs Guaraní",
+    "hora": "2025-10-25T15:30:00",
+    "canales": [
+      "eventos3"
+    ]
+  },
+  {
+    "nombre": "Primera División: O'Higgins vs Coquimbo Unido",
+    "hora": "2025-10-25T16:30:00",
+    "canales": [
+      "max3"
+    ]
+  },
+  {
+    "nombre": "Primera División: Unión La Calera vs Ñublense",
+    "hora": "2025-10-25T16:30:00",
+    "canales": [
+      "max4"
+    ]
+  },
+  {
+    "nombre": "MLS: Philadelphia Union vs Chicago Fire",
+    "hora": "2025-10-25T16:30:00",
+    "canales": [
+      "mls1"
+    ]
+  },
+  {
+    "nombre": "Primera División: Wanderers vs Nacional",
+    "hora": "2025-10-25T16:30:00",
+    "canales": [
+      "disney9"
+    ]
+  },
+  {
+    "nombre": "Liga 1: Melgar vs Sport Huancayo",
+    "hora": "2025-10-25T18:00:00",
+    "canales": [
+      "liga1max"
+    ]
+  },
+  {
+    "nombre": "LigaPro: Emelec vs Delfin",
+    "hora": "2025-10-25T18:00:00",
+    "canales": [
+      "eventos4"
+    ]
+  },
+  {
+    "nombre": "Primera División: Deportivo Recoleta vs Libertad",
+    "hora": "2025-10-25T18:00:00",
+    "canales": [
+      "eventos5"
+    ]
+  },
+  {
+    "nombre": "Liga MX: Santos Laguna vs Querétaro",
+    "hora": "2025-10-25T18:00:00",
+    "canales": [
+      "eventos6"
+    ]
+  },
+  {
+    "nombre": "Brasileirão: Palmeiras vs Cruzeiro",
+    "hora": "2025-10-25T18:30:00",
+    "canales": [
+      "premiere1"
+    ]
+  },
+  {
+    "nombre": "Liga BetPlay: Atlético Nacional vs Medellín",
+    "hora": "2025-10-25T18:30:00",
+    "canales": [
+      "winplus"
+    ]
+  },
+  {
+    "nombre": "MLS: Vancouver Whitecaps vs Dallas",
+    "hora": "2025-10-25T18:30:00",
+    "canales": [
+      "mls2"
+    ]
+  },
+  {
+    "nombre": "Primera División: Miramar Misiones vs Boston River",
+    "hora": "2025-10-25T19:00:00",
+    "canales": [
+      "disney10"
+    ]
+  },
+  {
+    "nombre": "NFL: Steelers vs Packers",
+    "hora": "2025-10-25T19:20:00",
+    "canales": [
+      "universousa",
+      "espnmx",
+      "espn2"
+    ]
+  },
+  {
+    "nombre": "Liga MX: Atlético San Luis vs Necaxa",
+    "hora": "2025-10-25T20:00:00",
+    "canales": [
+      "espn2mxdash",
+      "espn2mx"
+    ]
+  },
+  {
+    "nombre": "Liga MX: Toluca vs Pachuca",
+    "hora": "2025-10-25T20:00:00",
+    "canales": [
+      "calientetv1"
+    ]
+  },
+  {
+    "nombre": "MLS: San Diego vs Portland Timbers",
+    "hora": "2025-10-25T20:30:00",
+    "canales": [
+      "mls3"
+    ]
   }
 ]

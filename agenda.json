@@ -1,18 +1,6 @@
 
 [
   {
-    "nombre": "LigaPro: Deportivo Cuenca vs Aucas",
-    "hora": "2025-10-25T19:00:00",
-    "canales": [
-      "eventos6"
-    ]
-  },
-  {
-    "nombre": "Brasileirão: São Paulo vs Bahia",
-    "hora": "2025-10-25T19:30:00",
-    "canales": ["premiere3", "sportv1"]
-  },
-  {
     "nombre": "Liga MX: León vs Pumas UNAM",
     "hora": "2025-10-25T20:00:00",
     "canales": [

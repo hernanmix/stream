@@ -1,20 +1,5 @@
 [
   {
-    "nombre": "LigaPro: Vinotinto vs Técnico Universitario",
-    "hora": "2025-10-26T13:00:00",
-    "canales": [
-      "eventos1",
-      "zapping"
-    ]
-  },
-  {
-    "nombre": "Liga 1: UTC Cajamarca vs Alianza Universidad",
-    "hora": "2025-10-26T13:15:00",
-    "canales": [
-      "liga1max"
-    ]
-  },
-  {
     "nombre": "Brasileirão: Botafogo vs Santos",
     "hora": "2025-10-26T14:00:00",
     "canales": [
@@ -52,7 +37,7 @@
   },
   {
     "nombre": "Brasileirão: RB Bragantino vs Vasco da Gama",
-    "hora": "2025-10-26T16:30:00",
+    "hora": "2025-10-26T14:00:00",
     "canales": [
       "sportv1",
       "premiere2"

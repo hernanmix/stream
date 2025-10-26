@@ -1,44 +1,6 @@
 
 [
   {
-    "nombre": "Brasileirão: Fortaleza vs Flamengo",
-    "hora": "2025-10-25T17:30:00",
-    "canales": [
-      "sportv1",
-      "premiere1"
-    ]
-  },
-  {
-    "nombre": "Primera División: Sportivo Trinidense vs 2 de Mayo",
-    "hora": "2025-10-25T18:00:00",
-    "canales": [
-      "eventos5"
-    ]
-  },
-  {
-    "nombre": "Liga 1: Cusco vs Atlético Grau",
-    "hora": "2025-10-25T18:00:00",
-    "canales": [
-      "liga1max"
-    ]
-  },
-  {
-    "nombre": "Liga MX: Tigres UANL vs Tijuana",
-    "hora": "2025-10-25T18:00:00",
-    "canales": [
-      "azteca7",
-      "foxdeportes",
-      "universousa"
-    ]
-  },
-  {
-    "nombre": "Liga BetPlay: Santa Fe vs Millonarios",
-    "hora": "2025-10-25T18:20:00",
-    "canales": [
-      "winplus"
-    ]
-  },
-  {
     "nombre": "LigaPro: Deportivo Cuenca vs Aucas",
     "hora": "2025-10-25T19:00:00",
     "canales": [

@@ -1,7 +1,7 @@
 [
   {
     "nombre": "MLS: San Diego vs Portland Timbers",
-    "hora": "2025-10-27T08:07:00",
+    "hora": "2025-10-27T08:017:00",
     "canales": [
       "mls3"
     ]
@@ -9,7 +9,15 @@
   
   {
     "nombre": "MLS: Emelec vs Portland",
-    "hora": "2025-10-27T08:02:00",
+    "hora": "2025-10-27T08:20:00",
+    "canales": [
+      "mls4"
+    ]
+  },
+  
+  {
+    "nombre": "MLS: Emelec vs Portland",
+    "hora": "2025-10-27T08:017:00",
     "canales": [
       "mls4"
     ]

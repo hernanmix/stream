@@ -36,13 +36,14 @@ fetch(urlCSV)
         else if (minutos < 45) {
           estado = `EN VIVO ${minutos}'`;
           parpadeo = true;
-        } else if (minutos >= 45 && minutos <= 45 + adicional) {
-          estado = `EN VIVO 45'+${minutos - 45}`;
-          parpadeo = true;
-        } else if (minutos > 45 + adicional && minutos < 60) {
+        } else if (minutos >= 45 && minutos < 45 + adicional) {
+          estado = `45'+${minutos - 45}`;
+        } else if (minutos >= 45 && adicional === 0 && minutos < 60) {
+          estado = "ET";
+        } else if (minutos >= 45 + adicional && minutos < 60) {
           estado = "ET";
         } else if (minutos === 60) {
-          estado = `EN VIVO 45'`;
+          estado = `EN VIVO 46'`;
           parpadeo = true;
         }
 
@@ -50,10 +51,11 @@ fetch(urlCSV)
         else if (minutos >= 61 && minutos < 120) {
           estado = `EN VIVO ${minutos}'`;
           parpadeo = true;
-        } else if (minutos >= 120 && minutos <= 120 + adicional) {
-          estado = `EN VIVO 120'+${minutos - 120}`;
-          parpadeo = true;
-        } else if (minutos > 120 + adicional) {
+        } else if (minutos >= 120 && minutos < 120 + adicional) {
+          estado = `120'+${minutos - 120}`;
+        } else if (minutos >= 120 && adicional === 0) {
+          estado = "FT";
+        } else if (minutos >= 120 + adicional) {
           estado = "FT";
         }
 

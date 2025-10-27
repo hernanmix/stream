@@ -1,25 +1,70 @@
 [
   {
-    "nombre": "MLS: San Diego vs Portland Timbers",
-    "hora": "2025-10-27T09:20:00",
+    "nombre": "Super Lig: Gaziantep FK vs Fenerbahçe",
+    "hora": "2025-10-27T12:00:00",
     "canales": [
-      "mls3"
+      "fox2ar"
     ]
   },
-  
   {
-    "nombre": "MLS: Emelec vs Portland",
-    "hora": "2025-10-27T08:50:00",
+    "nombre": "Superliga Argentina: Barracas Central vs Boca Juniors",
+    "hora": "2025-10-27T14:00:00",
     "canales": [
-      "mls4"
+      "espn",
+      "espnpremium"
     ]
   },
-  
   {
-    "nombre": "MLS: AR vs TV",
-    "hora": "2025-10-27T08:50:00",
+    "nombre": "LaLiga: Real Betis vs Atlético Madrid",
+    "hora": "2025-10-27T15:00:00",
     "canales": [
-      "mls4"
+      "dsports",
+      "espndeportes"
     ]
+  },
+  {
+    "nombre": "Primera División: Sportivo Ameliano vs General Caballero JLM",
+    "hora": "2025-10-27T15:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Colo-Colo vs Deportes Limache",
+    "hora": "2025-10-27T16:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "MLS: Cincinnati vs Columbus Crew",
+    "hora": "2025-10-27T17:45:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Nacional Asunción vs Cerro Porteño",
+    "hora": "2025-10-27T18:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "NBA: Cavaliers vs Pistons",
+    "hora": "2025-10-27T18:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "NFL: Chiefs vs Commanders",
+    "hora": "2025-10-27T19:15:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga BetPlay: Deportivo Pasto vs Deportivo Pereira",
+    "hora": "2025-10-27T19:45:00",
+    "canales": []
+  },
+  {
+    "nombre": "MLS: Minnesota United vs Seattle Sounders FC",
+    "hora": "2025-10-27T20:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "NBA: Nuggets vs Timberwolves",
+    "hora": "2025-10-27T20:30:00",
+    "canales": []
   }
 ]

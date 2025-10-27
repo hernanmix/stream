@@ -16,20 +16,25 @@ function actualizarMarcadores() {
       parpadeo = true;
     } else if (minutos >= 45 && minutos < 60) {
       estado = "ET";
+      parpadeo = false;
     } else if (minutos >= 60 && minutos < 120) {
       estado = `EN VIVO ${minutos}'`;
       parpadeo = true;
     } else {
       estado = "FT";
+      parpadeo = false;
     }
 
     const estadoSpan = evento.querySelector(".estado");
     estadoSpan.textContent = estado;
 
+    // Estilo visual
     if (parpadeo) {
       estadoSpan.classList.add("envivo");
+      estadoSpan.style.color = "red";
     } else {
       estadoSpan.classList.remove("envivo");
+      estadoSpan.style.color = "white";
     }
   });
 }

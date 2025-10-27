@@ -1,20 +1,5 @@
 [
   {
-    "nombre": "Liga MX: Atlético San Luis vs Necaxa",
-    "hora": "2025-10-26T20:00:00",
-    "canales": [
-      "espn2mxdash",
-      "espn2mx"
-    ]
-  },
-  {
-    "nombre": "Liga MX: Toluca vs Pachuca",
-    "hora": "2025-10-26T20:00:00",
-    "canales": [
-      "calientetv1"
-    ]
-  },
-  {
     "nombre": "MLS: San Diego vs Portland Timbers",
     "hora": "2025-10-26T20:30:00",
     "canales": [

@@ -8,8 +8,9 @@ fetch(urlCSV)
     const lines = csvText.trim().split("\n").slice(1);
     lines.forEach(line => {
       const [nombre, adicional] = line.split(",");
-      if (nombre && adicional) {
-        adicionales[normalizar(nombre)] = parseInt(adicional.trim());
+      const valor = parseInt(adicional.trim());
+      if (nombre && !isNaN(valor)) {
+        adicionales[normalizar(nombre)] = valor;
       }
     });
 
@@ -20,23 +21,25 @@ fetch(urlCSV)
         const minutos = Math.floor((ahora - hora) / 60000);
 
         const nombre = evento.querySelector(".nombre").textContent.trim();
-        const adicional = adicionales[normalizar(nombre)] || 0;
+        const adicional = adicionales[normalizar(nombre)] ?? 0;
 
         let estado = "";
         let parpadeo = false;
 
-        // PRIMER TIEMPO
         if (minutos < 0) {
           estado = new Date(hora).toLocaleTimeString("es-EC", {
             hour: "2-digit", minute: "2-digit", hour12: true
           }) + " -";
-        } else if (minutos < 45) {
+        }
+
+        // PRIMER TIEMPO
+        else if (minutos < 45) {
           estado = `EN VIVO ${minutos}'`;
           parpadeo = true;
-        } else if (minutos >= 45 && adicional > 0 && minutos <= 45 + adicional) {
+        } else if (minutos >= 45 && minutos <= 45 + adicional) {
           estado = `EN VIVO 45'+${minutos - 45}`;
           parpadeo = true;
-        } else if (minutos > 45 && adicional === 0 && minutos < 60) {
+        } else if (minutos > 45 + adicional && minutos < 60) {
           estado = "ET";
         } else if (minutos === 60) {
           estado = `EN VIVO 45'`;
@@ -44,11 +47,11 @@ fetch(urlCSV)
         }
 
         // SEGUNDO TIEMPO
-        else if (minutos >= 120 && minutos <= 120 + adicional) {
-          estado = `EN VIVO 120'+${minutos - 120}`;
-          parpadeo = true;
-        } else if (minutos >= 61 && minutos < 120) {
+        else if (minutos >= 61 && minutos < 120) {
           estado = `EN VIVO ${minutos}'`;
+          parpadeo = true;
+        } else if (minutos >= 120 && minutos <= 120 + adicional) {
+          estado = `EN VIVO 120'+${minutos - 120}`;
           parpadeo = true;
         } else if (minutos > 120 + adicional) {
           estado = "FT";

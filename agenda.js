@@ -10,7 +10,7 @@ fetch(urlCSV)
     lines.forEach(line => {
       const [nombre, ad1, ad2] = line.split(",");
       const clave = normalizar(nombre);
-      adicionales1[clave] = parseInt(ad1.trim()) || 0;
+      adicionales1[clave] = parseInt(ad1?.trim()) || 0;
       adicionales2[clave] = parseInt(ad2?.trim()) || 0;
     });
 
@@ -38,9 +38,9 @@ fetch(urlCSV)
         else if (minutos < 45) {
           estado = `EN VIVO ${minutos}'`;
           parpadeo = true;
-        } else if (minutos >= 45 && minutos < 45 + ad1) {
+        } else if (minutos >= 45 && minutos <= 45 + ad1) {
           estado = `45'+${minutos - 45}`;
-        } else if (minutos >= 45 + ad1 && minutos < 60) {
+        } else if (minutos > 45 + ad1 && minutos < 60) {
           estado = "ET";
         } else if (minutos === 60) {
           estado = `EN VIVO 46'`;
@@ -51,9 +51,9 @@ fetch(urlCSV)
         else if (minutos >= 61 && minutos < 120) {
           estado = `EN VIVO ${minutos}'`;
           parpadeo = true;
-        } else if (minutos >= 120 && minutos < 120 + ad2) {
+        } else if (minutos >= 120 && minutos <= 120 + ad2) {
           estado = `120'+${minutos - 120}`;
-        } else if (minutos >= 120 + ad2) {
+        } else if (minutos > 120 + ad2) {
           estado = "FT";
         }
 

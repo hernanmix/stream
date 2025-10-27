@@ -35,21 +35,18 @@ fetch(urlCSV)
         else if (minutos < 45) {
           estado = `EN VIVO ${minutos}'`;
           parpadeo = true;
-        } else if (minutos === 45) {
+        } else if (minutos >= 45 && minutos < 60) {
           estado = "ET";
-        } else if (minutos > 45 && minutos < 60) {
-          estado = "ET";
-        } else if (minutos === 60) {
-          estado = `EN VIVO 46'`;
-          parpadeo = true;
+          parpadeo = false;
         }
 
         // SEGUNDO TIEMPO
-        else if (minutos >= 61 && minutos < 120) {
+        else if (minutos >= 60 && minutos < 120) {
           estado = `EN VIVO ${minutos}'`;
           parpadeo = true;
         } else if (minutos >= 120) {
           estado = "FT";
+          parpadeo = false;
         }
 
         const estadoSpan = evento.querySelector(".estado");

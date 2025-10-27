@@ -25,6 +25,7 @@ fetch(urlCSV)
         let estado = "";
         let parpadeo = false;
 
+        // PRIMER TIEMPO
         if (minutos < 0) {
           estado = new Date(hora).toLocaleTimeString("es-EC", {
             hour: "2-digit", minute: "2-digit", hour12: true
@@ -32,15 +33,18 @@ fetch(urlCSV)
         } else if (minutos < 45) {
           estado = `EN VIVO ${minutos}'`;
           parpadeo = true;
-        } else if (minutos >= 45 && minutos <= 45 + adicional) {
+        } else if (minutos >= 45 && adicional > 0 && minutos <= 45 + adicional) {
           estado = `EN VIVO 45'+${minutos - 45}`;
           parpadeo = true;
-        } else if (minutos > 45 + adicional && minutos < 60) {
+        } else if (minutos > 45 && adicional === 0 && minutos < 60) {
           estado = "ET";
         } else if (minutos === 60) {
           estado = `EN VIVO 45'`;
           parpadeo = true;
-        } else if (minutos >= 120 && minutos <= 120 + adicional) {
+        }
+
+        // SEGUNDO TIEMPO
+        else if (minutos >= 120 && minutos <= 120 + adicional) {
           estado = `EN VIVO 120'+${minutos - 120}`;
           parpadeo = true;
         } else if (minutos >= 61 && minutos < 120) {

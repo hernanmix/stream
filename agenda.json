@@ -25,46 +25,68 @@
   {
     "nombre": "Primera División: Sportivo Ameliano vs General Caballero JLM",
     "hora": "2025-10-27T15:30:00",
-    "canales": []
+    "canales": [
+      "eventos1"
+    ]
   },
   {
     "nombre": "Primera División: Colo-Colo vs Deportes Limache",
     "hora": "2025-10-27T16:00:00",
-    "canales": []
+    "canales": [
+      "max1"
+    ]
   },
   {
     "nombre": "MLS: Cincinnati vs Columbus Crew",
     "hora": "2025-10-27T17:45:00",
-    "canales": []
+    "canales": [
+      "mls1"
+    ]
   },
   {
     "nombre": "Primera División: Nacional Asunción vs Cerro Porteño",
     "hora": "2025-10-27T18:00:00",
-    "canales": []
+    "canales": [
+      "eventos2"
+    ]
   },
   {
     "nombre": "NBA: Cavaliers vs Pistons",
     "hora": "2025-10-27T18:00:00",
-    "canales": []
+    "canales": [
+      "tntar",
+      "max1"
+    ]
   },
   {
     "nombre": "NFL: Chiefs vs Commanders",
     "hora": "2025-10-27T19:15:00",
-    "canales": []
+    "canales": [
+      "espn2mx",
+      "espndeportes",
+      "espn3"
+    ]
   },
   {
     "nombre": "Liga BetPlay: Deportivo Pasto vs Deportivo Pereira",
     "hora": "2025-10-27T19:45:00",
-    "canales": []
+    "canales": [
+      "winplus"
+    ]
   },
   {
     "nombre": "MLS: Minnesota United vs Seattle Sounders FC",
     "hora": "2025-10-27T20:00:00",
-    "canales": []
+    "canales": [
+      "mls2"
+    ]
   },
   {
     "nombre": "NBA: Nuggets vs Timberwolves",
     "hora": "2025-10-27T20:30:00",
-    "canales": []
+    "canales": [
+      "max1",
+      "tntar"
+    ]
   }
 ]

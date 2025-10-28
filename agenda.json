@@ -1,1 +1,189 @@
-
+[
+  {
+    "nombre": "Copa de Alemania: Eintracht Frankfurt vs Borussia Dortmund",
+    "hora": "2025-10-28T12:30:00",
+    "canales": [
+      "espnmxdash",
+      "espnmx"
+    ]
+  },
+  {
+    "nombre": "Copa de Alemania: Heidenheim vs Hamburger SV",
+    "hora": "2025-10-28T12:30:00",
+    "canales": [
+      "Disney1"
+    ]
+  },
+  {
+    "nombre": "Serie A: Lecce vs Napoli",
+    "hora": "2025-10-28T12:30:00",
+    "canales": [
+      "disney2",
+      "espn",
+      "foxdeportes"
+    ]
+  },
+  {
+    "nombre": "Copa del Rey de Arabia Saudita: Al Nassr vs Al Ittihad",
+    "hora": "2025-10-28T13:00:00",
+    "canales": [
+      "eventos3"
+    ]
+  },
+  {
+    "nombre": "Copa del Rey: Ourense CF vs Real Oviedo",
+    "hora": "2025-10-28T13:00:00",
+    "canales": [
+      "eventos2"
+    ]
+  },
+  {
+    "nombre": "Copa del Rey: Constància vs Girona",
+    "hora": "2025-10-28T13:00:00",
+    "canales": [
+      "eventos4"
+    ]
+  },
+  {
+    "nombre": "UEFA Nations League Femenina: Suecia vs España",
+    "hora": "2025-10-28T13:00:00",
+    "canales": [
+      "disney4"
+    ]
+  },
+  {
+    "nombre": "Copa del Rey: Maracena vs Valencia",
+    "hora": "2025-10-28T14:00:00",
+    "canales": [
+      "eventos5"
+    ]
+  },
+  {
+    "nombre": "Copa del Rey: Inter de Valdemoro vs Getafe",
+    "hora": "2025-10-28T14:00:00",
+    "canales": [
+      "eventos6"
+    ]
+  },
+  {
+    "nombre": "UEFA Nations League Femenina: Bélgica vs Republic of Ireland",
+    "hora": "2025-10-28T14:30:00",
+    "canales": [
+      "disney5"
+    ]
+  },
+  {
+    "nombre": "Serie A: Atalanta vs Milan",
+    "hora": "2025-10-28T14:45:00",
+    "canales": [
+      "espnmx",
+      "Disney",
+      "espn"
+    ]
+  },
+  {
+    "nombre": "Copa de Alemania: Borussia M'gladbach vs Karlsruher SC",
+    "hora": "2025-10-28T14:45:00",
+    "canales": [
+      "disney7"
+    ]
+  },
+  {
+    "nombre": "Copa de Alemania: Energie Cottbus vs RB Leipzig",
+    "hora": "2025-10-28T14:45:00",
+    "canales": [
+      "disney8"
+    ]
+  },
+  {
+    "nombre": "EFL Cup: Grimsby Town vs Brentford",
+    "hora": "2025-10-28T14:45:00",
+    "canales": [
+      "disney9"
+    ]
+  },
+  {
+    "nombre": "EFL Cup: Wycombe Wanderers vs Fulham",
+    "hora": "2025-10-28T14:45:00",
+    "canales": [
+      "disney10"
+    ]
+  },
+  {
+    "nombre": "EFL Cup: Wrexham vs Cardiff City",
+    "hora": "2025-10-28T15:00:00",
+    "canales": [
+      "disney11"
+    ]
+  },
+  {
+    "nombre": "Copa del Rey: Toledo vs Sevilla",
+    "hora": "2025-10-28T15:00:00",
+    "canales": [
+      "eventos1"
+    ]
+  },
+  {
+    "nombre": "Copa del Rey: Negreira vs Real Sociedad",
+    "hora": "2025-10-28T15:00:00",
+    "canales": [
+      "eventos2"
+    ]
+  },
+  {
+    "nombre": "UEFA Nations League Femenina: Francia vs Alemania",
+    "hora": "2025-10-28T15:10:00",
+    "canales": [
+      "disney12"
+    ]
+  },
+  {
+    "nombre": "Liga BetPlay: Rionegro Águilas vs Envigado",
+    "hora": "2025-10-28T16:00:00",
+    "canales": [
+      "winplus"
+    ]
+  },
+  {
+    "nombre": "MLS: Charlotte vs New York City",
+    "hora": "2025-10-28T17:45:00",
+    "canales": [
+      "mls1"
+    ]
+  },
+  {
+    "nombre": "Liga BetPlay: Deportivo Cali vs Alianza",
+    "hora": "2025-10-28T18:10:00",
+    "canales": [
+      "winplus"
+    ]
+  },
+  {
+    "nombre": "NBA: Knicks vs Buckstntmx, tntar, max1",
+    "hora": "2025-10-28T19:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Copa Sudamericana: Atlético Mineiro vs Independiente del Valle",
+    "hora": "2025-10-28T19:30:00",
+    "canales": [
+      "dsports",
+      "espn2mxdash",
+      "espn"
+    ]
+  },
+  {
+    "nombre": "CONCACAF Central American Cup: Motagua vs Cartaginés",
+    "hora": "2025-10-28T21:00:00",
+    "canales": [
+      "dianey2"
+    ]
+  },
+  {
+    "nombre": "NBA: Warriors vs Clippers",
+    "hora": "2025-10-28T22:00:00",
+    "canales": [
+      "max2"
+    ]
+  }
+]

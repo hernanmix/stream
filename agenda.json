@@ -1,29 +1,5 @@
 [
   {
-    "nombre": "Copa de Alemania: Eintracht Frankfurt vs Borussia Dortmund",
-    "hora": "2025-10-28T12:30:00",
-    "canales": [
-      "espnmxdash",
-      "espnmx"
-    ]
-  },
-  {
-    "nombre": "Copa de Alemania: Heidenheim vs Hamburger SV",
-    "hora": "2025-10-28T12:30:00",
-    "canales": [
-      "disney1"
-    ]
-  },
-  {
-    "nombre": "Serie A: Lecce vs Napoli",
-    "hora": "2025-10-28T12:30:00",
-    "canales": [
-      "disney2",
-      "espn",
-      "foxdeportes"
-    ]
-  },
-  {
     "nombre": "Copa del Rey de Arabia Saudita: Al Nassr vs Al Ittihad",
     "hora": "2025-10-28T13:00:00",
     "canales": [
@@ -145,10 +121,24 @@
     ]
   },
   {
+    "nombre": "Liga De Naciones Conmebol: Uruguay vs Argentina",
+    "hora": "2025-10-28T16:00:00",
+    "canales": [
+      "tudnus"
+    ]
+  },
+  {
     "nombre": "MLS: Charlotte vs New York City",
     "hora": "2025-10-28T17:45:00",
     "canales": [
       "mls1"
+    ]
+  },
+  {
+    "nombre": "Liga De Naciones Conmebol: Ecuador vs Bolivia a",
+    "hora": "2025-10-28T18:00:00",
+    "canales": [
+      "tudnus"
     ]
   },
   {

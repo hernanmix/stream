@@ -21,9 +21,9 @@
     ]
   },
   {
-    "nombre": "NBA: Knicks vs Buckstntmx, tntar, max1",
+    "nombre": "NBA: Knicks vs Buckstntmx",
     "hora": "2025-10-28T19:00:00",
-    "canales": []
+    "canales": ["tntar", "max2"]
   },
   {
     "nombre": "Copa Sudamericana: Atlético Mineiro vs Independiente del Valle",

@@ -42,6 +42,16 @@ estilo.textContent = `
 `;
 document.head.appendChild(estilo);
 
+// Función para convertir hora a formato 12h am/pm
+function formatoHora12(horaTexto) {
+  const fecha = new Date(horaTexto);
+  let horas = fecha.getHours();
+  const minutos = fecha.getMinutes().toString().padStart(2, "0");
+  const sufijo = horas >= 12 ? "pm" : "am";
+  horas = horas % 12 || 12;
+  return `${horas}:${minutos}${sufijo}`;
+}
+
 // Lógica de rayita + marcador + hora visible antes del inicio
 document.addEventListener("DOMContentLoaded", function () {
   const eventos = document.querySelectorAll(".evento");
@@ -49,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   eventos.forEach((evento, index) => {
     const horaTexto = evento.getAttribute("data-hora");
     const hora = new Date(horaTexto).getTime();
-    const horaSolo = horaTexto.slice(11, 16); // Extrae HH:MM
+    const horaSolo = formatoHora12(horaTexto);
 
     const estadoSpan = evento.querySelector(".estado");
     if (estadoSpan) estadoSpan.style.display = "none";

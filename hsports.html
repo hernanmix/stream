@@ -1463,17 +1463,16 @@ if (config) {
     }
 
     jwplayer("player").setup({
-        playlist: [{
-            sources: sources
-        }],
-        autostart: true,
-        width: "100%",
-        height: "100%",
-        stretching: "fill", // ✅ elimina márgenes negros
-        cast: {},
-        sharing: {}
-    });
-}
+  playlist: [{
+    sources: sources
+  }],
+  autostart: true,
+  width: "100%",
+  height: "100%",
+  stretching: "fill", // ✅ elimina márgenes negros
+  controls: true
+});
+
 
 
     </script>

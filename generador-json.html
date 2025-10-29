@@ -29,7 +29,6 @@
         const canal = new URL("https://" + url).searchParams.get("channel");
         return canal || null;
       } catch (e) {
-        console.warn("Error al decodificar:", r, e);
         return null;
       }
     }
@@ -51,24 +50,20 @@
         return;
       }
 
-      const div = document.createElement("div");
-      div.innerHTML = html;
-
       const eventos = [];
       const hoy = new Date().toISOString().split("T")[0];
 
-      div.querySelectorAll("li").forEach(li => {
-        const a = li.querySelector("a");
-        const nombre = a?.childNodes[0]?.textContent.trim();
-        const horaTexto = a?.querySelector("span.t")?.textContent.trim();
+      const bloques = html.split("<li><a href=\"#\">");
+      bloques.forEach(bloque => {
+        const nombreMatch = bloque.match(/^(.+?)<span class="t">/);
+        const horaMatch = bloque.match(/<span class="t">(\d{1,2}:\d{2}(am|pm))<\/span>/i);
+        const rMatches = [...bloque.matchAll(/r=([^"&]+)/g)];
+
+        const nombre = nombreMatch?.[1]?.trim();
+        const horaTexto = horaMatch?.[1]?.trim();
         const horaISO = convertirHora(horaTexto);
 
-        const canales = [];
-        li.querySelectorAll("ul li a").forEach(enlace => {
-          const r = new URLSearchParams(enlace.href.split("?")[1]).get("r");
-          const canal = decodeBase64Url(r);
-          if (canal) canales.push(canal);
-        });
+        const canales = rMatches.map(m => decodeBase64Url(m[1])).filter(Boolean);
 
         if (nombre && horaISO && canales.length > 0) {
           eventos.push({

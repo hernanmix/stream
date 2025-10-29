@@ -1,40 +1,5 @@
 [
   {
-    "nombre": "MLS: Charlotte vs New York City",
-    "hora": "2025-10-28T17:45:00",
-    "canales": [
-      "mls1"
-    ]
-  },
-  {
-    "nombre": "Liga De Naciones Conmebol: Ecuador vs Colombia",
-    "hora": "2025-10-28T18:00:00",
-    "canales": [
-      "tudnus"
-    ]
-  },
-  {
-    "nombre": "Liga BetPlay: Deportivo Cali vs Alianza",
-    "hora": "2025-10-28T18:10:00",
-    "canales": [
-      "winplus"
-    ]
-  },
-  {
-    "nombre": "NBA: Knicks vs Buckstntmx",
-    "hora": "2025-10-28T19:00:00",
-    "canales": ["tntar", "max2"]
-  },
-  {
-    "nombre": "Copa Sudamericana: Atlético Mineiro vs Independiente del Valle",
-    "hora": "2025-10-28T19:30:00",
-    "canales": [
-      "dsports",
-      "espn2mxdash",
-      "espn"
-    ]
-  },
-  {
     "nombre": "CONCACAF Central American Cup: Motagua vs Cartaginés",
     "hora": "2025-10-28T21:00:00",
     "canales": [

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html oncontextmenu="return false;"><head> 
+no<!DOCTYPE html><html oncontextmenu="return false;"><head> 
 <style>
   html, body {
     margin: 0;
@@ -1462,6 +1462,26 @@ if (config) {
         });
     }
 
+    var id = getParameterByName('id');
+var config = ConfiguracionCanales[id];
+
+if (config) {
+    var sources = [];
+
+    if (config.url.includes('.m3u8')) {
+        sources.push({
+            file: config.url
+        });
+    }
+    
+    if (config.url.includes('.mpd') && config.k1 && config.k2) {
+        sources.push({
+            file: config.url,
+            drm: {"clearkey": {"keyId": config.k1, "key": config.k2}}
+        });
+    }
+
+ //JWWWWWW
     var id = getParameterByName('id');
 var config = ConfiguracionCanales[id];
 

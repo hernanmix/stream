@@ -1,30 +1,5 @@
 [
   {
-    "nombre": "Copa de Alemania: Paderborn vs Bayer Leverkusen",
-    "hora": "2025-10-29T12:00:00",
-    "canales": ["disney1", "espn2mxdash"]
-  },
-  {
-    "nombre": "Copa de Alemania: Mainz 05 vs Stuttgart",
-    "hora": "2025-10-29T12:00:00",
-    "canales": ["disney2"]
-  },
-  {
-    "nombre": "Serie A: Roma vs Parma",
-    "hora": "2025-10-29T12:30:00",
-    "canales": ["disney3"]
-  },
-  {
-    "nombre": "Serie A: Como vs Hellas Verona",
-    "hora": "2025-10-29T12:30:00",
-    "canales": ["disney4", "foxdeportes"]
-  },
-  {
-    "nombre": "Serie A: Juventus vs Udinese",
-    "hora": "2025-10-29T12:30:00",
-    "canales": ["disney5"]
-  },
-  {
     "nombre": "Ligue 1: Lorient vs PSG",
     "hora": "2025-10-29T13:00:00",
     "canales": ["disney6", "calientetv1", "espn2mx"]

@@ -2,24 +2,24 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Generador de Eventos - HERMIXER</title>
+  <title>Generador JSON - HERMIXER</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: Arial, sans-serif; padding: 20px; background: #111; color: #fff; }
+    body { font-family: Arial, sans-serif; background: #111; color: #fff; padding: 20px; }
     textarea, pre { width: 100%; box-sizing: border-box; margin-top: 10px; font-size: 14px; }
-    textarea { height: 200px; padding: 10px; background: #222; color: #0f0; border: 1px solid #444; }
+    textarea { height: 200px; background: #222; color: #0f0; border: 1px solid #444; padding: 10px; }
     pre { background: #000; color: #0f0; padding: 10px; white-space: pre-wrap; word-wrap: break-word; }
     button { margin-top: 10px; padding: 10px 20px; background: #0b90c5; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
     #copiarBtn { background: #28a745; }
   </style>
 </head>
 <body>
-  <h2>🎯 Generador de Eventos - HERMIXER</h2>
-  <p>Pega aquí el HTML copiado desde <strong>agenda.html</strong>:</p>
-  <textarea id="input" placeholder="Pega aquí el HTML completo de la agenda..."></textarea>
+  <h2>🎯 Generador JSON de Eventos - HERMIXER</h2>
+  <p>Pega aquí el HTML completo de la agenda:</p>
+  <textarea id="input" placeholder="Pega aquí el HTML..."></textarea>
   <button onclick="generar()">Generar JSON</button>
   <button id="copiarBtn" onclick="copiar()">📋 Copiar JSON</button>
-  <h3>📦 Resultado JSON:</h3>
+  <h3>📦 Resultado:</h3>
   <pre id="output">[ ]</pre>
 
   <script>

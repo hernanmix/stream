@@ -38,53 +38,37 @@
       // Agrega más canales aquí...
     };
 
-    // Obtener parámetro ?id=
-    function getParameterByName(name) {
-      const url = window.location.href;
-      name = name.replace(/[\
+    var id = getParameterByName('id');
+var config = ConfiguracionCanales[id];
 
-\[\\]
+if (config) {
+    var sources = [];
 
-]/g, "\\$&");
-      const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-      const results = regex.exec(url);
-      if (!results || !results[2]) return "";
-      return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
-
-    const canal = getParameterByName("id");
-    const config = ConfiguracionCanales[canal];
-
-    if (config) {
-      const sources = [];
-
-      if (config.url.includes(".mpd") && config.k1 && config.k2) {
+    if (config.url.includes('.m3u8')) {
         sources.push({
-          file: config.url,
-          drm: {
-            clearkey: {
-              keyId: config.k1,
-              key: config.k2
-            }
-          }
+            file: config.url
         });
-      } else if (config.url.includes(".m3u8")) {
-        sources.push({ file: config.url });
-      }
-
-      jwplayer("player").setup({
-        playlist: [{ sources }],
-        autostart: true,
-        controls: true,
-        width: "100%",
-        height: "100%",
-        stretching: "fill", // ✅ elimina márgenes negros
-        cast: {},
-        sharing: {}
-      });
-    } else {
-      document.body.innerHTML = "<h2 style='color:white;text-align:center;margin-top:20%;'>Canal no encontrado</h2>";
     }
-  </script>
-</body>
-</html>
+    
+    if (config.url.includes('.mpd') && config.k1 && config.k2) {
+        sources.push({
+            file: config.url,
+            drm: {"clearkey": {"keyId": config.k1, "key": config.k2}}
+        });
+    }
+
+ //JWWWWWW
+    jwplayer("player").setup({
+        playlist: [{
+            sources: sources
+        }],
+        autostart: true,
+        width: "100%", 
+        height: "100%", 
+        stretching: "exactfit",
+        aspectratio: "16:9",
+        cast: {}, 
+                sharing: {}
+        });
+        }
+    </script>

@@ -1,10 +1,5 @@
 [
   {
-    "nombre": "MLS: Los Angeles FC vs Austin",
-    "hora": "2025-10-29T16:30:00",
-    "canales": ["mls1"]
-  },
-  {
     "nombre": "Brasileirão: Fluminense vs Ceará",
     "hora": "2025-10-29T17:00:00",
     "canales": ["premiere1"]
@@ -146,7 +141,7 @@
     "canales": []
   },
   {
-    "nombre": "Primera A Colombia:Unión Magdalena vs Deportes Tolima",
+    "nombre": "Liga BetPlay:Unión Magdalena vs Deportes Tolima",
     "hora": "2025-10-30T16:00:00",
     "canales": [
       "winplus"
@@ -175,7 +170,7 @@
     ]
   },
   {
-    "nombre": "PrimeraA Colombia:Llaneros vs Atlético Nacional",
+    "nombre": "Liga BetPlay:Llaneros vs Atlético Nacional",
     "hora": "2025-10-30T20:20:00",
     "canales": [
       "winplus"

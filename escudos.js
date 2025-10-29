@@ -2,10 +2,10 @@
 const escudos = {
   // América
   "MLS": "https://upload.wikimedia.org/wikipedia/en/e/e0/Major_League_Soccer_logo.svg",
-  "Liga MX": "https://upload.wikimedia.org/wikipedia/en/3/3e/Liga_MX_logo.svg",
+  "Liga MX": "https://img.futebol12.nexus/zas/pt.png",
   "Liga BetPlay": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
-  "Serie A Ecuador": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Ecuador.svg",
-  "Serie B Ecuador": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Ecuador.svg",
+  "Serie A Ecuador": "https://img.futebol12.nexus/zas/cl.png",
+  "Serie B Ecuador": "https://img.futebol12.nexus/zas/cl.png",
   "Primera División Costa Rica": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Costa_Rica.svg",
   "Brasileirão": "https://upload.wikimedia.org/wikipedia/en/0/01/Campeonato_Brasileiro_Série_A_logo.png",
   "Copa Uruguay": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg",

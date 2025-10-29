@@ -7,16 +7,16 @@
   <style>
     body { font-family: Arial, sans-serif; background: #111; color: #fff; padding: 20px; }
     textarea, pre { width: 100%; box-sizing: border-box; margin-top: 10px; font-size: 14px; }
-    textarea { height: 200px; background: #222; color: #0f0; border: 1px solid #444; padding: 10px; }
+    textarea { height: 300px; background: #222; color: #0f0; border: 1px solid #444; padding: 10px; }
     pre { background: #000; color: #0f0; padding: 10px; white-space: pre-wrap; word-wrap: break-word; }
     button { margin-top: 10px; padding: 10px 20px; background: #0b90c5; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
     #copiarBtn { background: #28a745; }
   </style>
 </head>
 <body>
-  <h2>🎯 Generador JSON de Eventos - HERMIXER</h2>
-  <p>Pega aquí el HTML completo de la agenda:</p>
-  <textarea id="input" placeholder="Pega aquí el HTML..."></textarea>
+  <h2>🎯 Generador JSON desde Texto Plano - HERMIXER</h2>
+  <p>Pega los eventos en bloques de 3 líneas: nombre, hora, URL</p>
+  <textarea id="input" placeholder="Ejemplo:\nCopa de Alemania: Paderborn vs Bayer Leverkusen\n12:00pm\nhttps://...r=base64"></textarea>
   <button onclick="generar()">Generar JSON</button>
   <button id="copiarBtn" onclick="copiar()">📋 Copiar JSON</button>
   <h3>📦 Resultado:</h3>
@@ -27,8 +27,7 @@
       try {
         const url = atob(r);
         const u = new URL("https://" + url);
-        const canal = u.searchParams.get("channel") || u.searchParams.get("id");
-        return canal || null;
+        return u.searchParams.get("channel") || u.searchParams.get("id") || null;
       } catch (e) {
         return null;
       }
@@ -45,35 +44,28 @@
     }
 
     function generar() {
-      const html = document.getElementById("input").value;
-      if (!html.trim()) {
-        alert("⚠️ No se ha pegado ningún HTML.");
-        return;
-      }
-
+      const texto = document.getElementById("input").value.trim();
+      const lineas = texto.split(/\r?\n/).map(l => l.trim()).filter(l => l);
       const eventos = [];
       const hoy = new Date().toISOString().split("T")[0];
 
-      const bloques = html.split("<li><a href=\"#\">");
-      bloques.forEach(bloque => {
-        const nombreMatch = bloque.match(/^(.+?)<span class="t">/);
-        const horaMatch = bloque.match(/<span class="t">(\d{1,2}:\d{2}(am|pm))<\/span>/i);
-        const rMatches = [...bloque.matchAll(/r=([^"&]+)/g)];
-
-        const nombre = nombreMatch?.[1]?.trim();
-        const horaTexto = horaMatch?.[1]?.trim();
+      for (let i = 0; i < lineas.length; i += 3) {
+        const nombre = lineas[i];
+        const horaTexto = lineas[i + 1];
+        const url = lineas[i + 2];
+        const rMatch = url.match(/r=([^&]+)/);
+        const r = rMatch?.[1];
+        const canal = r ? decodeBase64Url(r) : null;
         const horaISO = convertirHora(horaTexto);
 
-        const canales = rMatches.map(m => decodeBase64Url(m[1])).filter(Boolean);
-
-        if (nombre && horaISO && canales.length > 0) {
+        if (nombre && horaISO && canal) {
           eventos.push({
             nombre,
             hora: `${hoy}T${horaISO}`,
-            canales
+            canales: [canal.toLowerCase()]
           });
         }
-      });
+      }
 
       const json = JSON.stringify(eventos, null, 2);
       document.getElementById("output").textContent = json;

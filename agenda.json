@@ -143,5 +143,26 @@
     "nombre": "CONCACAF Central American Cup: Xelajú vs Real España",
     "hora": "2025-10-29T21:30:00",
     "canales": ["disney9"]
+  },
+  {
+    "nombre": "Vargas Torres vs Cumbayá",
+    "hora": "2025-10-30T13:00:00",
+    "canales": [
+      ""
+    ]
+  },
+  {
+    "nombre": "Atlético Vinotinto vs 22 de Julio",
+    "hora": "2025-10-30T13:00:00",
+    "canales": [
+      ""
+    ]
+  },
+  {
+    "nombre": "Imbabura vs Chacaritas",
+    "hora": "2025-10-30T15:00:00",
+    "canales": [
+      ""
+    ]
   }
 ]

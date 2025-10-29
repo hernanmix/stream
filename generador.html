@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -23,75 +23,74 @@
   <pre id="output">[ ]</pre>
 
   <script>
-function decodeBase64Url(r) {
-  try {
-    const url = atob(r);
-    const canal = new URL("https://" + url).searchParams.get("channel");
-    return canal || null;
-  } catch (e) {
-    console.warn("Error al decodificar:", r, e);
-    return null;
-  }
-}
+    function decodeBase64Url(r) {
+      try {
+        const url = atob(r);
+        const canal = new URL("https://" + url).searchParams.get("channel");
+        return canal || null;
+      } catch (e) {
+        console.warn("Error al decodificar:", r, e);
+        return null;
+      }
+    }
 
-function convertirHora(horaTexto) {
-  const match = horaTexto.match(/(\d{1,2}):(\d{2})(am|pm)/i);
-  if (!match) return null;
-  let [_, h, m, meridiano] = match;
-  h = parseInt(h);
-  if (meridiano.toLowerCase() === "pm" && h !== 12) h += 12;
-  if (meridiano.toLowerCase() === "am" && h === 12) h = 0;
-  return `${String(h).padStart(2, '0')}:${m}:00`;
-}
+    function convertirHora(horaTexto) {
+      const match = horaTexto.match(/(\d{1,2}):(\d{2})(am|pm)/i);
+      if (!match) return null;
+      let [_, h, m, meridiano] = match;
+      h = parseInt(h);
+      if (meridiano.toLowerCase() === "pm" && h !== 12) h += 12;
+      if (meridiano.toLowerCase() === "am" && h === 12) h = 0;
+      return `${String(h).padStart(2, '0')}:${m}:00`;
+    }
 
-function generar() {
-  const html = document.getElementById("input").value;
-  if (!html.trim()) {
-    alert("⚠️ No se ha pegado ningún HTML.");
-    return;
-  }
+    function generar() {
+      const html = document.getElementById("input").value;
+      if (!html.trim()) {
+        alert("⚠️ No se ha pegado ningún HTML.");
+        return;
+      }
 
-  const div = document.createElement("div");
-  div.innerHTML = html;
+      const div = document.createElement("div");
+      div.innerHTML = html;
 
-  const eventos = [];
-  const hoy = new Date().toISOString().split("T")[0];
+      const eventos = [];
+      const hoy = new Date().toISOString().split("T")[0];
 
-  div.querySelectorAll("li").forEach(li => {
-    const a = li.querySelector("a");
-    const nombre = a?.childNodes[0]?.textContent.trim();
-    const horaTexto = a?.querySelector("span.t")?.textContent.trim();
-    const horaISO = convertirHora(horaTexto);
+      div.querySelectorAll("li").forEach(li => {
+        const a = li.querySelector("a");
+        const nombre = a?.childNodes[0]?.textContent.trim();
+        const horaTexto = a?.querySelector("span.t")?.textContent.trim();
+        const horaISO = convertirHora(horaTexto);
 
-    const canales = [];
-    li.querySelectorAll("ul li a").forEach(enlace => {
-      const r = new URLSearchParams(enlace.href.split("?")[1]).get("r");
-      const canal = decodeBase64Url(r);
-      if (canal) canales.push(canal);
-    });
+        const canales = [];
+        li.querySelectorAll("ul li a").forEach(enlace => {
+          const r = new URLSearchParams(enlace.href.split("?")[1]).get("r");
+          const canal = decodeBase64Url(r);
+          if (canal) canales.push(canal);
+        });
 
-    if (nombre && horaISO && canales.length > 0) {
-      eventos.push({
-        nombre,
-        hora: `${hoy}T${horaISO}`,
-        canales
+        if (nombre && horaISO && canales.length > 0) {
+          eventos.push({
+            nombre,
+            hora: `${hoy}T${horaISO}`,
+            canales
+          });
+        }
+      });
+
+      const json = JSON.stringify(eventos, null, 2);
+      document.getElementById("output").textContent = json;
+    }
+
+    function copiar() {
+      const texto = document.getElementById("output").textContent;
+      navigator.clipboard.writeText(texto).then(() => {
+        alert("✅ JSON copiado al portapapeles");
+      }).catch(err => {
+        alert("❌ Error al copiar: " + err);
       });
     }
-  });
-
-  const json = JSON.stringify(eventos, null, 2);
-  document.getElementById("output").textContent = json;
-}
-
-function copiar() {
-  const texto = document.getElementById("output").textContent;
-  navigator.clipboard.writeText(texto).then(() => {
-    alert("✅ JSON copiado al portapapeles");
-  }).catch(err => {
-    alert("❌ Error al copiar: " + err);
-  });
-}
-</script>
-
+  </script>
 </body>
 </html>

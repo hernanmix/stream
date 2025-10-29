@@ -1,16 +1,197 @@
 [
   {
-    "nombre": "CONCACAF Central American Cup: Motagua vs Cartaginés",
-    "hora": "2025-10-28T21:00:00",
-    "canales": [
-      "disney2"
-    ]
+    "nombre": "Copa de Alemania: Paderborn vs Bayer Leverkusen",
+    "hora": "2025-10-29T12:00:00",
+    "canales": ["disney1", "espn2mxdash"]
   },
   {
-    "nombre": "NBA: Warriors vs Clippers",
-    "hora": "2025-10-28T22:00:00",
-    "canales": [
-      "max2"
-    ]
+    "nombre": "Copa de Alemania: Mainz 05 vs Stuttgart",
+    "hora": "2025-10-29T12:00:00",
+    "canales": ["disney2"]
+  },
+  {
+    "nombre": "Serie A: Roma vs Parma",
+    "hora": "2025-10-29T12:30:00",
+    "canales": ["disney3"]
+  },
+  {
+    "nombre": "Serie A: Como vs Hellas Verona",
+    "hora": "2025-10-29T12:30:00",
+    "canales": ["disney4", "foxdeportes"]
+  },
+  {
+    "nombre": "Serie A: Juventus vs Udinese",
+    "hora": "2025-10-29T12:30:00",
+    "canales": ["disney5"]
+  },
+  {
+    "nombre": "Ligue 1: Lorient vs PSG",
+    "hora": "2025-10-29T13:00:00",
+    "canales": ["disney6", "calientetv1", "espn2mx"]
+  },
+  {
+    "nombre": "Ligue 1: Le Havre vs Brest",
+    "hora": "2025-10-29T13:00:00",
+    "canales": ["disney7", "calientetv2"]
+  },
+  {
+    "nombre": "Ligue 1: Nice vs Lille",
+    "hora": "2025-10-29T13:00:00",
+    "canales": ["disney8", "calientetv3"]
+  },
+  {
+    "nombre": "Ligue 1: Metz vs Lens",
+    "hora": "2025-10-29T13:00:00",
+    "canales": ["disney9", "calientetv4"]
+  },
+  {
+    "nombre": "Copa del Rey: CD Sant Jordi vs Osasuna",
+    "hora": "2025-10-29T13:00:00",
+    "canales": ["eventos2"]
+  },
+  {
+    "nombre": "Copa de Alemania: Köln vs Bayern München",
+    "hora": "2025-10-29T14:45:00",
+    "canales": ["disney10", "espn2mxdash", "espndeportes"]
+  },
+  {
+    "nombre": "Copa de Alemania: Fortuna Düsseldorf vs Freiburg",
+    "hora": "2025-10-29T14:45:00",
+    "canales": ["disney12"]
+  },
+  {
+    "nombre": "Serie A: Intern vs Fiorentina",
+    "hora": "2025-10-29T14:45:00",
+    "canales": ["espnmxdash"]
+  },
+  {
+    "nombre": "Serie A: Genoa vs Cremonese",
+    "hora": "2025-10-29T14:45:00",
+    "canales": ["disney13"]
+  },
+  {
+    "nombre": "Serie A: Bologna vs Torino",
+    "hora": "2025-10-29T14:45:00",
+    "canales": ["disney14"]
+  },
+  {
+    "nombre": "EFL Cup: Wolves vs Chelsea",
+    "hora": "2025-10-29T14:45:00",
+    "canales": ["disney15"]
+  },
+  {
+    "nombre": "EFL Cup: Swansea City vs Manchester City",
+    "hora": "2025-10-29T14:45:00",
+    "canales": ["disney16"]
+  },
+  {
+    "nombre": "EFL Cup: Arsenal vs Brighton & Hove Albion",
+    "hora": "2025-10-29T14:45:00",
+    "canales": ["disney17", "espnmxdash"]
+  },
+  {
+    "nombre": "EFL Cup: Liverpool vs Crystal Palace",
+    "hora": "2025-10-29T14:45:00",
+    "canales": ["disney20"]
+  },
+  {
+    "nombre": "EFL Cup: Newcastle United vs Tottenham",
+    "hora": "2025-10-29T15:00:00",
+    "canales": ["disney18", "espn3mxdash", "espnmm3"]
+  },
+  {
+    "nombre": "Copa del Rey: Lucena vs Villarreal",
+    "hora": "2025-10-29T15:00:00",
+    "canales": ["skyliga", "eventos2"]
+  },
+  {
+    "nombre": "Copa del Rey: Yuncos vs Rayo Vallecano",
+    "hora": "2025-10-29T15:00:00",
+    "canales": ["eventos2"]
+  },
+  {
+    "nombre": "Ligue 1: Nantes vs Monaco",
+    "hora": "2025-10-29T15:05:00",
+    "canales": ["disney1", "calienttv1", "espn2"]
+  },
+  {
+    "nombre": "Ligue 1: Strasbourg vs Auxerre",
+    "hora": "2025-10-29T15:05:00",
+    "canales": ["disney2", "calienttv2"]
+  },
+  {
+    "nombre": "Ligue 1: Olympique Marseille vs Angers SCO",
+    "hora": "2025-10-29T15:05:00",
+    "canales": ["disney3", "calientetv3"]
+  },
+  {
+    "nombre": "Ligue 1: Paris vs Olympique Lyonnais",
+    "hora": "2025-10-29T15:05:00",
+    "canales": ["disney5", "calienttv4"]
+  },
+  {
+    "nombre": "Ligue 1: Toulouse vs Rennes",
+    "hora": "2025-10-29T15:05:00",
+    "canales": ["disney5", "calientetv5"]
+  },
+  {
+    "nombre": "Liga BetPlay: La Equidad vs Fortaleza CEIF",
+    "hora": "2025-10-29T16:00:00",
+    "canales": ["winplus"]
+  },
+  {
+    "nombre": "MLS: Los Angeles FC vs Austin",
+    "hora": "2025-10-29T16:30:00",
+    "canales": ["mls1"]
+  },
+  {
+    "nombre": "Brasileirão: Fluminense vs Ceará",
+    "hora": "2025-10-29T17:00:00",
+    "canales": ["premiere1"]
+  },
+  {
+    "nombre": "NBA: Cavaliers vs Celtics",
+    "hora": "2025-10-29T18:00:00",
+    "canales": ["esspn3", "espn3mxdash", "espndeportes"]
+  },
+  {
+    "nombre": "Liga BetPlay: Medellín vs Atlético Bucaramanga",
+    "hora": "2025-10-29T18:10:00",
+    "canales": ["winplus"]
+  },
+  {
+    "nombre": "Liga BetPlay: Junior vs Santa Fe",
+    "hora": "2025-10-29T18:10:00",
+    "canales": ["winsports"]
+  },
+  {
+    "nombre": "Copa Uruguay: Peñarol vs Plaza Colonia",
+    "hora": "2025-10-29T18:30:00",
+    "canales": ["disney6"]
+  },
+  {
+    "nombre": "CONCACAF Central American Cup: Plaza Amador vs Sporting San Miguelito",
+    "hora": "2025-10-29T18:45:00",
+    "canales": ["disney7"]
+  },
+  {
+    "nombre": "Copa Libertadores: Racing Club vs Flamengo",
+    "hora": "2025-10-29T19:30:00",
+    "canales": ["fox1ar", "espn", "espn2mxdazh"]
+  },
+  {
+    "nombre": "Liga BetPlay: Millonarios vs Once Caldas",
+    "hora": "2025-10-29T20:20:00",
+    "canales": ["winplus"]
+  },
+  {
+    "nombre": "NBA: Lakers vs Timberwolves",
+    "hora": "2025-10-29T20:30:00",
+    "canales": ["espn3", "espndeportes"]
+  },
+  {
+    "nombre": "CONCACAF Central American Cup: Xelajú vs Real España",
+    "hora": "2025-10-29T21:30:00",
+    "canales": ["disney9"]
   }
 ]

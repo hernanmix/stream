@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+  <title>Reproductor</title>
+  <script src="https://cdn.jwplayer.com/libraries/IDzF9Zmk.js"></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+    #player {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="player"></div>
+
+  <script>
+    // Configuración de canales
+    const ConfiguracionCanales = {
+      "USANETWORK": {
+        url: "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(usa-west)/master.mpd",
+        k1: "7f1648ec1c8836baa028e319d92e0841",
+        k2: "93ba967ec39964d9a6359044ec5c3500"
+      },
+      "ESPN2MX": {
+        url: "https://example.com/espn2mx.mpd",
+        k1: "clave_id",
+        k2: "clave_valor"
+      }
+      // Agrega más canales aquí...
+    };
+
+    // Obtener parámetro ?id=
+    function getParameterByName(name) {
+      const url = window.location.href;
+      name = name.replace(/[\
+
+\[\\]
+
+]/g, "\\$&");
+      const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+      const results = regex.exec(url);
+      if (!results || !results[2]) return "";
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    const canal = getParameterByName("id");
+    const config = ConfiguracionCanales[canal];
+
+    if (config) {
+      const sources = [];
+
+      if (config.url.includes(".mpd") && config.k1 && config.k2) {
+        sources.push({
+          file: config.url,
+          drm: {
+            clearkey: {
+              keyId: config.k1,
+              key: config.k2
+            }
+          }
+        });
+      } else if (config.url.includes(".m3u8")) {
+        sources.push({ file: config.url });
+      }
+
+      jwplayer("player").setup({
+        playlist: [{ sources }],
+        autostart: true,
+        controls: true,
+        width: "100%",
+        height: "100%",
+        stretching: "fill", // ✅ elimina márgenes negros
+        cast: {},
+        sharing: {}
+      });
+    } else {
+      document.body.innerHTML = "<h2 style='color:white;text-align:center;margin-top:20%;'>Canal no encontrado</h2>";
+    }
+  </script>
+</body>
+</html>

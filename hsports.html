@@ -1442,31 +1442,38 @@
 
         };
 
-function getParameterByName(name) {
-  const url = window.location.href;
-  name = name.replace(/[\
+var id = getParameterByName('id');
+var config = ConfiguracionCanales[id];
 
-\[\\]
+if (config) {
+    var sources = [];
 
-]/g, "\\$&");
-  const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-  const results = regex.exec(url);
-  if (!results || !results[2]) return "";
-  return decodeURIComponent(results[2].replace(/\+/g, " "));
+    if (config.url.includes('.m3u8')) {
+        sources.push({
+            file: config.url
+        });
+    }
+    
+    if (config.url.includes('.mpd') && config.k1 && config.k2) {
+        sources.push({
+            file: config.url,
+            drm: {"clearkey": {"keyId": config.k1, "key": config.k2}}
+        });
+    }
+
+    jwplayer("player").setup({
+        playlist: [{
+            sources: sources
+        }],
+        autostart: true,
+        width: "100%",
+        height: "100%",
+        stretching: "fill", // ✅ elimina márgenes negros
+        cast: {},
+        sharing: {}
+    });
 }
 
-const canal = getParameterByName("id");
-const streamURL = "https://tu-servidor.com/" + canal + ".mpd"; // ajusta según tu lógica
-
-jwplayer("player").setup({
-  file: streamURL,
-  type: "dash",
-  stretching: "fill",
-  width: "100%",
-  height: "100%",
-  controls: true,
-  autostart: true
-});
 
     </script>
 

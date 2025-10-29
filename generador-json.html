@@ -26,7 +26,8 @@
     function decodeBase64Url(r) {
       try {
         const url = atob(r);
-        const canal = new URL("https://" + url).searchParams.get("channel");
+        const u = new URL("https://" + url);
+        const canal = u.searchParams.get("channel") || u.searchParams.get("id");
         return canal || null;
       } catch (e) {
         return null;

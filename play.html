@@ -23,8 +23,8 @@
   <iframe id="player" allowfullscreen></iframe>
 
   <script>
-    const hoja = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTrEv6EUqAeAQOdTNqRg8t0rxuGyohzv8mVf6Qreu6wkwkBgADvMIyRxJnUhOOe-kZr3bQaXpiwQFLU/pub?output=csv";
     const canal = new URLSearchParams(location.search).get("channel");
+    const hojaCSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTrEv6EUqAeAQOdTNqRg8t0rxuGyohzv8mVf6Qreu6wkwkBgADvMIyRxJnUhOOe-kZr3bQaXpiwQFLU/pub?output=csv";
 
     function encodeCustomBase64(url) {
       const base64 = btoa(encodeURIComponent(url));
@@ -37,12 +37,13 @@
       return decodeURIComponent(atob(cleaned));
     }
 
-    fetch(hoja)
-      .then(res => res.json())
-      .then(data => {
-        const base = data[0]?.base_url?.trim();
-        if (base && canal) {
-          const fullURL = base + canal;
+    fetch(hojaCSV)
+      .then(res => res.text())
+      .then(csv => {
+        const lines = csv.split("\n");
+        const baseURL = lines[1]?.trim(); // segunda línea, primera columna
+        if (baseURL && canal) {
+          const fullURL = baseURL + canal;
           const encoded = encodeCustomBase64(fullURL);
           const decoded = decodeCustomBase64(encoded);
           document.getElementById("player").src = decoded;

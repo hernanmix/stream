@@ -19,7 +19,6 @@ const escudos = {
   "Champions League": "https://img.futebol12.nexus/zas/champions.png",
   "Europa League": "https://img.futebol12.nexus/zas/ue.png",
   "Conference League": "https://img.futebol12.nexus/zas/uec.png",
-  "Copa del Rey": "https://img.futebol12.nexus/zas/copadelreyes.png",
   "Copa del Rey": "https://img.futebol12.nexus/zas/es.png",
   "FA Cup": "https://img.futebol12.nexus/zas/facup.png",
   "DFB Pokal": "https://img.futebol12.nexus/zas/copaitalia.png",

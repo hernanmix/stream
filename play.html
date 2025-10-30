@@ -4,36 +4,35 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Reproductor Global</title>
+
   <style>
-    <style>
     html, body {
       margin: 0;
       padding: 0;
-      background: #000;
+      background-color: #000;
       width: 100%;
       height: 100%;
       overflow: hidden;
     }
 
     #container {
-      position: relative;
+      position: fixed;
+      top: 0;
+      left: 0;
       width: 100vw;
       height: 100vh;
       overflow: hidden;
       background: #000;
     }
-    video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      background: #000;
+
+    #player {
+      width: 110vw;
+      height: 110vh;
+      border: none;
+      transform: translate(-5vw, -5vh);
+      background-color: #000;
     }
   </style>
-</head>
-
 </head>
 <body>
   <div id="container">
@@ -41,9 +40,8 @@
   </div>
 
   <script>
-    const params = new URLSearchParams(location.search);
-    const canal = params.get("channel");
-    const encoded = params.get("r");
+    const canal = new URLSearchParams(location.search).get("channel");
+    const encoded = new URLSearchParams(location.search).get("r");
 
     function encodeBase64(url) {
       return btoa(url);
@@ -59,8 +57,7 @@
 
     // Redirecciona automáticamente si se usa ?channel=
     if (canal && !encoded) {
-      const baseURL = "https://streamvv11.lat/global1.php?channel=";
-      const fullURL = baseURL + encodeURIComponent(canal);
+      const fullURL = "https://streamvv11.lat/global1.php?channel=" + encodeURIComponent(canal);
       const base64 = encodeBase64(fullURL);
       const newURL = `${location.origin}${location.pathname}?r=${base64}`;
       window.location.replace(newURL);

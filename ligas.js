@@ -1,4 +1,3 @@
-
 // Diccionario de clases por liga
 const clasesLiga = {
   "Brasileirão": "BRA",
@@ -24,43 +23,37 @@ const clasesLiga = {
   // Puedes seguir ampliando este diccionario si lo deseas
 };
 
-// Inyectar todo tu CSS con escudos
+// Inyectar tu CSS completo con escudos
 (function injectCSS() {
   const style = document.createElement("style");
   style.innerHTML = `
-/* Escudos por clase (fragmento, tú me diste todo esto) */
-.TUR > a:before { background-image: url(https://img.futebol12.nexus/zas/tr.png); }
-.ENG > a:before { background-image: url(https://img.futebol12.nexus/zas/en.png); }
-.ALE > a:before { background-image: url(https://img.futebol12.nexus/zas/de.png); }
-.FRA > a:before { background-image: url(https://img.futebol12.nexus/zas/fr.png); }
-.HOL > a:before { background-image: url(https://img.futebol12.nexus/zas/nl.png); }
-.POR > a:before { background-image: url(https://img.futebol12.nexus/zas/pt.png); }
-.MEX > a:before { background-image: url(https://img.futebol12.nexus/zas/mx.png); }
-.ES > a:before { background-image: url(https://img.futebol12.nexus/zas/es.png); }
-.IT > a:before { background-image: url(https://img.futebol12.nexus/zas/it.png); }
-.BEL > a:before { background-image: url(https://img.futebol12.nexus/zas/be.png); }
-.CR > a:before { background-image: url(https://img.futebol12.nexus/zas/cr.png); }
-.USA > a:before { background-image: url(https://img.futebol12.nexus/zas/us.png); }
-.NBA > a:before { background-image: url(https://img.futebol12.nexus/zas/nbanew2.png); }
-.BRA > a:before { background-image: url(https://img.futebol12.nexus/zas/br.png); }
-.COL > a:before { background-image: url(https://img.futebol12.nexus/zas/co.png); }
-.ECUA > a:before { background-image: url(https://img.futebol12.nexus/zas/ec.png); }
-.CHA > a:before { background-image: url(https://img.futebol12.nexus/zas/champions.png); }
-.UE > a:before { background-image: url(https://img.futebol12.nexus/zas/ue.png); }
-.LIB > a:before { background-image: url(https://img.futebol12.nexus/zas/libertadores.png); }
-.SUD > a:before { background-image: url(https://img.futebol12.nexus/zas/sud.png); }
-.FIFA > a:before { background-image: url(https://img.futebol12.nexus/zas/fifa.png); }
-.AMERICA > a:before { background-image: url(https://img.futebol12.nexus/zas/copaamerica.png); }
-.CENTRALAMERICANCUP > a:before { background-image: url(https://img.futebol12.nexus/zas/centralamericancup.png?new); }
-.CONCACAFCHA > a:before { background-image: url(https://img.futebol12.nexus/zas/concacafcham.png); }
-.MLS > a:before { background-image: url(https://img.futebol12.nexus/zas/mls.png); }
+/* Tus clases CSS completas (fragmento representativo) */
+.BRA .estado::after { background-image: url(https://img.futebol12.nexus/zas/br.png); }
+.COL .estado::after { background-image: url(https://img.futebol12.nexus/zas/co.png); }
+.ECUA .estado::after { background-image: url(https://img.futebol12.nexus/zas/ec.png); }
+.CR .estado::after { background-image: url(https://img.futebol12.nexus/zas/cr.png); }
+.CENTRALAMERICANCUP .estado::after { background-image: url(https://img.futebol12.nexus/zas/centralamericancup.png?new); }
+.CONCACAFCHA .estado::after { background-image: url(https://img.futebol12.nexus/zas/concacafcham.png); }
+.LIB .estado::after { background-image: url(https://img.futebol12.nexus/zas/libertadores.png); }
+.SUD .estado::after { background-image: url(https://img.futebol12.nexus/zas/sud.png); }
+.ENG .estado::after { background-image: url(https://img.futebol12.nexus/zas/en.png); }
+.ES .estado::after { background-image: url(https://img.futebol12.nexus/zas/es.png); }
+.IT .estado::after { background-image: url(https://img.futebol12.nexus/zas/it.png); }
+.ALE .estado::after { background-image: url(https://img.futebol12.nexus/zas/de.png); }
+.FRA .estado::after { background-image: url(https://img.futebol12.nexus/zas/fr.png); }
+.CHA .estado::after { background-image: url(https://img.futebol12.nexus/zas/champions.png); }
+.UE .estado::after { background-image: url(https://img.futebol12.nexus/zas/ue.png); }
+.NBA .estado::after { background-image: url(https://img.futebol12.nexus/zas/nbanew2.png); }
+.FIFA .estado::after { background-image: url(https://img.futebol12.nexus/zas/fifa.png); }
+.AMERICA .estado::after { background-image: url(https://img.futebol12.nexus/zas/copaamerica.png); }
+.MLS .estado::after { background-image: url(https://img.futebol12.nexus/zas/mls.png); }
 
 /* Estilo visual para escudos */
 .estado::after {
   content: "";
   display: inline-block;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   background-size: cover;
   background-position: center;
   border-radius: 50%;
@@ -81,19 +74,17 @@ function detectarClaseLiga(nombre) {
   return null;
 }
 
-// Insertar clase en el evento y aplicar escudo
+// Insertar clase en el evento
 function insertarClasesLiga() {
   document.querySelectorAll('#agenda .evento').forEach(evento => {
     const nombreSpan = evento.querySelector('.nombre');
-    const estadoSpan = evento.querySelector('.estado');
-    if (!nombreSpan || !estadoSpan) return;
+    if (!nombreSpan) return;
 
     const nombre = nombreSpan.textContent.trim();
     const clase = detectarClaseLiga(nombre);
 
     if (clase && !evento.classList.contains(clase)) {
       evento.classList.add(clase);
-      estadoSpan.classList.add('estado'); // Asegura que tenga la clase para el ::after
     }
   });
 }

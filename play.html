@@ -14,46 +14,53 @@
       overflow: hidden;
     }
     iframe {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  border: none;
-  background-color: #000;
-  aspect-ratio: auto;
-}
-
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      background-color: #000;
+    }
   </style>
 </head>
 <body>
   <iframe id="player" allowfullscreen></iframe>
 
   <script>
-    const canal = new URLSearchParams(location.search).get("channel");
-    const encoded = new URLSearchParams(location.search).get("r");
+    const params = new URLSearchParams(location.search);
+    const canal = params.get("channel");
+    const encoded = params.get("r");
 
     function encodeBase64(url) {
       return btoa(url);
     }
 
     function decodeBase64(str) {
-      return atob(str);
+      try {
+        return atob(str);
+      } catch (e) {
+        return "";
+      }
     }
 
-    let finalURL = "";
+    // Redirecciona automáticamente si se usa ?channel=
+    if (canal && !encoded) {
+      const baseURL = "https://streamvv11.lat/global1.php?channel=";
+      const fullURL = baseURL + encodeURIComponent(canal);
+      const base64 = encodeBase64(fullURL);
+      const newURL = `${location.origin}${location.pathname}?r=${base64}`;
+      window.location.replace(newURL);
+    }
 
-    if (canal) {
-  const full = "https://streamvv11.lat/global1.php?channel=" + canal;
-  const base64 = btoa(full);
-  window.location.href = location.pathname + "?r=" + base64;
-}
-
-
-    if (finalURL) {
-      document.getElementById("player").src = finalURL;
-    } else {
-      document.body.innerHTML = "<h2 style='color:white;text-align:center;'>Canal no disponible</h2>";
+    // Si ya viene con ?r=, decodifica y reproduce
+    if (encoded) {
+      const finalURL = decodeBase64(encoded);
+      if (finalURL) {
+        document.getElementById("player").src = finalURL;
+      } else {
+        document.body.innerHTML = "<h2 style='color:white;text-align:center;'>Canal no disponible</h2>";
+      }
     }
   </script>
 </body>

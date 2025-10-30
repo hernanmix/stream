@@ -14,14 +14,16 @@
       overflow: hidden;
     }
     iframe {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      border: none;
-      background-color: #000;
-    }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  background-color: #000;
+  aspect-ratio: auto;
+}
+
   </style>
 </head>
 <body>
@@ -42,12 +44,11 @@
     let finalURL = "";
 
     if (canal) {
-      const full = "https://streamvv11.lat/global1.php?channel=" + canal;
-      const base64 = encodeBase64(full);
-      finalURL = decodeBase64(base64); // decodifica para mostrar
-    } else if (encoded) {
-      finalURL = decodeBase64(encoded);
-    }
+  const full = "https://streamvv11.lat/global1.php?channel=" + canal;
+  const base64 = btoa(full);
+  window.location.href = location.pathname + "?r=" + base64;
+}
+
 
     if (finalURL) {
       document.getElementById("player").src = finalURL;

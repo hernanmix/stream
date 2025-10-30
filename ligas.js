@@ -1,4 +1,4 @@
-// Diccionario de escudos por nombre de liga
+// Diccionario completo de escudos por nombre de liga
 const escudos = {
   "Brasileirão": "https://img.futebol12.nexus/zas/br.png",
   "Liga BetPlay": "https://img.futebol12.nexus/zas/co.png",
@@ -16,11 +16,30 @@ const escudos = {
   "Ligue 1": "https://img.futebol12.nexus/zas/fr.png",
   "Champions League": "https://img.futebol12.nexus/zas/champions.png",
   "Europa League": "https://img.futebol12.nexus/zas/ue.png",
-  "NBA": "https://img.futebol12.nexus/zas/nbanew2.png",
+  "Conference League": "https://img.futebol12.nexus/zas/uec.png",
+  "Copa del Rey": "https://img.futebol12.nexus/zas/copadelreyes.png",
+  "FA Cup": "https://img.futebol12.nexus/zas/facup.png",
+  "DFB Pokal": "https://img.futebol12.nexus/zas/copaitalia.png",
   "FIFA World Cup": "https://img.futebol12.nexus/zas/fifa.png",
+  "UEFA Euro": "https://img.futebol12.nexus/zas/eurocopa.png",
   "Copa América": "https://img.futebol12.nexus/zas/copaamerica.png",
-  "MLS": "https://img.futebol12.nexus/zas/mls.png"
-  // Puedes seguir agregando más nombres y URLs si lo deseas
+  "MLS": "https://img.futebol12.nexus/zas/mls.png",
+  "Liga MX": "https://img.futebol12.nexus/zas/mx.png",
+  "NBA": "https://img.futebol12.nexus/zas/nbanew2.png",
+  "EuroLeague": "https://img.futebol12.nexus/zas/euroleaguebasket.png",
+  "Liga Nacional de Básquet": "https://img.futebol12.nexus/zas/endesa.png",
+  "AFC Champions League": "https://img.futebol12.nexus/zas/afcchampions.png",
+  "CAF Champions League": "https://img.futebol12.nexus/zas/caf.png",
+  "Indian Super League": "https://img.futebol12.nexus/zas/asia.png?new",
+  "J.League": "https://img.futebol12.nexus/zas/japan.png",
+  "K League": "https://img.futebol12.nexus/zas/korea.png",
+  "Copa Argentina": "https://img.futebol12.nexus/zas/ar.png",
+  "Copa Uruguay": "https://img.futebol12.nexus/zas/uy.png",
+  "Copa Chile": "https://img.futebol12.nexus/zas/cl.png",
+  "Copa Paraguay": "https://img.futebol12.nexus/zas/paraguay.png",
+  "Copa Venezuela": "https://img.futebol12.nexus/zas/ven.png",
+  "Copa Honduras": "https://img.futebol12.nexus/zas/honduras.png"
+  // Puedes seguir agregando más si lo deseas
 };
 
 // Detectar escudo por nombre

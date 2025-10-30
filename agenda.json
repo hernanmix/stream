@@ -1,24 +1,5 @@
 [
   {
-    "nombre": "Copa Libertadores: Racing Club vs Flamengo",
-    "hora": "2025-10-29T19:30:00",
-    "canales": ["fox1ar", "espn", "espn2mxdazh"]
-  },
-  {
-    "nombre": "Liga BetPlay: Millonarios vs Once Caldas",
-    "hora": "2025-10-29T20:20:00",
-    "canales": ["winplus"]
-  },
-  {
-    "nombre": "NBA: Lakers vs Timberwolves",
-    "hora": "2025-10-29T20:30:00",
-    "canales": ["espn3", "espndeportes"]
-  },
-  {
-    "nombre": "CONCACAF Central American Cup: Xelajú vs Real España",
-    "hora": "2025-10-29T21:30:00",
-    "canales": ["disney9"]
-  },
     {
     "nombre": "Serie A:Cagliari vs Sassuolo",
     "hora": "2025-10-30T12:30:00",

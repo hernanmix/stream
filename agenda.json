@@ -1,27 +1,4 @@
 [
-    {
-    "nombre": "Serie A:Cagliari vs Sassuolo",
-    "hora": "2025-10-30T12:30:00",
-    "canales": [
-      "espn",
-      "espn3mxdash", "disney1"
-    ]
-  },
-  {
-    "nombre": "Serie B Ecuador: Vargas Torres vs Cumbayá",
-    "hora": "2025-10-30T13:00:00",
-    "canales": ["multi"]
-  },
-  {
-    "nombre": "Serie B Ecuador:Atlético Vinotinto vs 22 de Julio",
-    "hora": "2025-10-30T13:00:00",
-    "canales": ["multi"]
-  },
-  {
-    "nombre": "Copa del Rey:Orihuela vs Levante",
-    "hora": "2025-10-30T13:00:00",
-    "canales": ["multi"]
-  },
   {
     "nombre": "Copa del Rey Puerto de Vega vs Celta de Vigo",
     "hora": "2025-10-30T13:00:00",

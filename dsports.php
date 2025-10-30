@@ -26,7 +26,7 @@
 
         var ConfiguracionCanales = {
       "USANETWORK": {
-        url: "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(usa-west)/master.mpd",
+        url: "https://54b3.futebol12.nexus/dsports/tracks-v1a1/mono.ts.m3u8?token=v747ygilmo60ty8y00e7841gs83dfc46jnorjbksuo4g9k1q8f",
         k1: "7f1648ec1c8836baa028e319d92e0841",
         k2: "93ba967ec39964d9a6359044ec5c3500"
       },

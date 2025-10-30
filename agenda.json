@@ -10,17 +10,17 @@
   {
     "nombre": "Serie B Ecuador: Vargas Torres vs Cumbayá",
     "hora": "2025-10-30T13:00:00",
-    "canales": []
+    "canales": ["multi"]
   },
   {
     "nombre": "Serie B Ecuador:Atlético Vinotinto vs 22 de Julio",
     "hora": "2025-10-30T13:00:00",
-    "canales": ["multi", "espn" ]
+    "canales": ["multi"]
   },
   {
     "nombre": "Copa del Rey:Orihuela vs Levante",
     "hora": "2025-10-30T13:00:00",
-    "canales": []
+    "canales": ["multi"]
   },
   {
     "nombre": "Copa del Rey Puerto de Vega vs Celta de Vigo",
@@ -30,7 +30,7 @@
   {
     "nombre": "Copa del Rey:Valle Egüés vs FC Andorra",
     "hora": "2025-10-30T13:30:00",
-    "canales": ["espn", "espn3mxdash"]
+    "canales": ["multi"]
   },
   {
     "nombre": "Copa del Rey:Atlético Baleares vs Gimnàstic Tarragona",
@@ -40,22 +40,22 @@
   {
     "nombre": "Copa del Rey:Getxo vs Deportivo Alavés",
     "hora": "2025-10-30T14:00:00",
-    "canales": []
+    "canales": ["multi"]
   },
   {
     "nombre": "Copa del Rey:Real Ávila vs Real Avilés",
     "hora": "2025-10-30T14:00:00",
-    "canales": []
+    "canales": ["multi"]
   },
   {
     "nombre": "Copa del Rey:UD Logroñés vs Ponferradina",
     "hora": "2025-10-30T14:00:00",
-    "canales": []
+    "canales": ["multi]
   },
   {
     "nombre": "Copa del Rey:Sámano vs Deportivo La Coruña",
     "hora": "2025-10-30T14:00:00",
-    "canales": []
+    "canales": ["multi"]
   },
   {
     "nombre": "Serie A:Pisa vs Lazio",
@@ -68,12 +68,12 @@
   {
     "nombre": "Serie B Ecuador:Imbabura vs Chacaritas",
     "hora": "2025-10-30T15:00:00",
-    "canales": []
+    "canales": ["multi"]
   },
   {
     "nombre": "Copa del Rey:Antoniano vs CD Castellon",
     "hora": "2025-10-30T15:00:00",
-    "canales": []
+    "canales": ["multi"]
   },
   {
     "nombre": "Copa del Rey:Atlètic Lleida vs Espanyo",
@@ -83,7 +83,7 @@
   {
     "nombre": "Copa de Rey:Real Murcia vs Antequera",
     "hora": "2025-10-30T15:00:00",
-    "canales": []
+    "canales": ["multi"]
   },
   {
     "nombre": "Copa del Rey:Palma del Rio vs Real Betis",
@@ -98,7 +98,7 @@
     ]
   },
   {
-    "nombre": "Copa Sudamericana🏆:Lanús vs Universidad Chile",
+    "nombre": "Copa Sudamericana:Lanús vs Universidad Chile",
     "hora": "2025-10-30T17:00:00",
     "canales": [
       "espn", "dsports"
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "nombre": "Copa Sudamericana 🏆:Palmeiras vs LDU Quito",
+    "nombre": "Copa Sudamericana:Palmeiras vs LDU Quito",
     "hora": "2025-10-30T19:00:00",
     "canales": [
       "espn",

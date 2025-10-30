@@ -58,12 +58,12 @@
     ]
   },
   {
-    "nombre": "SerieB: Vargas Torres vs Cumbayá",
+    "nombre": "Serie B Ecuador: Vargas Torres vs Cumbayá",
     "hora": "2025-10-30T13:00:00",
     "canales": []
   },
   {
-    "nombre": "SerieB:Atlético Vinotinto vs 22 de Julio",
+    "nombre": "Serie B Ecuador:Atlético Vinotinto vs 22 de Julio",
     "hora": "2025-10-30T13:00:00",
     "canales": []
   },
@@ -116,7 +116,7 @@
     ]
   },
   {
-    "nombre": "SerieB:Imbabura vs Chacaritas",
+    "nombre": "Serie B Ecuador:Imbabura vs Chacaritas",
     "hora": "2025-10-30T15:00:00",
     "canales": []
   },
@@ -126,7 +126,7 @@
     "canales": []
   },
   {
-    "nombre": "Copa de Rey:Atlètic Lleida vs Espanyo",
+    "nombre": "Copa del Rey:Atlètic Lleida vs Espanyo",
     "hora": "2025-10-30T15:00:00",
     "canales": []
   },

@@ -5,33 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Reproductor Global</title>
   <style>
-  html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
+    /* Contenedor que oculta márgenes */
+    #container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background: #000;
+    }
 
-  iframe {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    border: none;
-    background-color: #000;
+    /* Reproductor expandido más allá del viewport */
+    #player {
+      width: 110vw;
+      height: 110vh;
+      border: none;
+      transform: translate(-5vw, -5vh);
+      background-color: #000;
+    }
 
-    /* 🔧 Escalado para cubrir márgenes negros */
-    transform: scale(1.06);
-    transform-origin: center center;
-  }
-</style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  </style>
+</head>
 
 </head>
 <body>
-  <iframe id="player" allowfullscreen></iframe>
+  <div id="container">
+    <iframe id="player" allowfullscreen></iframe>
+  </div>
 
   <script>
     const params = new URLSearchParams(location.search);

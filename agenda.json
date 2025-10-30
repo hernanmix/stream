@@ -10,7 +10,7 @@
   {
     "nombre": "Serie B Ecuador: Vargas Torres vs Cumbayá",
     "hora": "2025-10-30T13:00:00",
-    "canales": ["skyliga", "evento1"]
+    "canales": [""]
   },
   {
     "nombre": "Serie B Ecuador:Atlético Vinotinto vs 22 de Julio",
@@ -88,7 +88,7 @@
   {
     "nombre": "Copa del Rey:Palma del Rio vs Real Betis",
     "hora": "2025-10-30T15:00:00",
-    "canales": []
+    "canales": ["skyliga", "evenros1"]
   },
   {
     "nombre": "Liga BetPlay:Unión Magdalena vs Deportes Tolima",

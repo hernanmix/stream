@@ -11,6 +11,7 @@ const escudos = {
   "Copa Sudamericana": "https://img.futebol12.nexus/zas/sud.png",
   "Premier League": "https://img.futebol12.nexus/zas/en.png",
   "LaLiga": "https://img.futebol12.nexus/zas/es.png",
+  "ES": "https://img.futebol12.nexus/zas/es.png",
   "Serie A": "https://img.futebol12.nexus/zas/it.png",
   "Bundesliga": "https://img.futebol12.nexus/zas/de.png",
   "Ligue 1": "https://img.futebol12.nexus/zas/fr.png",

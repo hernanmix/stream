@@ -25,7 +25,7 @@
   {
     "nombre": "Copa del Rey Puerto de Vega vs Celta de Vigo",
     "hora": "2025-10-30T13:00:00",
-    "canales": []
+    "canales": ["eventos2"]
   },
   {
     "nombre": "Copa del Rey:Valle Egüés vs FC Andorra",
@@ -78,7 +78,7 @@
   {
     "nombre": "Copa del Rey:Atlètic Lleida vs Espanyo",
     "hora": "2025-10-30T15:00:00",
-    "canales": []
+    "canales": ["eventos2"]
   },
   {
     "nombre": "Copa de Rey:Real Murcia vs Antequera",

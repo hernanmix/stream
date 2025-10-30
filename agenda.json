@@ -1,30 +1,5 @@
 [
   {
-    "nombre": "Copa del Rey:Atlético Baleares vs Gimnàstic Tarragona",
-    "hora": "2025-10-30T14:00:00",
-    "canales": ["skyliga"]
-  },
-  {
-    "nombre": "Copa del Rey:Getxo vs Deportivo Alavés",
-    "hora": "2025-10-30T14:00:00",
-    "canales": ["multi"]
-  },
-  {
-    "nombre": "Copa del Rey:Real Ávila vs Real Avilés",
-    "hora": "2025-10-30T14:00:00",
-    "canales": ["multi"]
-  },
-  {
-    "nombre": "Copa del Rey:UD Logroñés vs Ponferradina",
-    "hora": "2025-10-30T14:00:00",
-    "canales": ["multi"]
-  },
-  {
-    "nombre": "Copa del Rey:Sámano vs Deportivo La Coruña",
-    "hora": "2025-10-30T14:00:00",
-    "canales": ["multi"]
-  },
-  {
     "nombre": "Serie A:Pisa vs Lazio",
     "hora": "2025-10-30T14:45:00",
     "canales": [

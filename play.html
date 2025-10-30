@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reproductor Global</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe id="player" allowfullscreen></iframe>
+
+  <script>
+    const hoja = "https://opensheet.vercel.app/1YOhtGCGOFq7BFtj7DTmyADLExba7_hYOvFU1AbjLC5A/Hoja1";
+    const canal = new URLSearchParams(location.search).get("channel");
+
+    function encodeCustomBase64(url) {
+      const base64 = btoa(encodeURIComponent(url));
+      const index = Math.floor(base64.length * 0.4);
+      return base64.slice(0, index) + "nbr=" + base64.slice(index);
+    }
+
+    function decodeCustomBase64(str) {
+      const cleaned = str.replace("nbr=", "");
+      return decodeURIComponent(atob(cleaned));
+    }
+
+    fetch(hoja)
+      .then(res => res.json())
+      .then(data => {
+        const base = data[0]?.base_url?.trim();
+        if (base && canal) {
+          const fullURL = base + canal;
+          const encoded = encodeCustomBase64(fullURL);
+          const decoded = decodeCustomBase64(encoded);
+          document.getElementById("player").src = decoded;
+        } else {
+          document.body.innerHTML = "<h2 style='color:white;text-align:center;'>Canal no disponible</h2>";
+        }
+      });
+  </script>
+</body>
+</html>

@@ -22,6 +22,7 @@ const escudos = {
   "DFB Pokal": "https://img.futebol12.nexus/zas/copaitalia.png",
   "FIFA World Cup": "https://img.futebol12.nexus/zas/fifa.png",
   "UEFA Euro": "https://img.futebol12.nexus/zas/eurocopa.png",
+  "UFC": "https://img.futebol12.nexus/zas/ufc.png",
   "Copa América": "https://img.futebol12.nexus/zas/copaamerica.png",
   "MLS": "https://img.futebol12.nexus/zas/mls.png",
   "MLB": "https://img.futebol12.nexus/zas/mlbnew.png",

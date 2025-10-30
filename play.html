@@ -29,7 +29,7 @@
 
   <script>
     const canal = new URLSearchParams(location.search).get("channel");
-    const hojaCSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTrEv6EUqAeAQOdTNqRg8t0rxuGyohzv8mVf6Qreu6wkwkBgADvMIyRxJnUhOOe-kZr3bQaXpiwQFLU/pub?output=csv";
+    const encoded = new URLSearchParams(location.search).get("r");
 
     function encodeBase64(url) {
       return btoa(url);
@@ -39,20 +39,21 @@
       return atob(str);
     }
 
-    fetch(hojaCSV)
-      .then(res => res.text())
-      .then(csv => {
-        const lines = csv.split("\n");
-        const baseURL = lines[1]?.trim(); // segunda línea, primera columna
-        if (baseURL && canal) {
-          const fullURL = baseURL + canal;
-          const encoded = encodeBase64(fullURL);
-          const decoded = decodeBase64(encoded);
-          document.getElementById("player").src = decoded;
-        } else {
-          document.body.innerHTML = "<h2 style='color:white;text-align:center;'>Canal no disponible</h2>";
-        }
-      });
+    let finalURL = "";
+
+    if (canal) {
+      const full = "https://streamvv11.lat/global1.php?channel=" + canal;
+      const base64 = encodeBase64(full);
+      finalURL = decodeBase64(base64); // decodifica para mostrar
+    } else if (encoded) {
+      finalURL = decodeBase64(encoded);
+    }
+
+    if (finalURL) {
+      document.getElementById("player").src = finalURL;
+    } else {
+      document.body.innerHTML = "<h2 style='color:white;text-align:center;'>Canal no disponible</h2>";
+    }
   </script>
 </body>
 </html>

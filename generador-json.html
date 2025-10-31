@@ -15,8 +15,8 @@
 </head>
 <body>
   <h2>🎯 Generador JSON desde Texto Plano - HERMIXER</h2>
-  <p>Pega los eventos en bloques de 3 líneas: nombre, hora, URL</p>
-  <textarea id="input" placeholder="Ejemplo:\nCopa de Alemania: Paderborn vs Bayer Leverkusen\n12:00pm\nhttps://...r=base64"></textarea>
+  <p>Pega los eventos en bloques: nombre, hora, y todas las URLs debajo</p>
+  <textarea id="input" placeholder="Ejemplo:\nCopa de Alemania: Paderborn vs Bayer Leverkusen\n12:00pm\nhttps://...r=base64\nhttps://...r=base64"></textarea>
   <button onclick="generar()">Generar JSON</button>
   <button id="copiarBtn" onclick="copiar()">📋 Copiar JSON</button>
   <h3>📦 Resultado:</h3>
@@ -49,25 +49,31 @@
       const eventos = [];
       const hoy = new Date().toISOString().split("T")[0];
 
-      for (let i = 0; i < lineas.length; i += 3) {
-  const nombre = lineas[i];
-  const horaTexto = lineas[i + 1];
-  const url = lineas[i + 2]; // ✅ corregido
+      let i = 0;
+      while (i < lineas.length) {
+        const nombre = lineas[i];
+        const horaTexto = lineas[i + 1];
+        const horaISO = convertirHora(horaTexto);
+        const canales = [];
 
-  const rMatch = url.match(/r=([^&]+)/);
-  const r = rMatch?.[1];
-  const canal = r ? decodeBase64Url(r) : null;
-  const horaISO = convertirHora(horaTexto);
+        i += 2;
 
-  if (nombre && horaISO && canal) {
-    eventos.push({
-      nombre,
-      hora: `${hoy}T${horaISO}`,
-      canales: [canal.toLowerCase()]
-    });
-  }
-}
+        while (i < lineas.length && lineas[i].includes("r=")) {
+          const rMatch = lineas[i].match(/r=([^&]+)/);
+          const r = rMatch?.[1];
+          const canal = r ? decodeBase64Url(r) : null;
+          if (canal) canales.push(canal.toLowerCase());
+          i++;
+        }
 
+        if (nombre && horaISO && canales.length > 0) {
+          eventos.push({
+            nombre,
+            hora: `${hoy}T${horaISO}`,
+            canales
+          });
+        }
+      }
 
       const json = JSON.stringify(eventos, null, 2);
       document.getElementById("output").textContent = json;

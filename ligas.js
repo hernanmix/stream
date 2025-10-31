@@ -1,6 +1,7 @@
 // Diccionario completo de escudos por nombre de liga
 const escudos = {
   "Brasileirão": "https://bow.futebol12.nexus/zas/br.png",
+  "Primera División": "https://bow.futebol12.nexus/zas/uy.png",
   "Liga BetPlay": "https://bow.futebol12.nexus/zas/co.png",
   "LigaPro": "https://bow.futebol12.nexus/zas/ec.png",
   "Serie B Ecuador": "https://bow.futebol12.nexus/zas/ec.png",
@@ -44,7 +45,6 @@ const escudos = {
   "Super Lig": "https://bow.futebol12.nexus/zas/tr.png",
   "Liga 1": "https://bow.futebol12.nexus/zas/pe.png",
   "Eredivisie": "https://bow.futebol12.nexus/zas/nl.png",
-  "Primera División": "https://bow.futebol12.nexus/zas/uy.png",
   // Puedes seguir agregando más si lo deseas
 };
 

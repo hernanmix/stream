@@ -44,7 +44,8 @@ const escudos = {
   "Copa Honduras": "https://img.futebol12.nexus/zas/honduras.png",
   "Super Lig": "https://bow.futebol12.nexus/zas/tr.png",
   "Liga 1": "https://bow.futebol12.nexus/zas/pe.png",
-  "Eredivisie": "https://bow.futebol12.nexus/zas/nl.png"
+  "Eredivisie": "https://bow.futebol12.nexus/zas/nl.png",
+  "Primera División": "https://img.golazoplay.com/uploads/uruguay_e2b9597af8.png",
   // Puedes seguir agregando más si lo deseas
 };
 

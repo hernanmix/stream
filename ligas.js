@@ -28,7 +28,7 @@ const escudos = {
   "Copa América": "https://img.futebol12.nexus/zas/copaamerica.png",
   "MLS": "https://img.futebol12.nexus/zas/mls.png",
   "MLB": "https://img.futebol12.nexus/zas/mlbnew.png",
-  "Liga MX": "https://bow.futebol12.nexus/zas/ligamx.png",
+  "Liga MX": "https://bow.futebol12.nexus/zas/mx.png",
   "NBA": "https://img.futebol12.nexus/zas/nbanew2.png",
   "EuroLeague": "https://img.futebol12.nexus/zas/euroleaguebasket.png",
   "Liga Nacional de Básquet": "https://img.futebol12.nexus/zas/endesa.png",

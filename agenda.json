@@ -1,38 +1,5 @@
 [
   {
-    "nombre": "Championship: Wrexham vs Coventry City",
-    "hora": "2025-10-31T15:00:00",
-    "canales": [
-      "disney5",
-      "espn5",
-      "fox1ar"
-    ]
-  },
-  {
-    "nombre": "LaLiga: Getafe vs Girona",
-    "hora": "2025-10-31T15:00:00",
-    "canales": [
-      "disney6",
-      "espn4",
-      "espndeportes",
-      "skylaliga"
-    ]
-  },
-  {
-    "nombre": "Primera División: Deportes Iquique vs La Serena",
-    "hora": "2025-10-31T15:30:00",
-    "canales": [
-      "max2"
-    ]
-  },
-  {
-    "nombre": "Primera División: General Caballero JLM vs Deportivo Recoleta",
-    "hora": "2025-10-31T15:30:00",
-    "canales": [
-      "eventos1"
-    ]
-  },
-  {
     "nombre": "Superliga Argentina: San Lorenzo vs Deportivo Riestra",
     "hora": "2025-10-31T17:00:00",
     "canales": [

@@ -31,7 +31,7 @@ const escudos = {
   "MLB": "https://bow.futebol12.nexus/zas/mlbnew.png",
   "Liga MX": "https://bow.futebol12.nexus/zas/mx.png",
   "NBA": "https://img.futebol12.nexus/zas/nbanew2.png",
-  "Primera DivisiónCHI": "https://bow.futebol12.nexus/zas/cl.png",
+  "Primera División": "https://bow.futebol12.nexus/zas/cl.png",
   "EuroLeague": "https://img.futebol12.nexus/zas/euroleaguebasket.png",
   "Liga Nacional de Básquet": "https://img.futebol12.nexus/zas/endesa.png",
   "AFC Champions League": "https://bow.futebol12.nexus/zas/afcchampions.png",

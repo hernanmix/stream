@@ -1,7 +1,6 @@
 // Diccionario completo de escudos por nombre de liga
 const escudos = {
   "Brasileirão": "https://bow.futebol12.nexus/zas/br.png",
-  "Primera División": "https://img.golazoplay.com/uploads/uruguay_e2b9597af8.png",
   "Liga BetPlay": "https://bow.futebol12.nexus/zas/co.png",
   "LigaPro": "https://bow.futebol12.nexus/zas/ec.png",
   "Serie B Ecuador": "https://bow.futebol12.nexus/zas/ec.png",

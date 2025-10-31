@@ -31,7 +31,7 @@ const escudos = {
   "MLB": "https://bow.futebol12.nexus/zas/mlbnew.png",
   "Liga MX": "https://bow.futebol12.nexus/zas/mx.png",
   "NBA": "https://img.futebol12.nexus/zas/nbanew2.png",
-  "Primera División": "https://bow.futebol12.nexus/zas/cl.png",
+  "Primera División": "https://img.golazoplay.com/uploads/uruguay_e2b9597af8.png",
   "EuroLeague": "https://img.futebol12.nexus/zas/euroleaguebasket.png",
   "Liga Nacional de Básquet": "https://img.futebol12.nexus/zas/endesa.png",
   "AFC Champions League": "https://bow.futebol12.nexus/zas/afcchampions.png",
@@ -45,8 +45,8 @@ const escudos = {
   "Super Lig": "https://bow.futebol12.nexus/zas/tr.png",
   "Liga 1": "https://bow.futebol12.nexus/zas/pe.png",
   "Eredivisie": "https://bow.futebol12.nexus/zas/nl.png",
-  "Primera División": "https://img.golazoplay.com/uploads/uruguay_e2b9597af8.png",
-  
+  "Primera División": "https://bow.futebol12.nexus/zas/cl.png",
+  // Puedes seguir agregando más si lo deseas
 };
 
 // Detectar escudo por nombre

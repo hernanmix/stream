@@ -2,7 +2,7 @@
 const escudos = {
   "Brasileirão": "https://bow.futebol12.nexus/zas/br.png",
   "Liga BetPlay": "https://bow.futebol12.nexus/zas/co.png",
-  "Liga Pro": "https://bow.futebol12.nexus/zas/ec.png",
+  "LigaPro": "https://bow.futebol12.nexus/zas/ec.png",
   "Serie B Ecuador": "https://bow.futebol12.nexus/zas/ec.png",
   "Primera División Costa Rica": "https://bow.futebol12.nexus/zas/cr.png",
   "CONCACAF Central American Cup": "https://bow.futebol12.nexus/zas/centralamericancup.png?new",

@@ -45,8 +45,8 @@ const escudos = {
   "Super Lig": "https://bow.futebol12.nexus/zas/tr.png",
   "Liga 1": "https://bow.futebol12.nexus/zas/pe.png",
   "Eredivisie": "https://bow.futebol12.nexus/zas/nl.png",
-  "primera División": "https://img.golazoplay.com/uploads/uruguay_e2b9597af8.png",
-  // Puedes seguir agregando más si lo deseas
+  "Primera División": "https://img.golazoplay.com/uploads/uruguay_e2b9597af8.png",
+  
 };
 
 // Detectar escudo por nombre

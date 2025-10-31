@@ -41,7 +41,7 @@ const escudos = {
   "Copa Argentina": "https://img.futebol12.nexus/zas/ar.png",
   "Copa Uruguay": "https://img.futebol12.nexus/zas/uy.png",
   "Primera División": "https://bow.futebol12.nexus/zas/cl.png",
-  "Copa Paraguay": "https://img.futebol12.nexus/zas/paraguay.png",
+  "Primera División": "https://bow.futebol12.nexus/zas/paraguay.png",
   "Copa Venezuela": "https://img.futebol12.nexus/zas/ven.png",
   "Copa Honduras": "https://img.futebol12.nexus/zas/honduras.png",
   "Super Lig": "https://bow.futebol12.nexus/zas/tr.png",

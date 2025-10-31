@@ -38,15 +38,14 @@ const escudos = {
   "Indian Super League": "https://img.futebol12.nexus/zas/asia.png?new",
   "J.League": "https://img.futebol12.nexus/zas/japan.png",
   "K League": "https://img.futebol12.nexus/zas/korea.png",
-  "Copa Argentina": "https://img.futebol12.nexus/zas/ar.png",
   "Primera División": "https://bow.futebol12.nexus/zas/cl.png",
-  "Primera División": "https://bow.futebol12.nexus/zas/uy.png",
   "Primera División": "https://bow.futebol12.nexus/zas/paraguay.png",
   "Copa Venezuela": "https://img.futebol12.nexus/zas/ven.png",
   "Copa Honduras": "https://img.futebol12.nexus/zas/honduras.png",
   "Super Lig": "https://bow.futebol12.nexus/zas/tr.png",
   "Liga 1": "https://bow.futebol12.nexus/zas/pe.png",
   "Eredivisie": "https://bow.futebol12.nexus/zas/nl.png",
+  "Primera División": "https://bow.futebol12.nexus/zas/uy.png",
   // Puedes seguir agregando más si lo deseas
 };
 

@@ -50,22 +50,24 @@
       const hoy = new Date().toISOString().split("T")[0];
 
       for (let i = 0; i < lineas.length; i += 3) {
-        const nombre = lineas[i];
-        const horaTexto = lineas[i + 1];
-        const url = lineas[i + 1];
-        const rMatch = url.match(/r=([^&]+)/);
-        const r = rMatch?.[1];
-        const canal = r ? decodeBase64Url(r) : null;
-        const horaISO = convertirHora(horaTexto);
+  const nombre = lineas[i];
+  const horaTexto = lineas[i + 1];
+  const url = lineas[i + 2]; // ✅ corregido
 
-        if (nombre && horaISO && canal) {
-          eventos.push({
-            nombre,
-            hora: `${hoy}T${horaISO}`,
-            canales: [canal.toLowerCase()]
-          });
-        }
-      }
+  const rMatch = url.match(/r=([^&]+)/);
+  const r = rMatch?.[1];
+  const canal = r ? decodeBase64Url(r) : null;
+  const horaISO = convertirHora(horaTexto);
+
+  if (nombre && horaISO && canal) {
+    eventos.push({
+      nombre,
+      hora: `${hoy}T${horaISO}`,
+      canales: [canal.toLowerCase()]
+    });
+  }
+}
+
 
       const json = JSON.stringify(eventos, null, 2);
       document.getElementById("output").textContent = json;

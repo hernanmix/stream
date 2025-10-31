@@ -39,7 +39,7 @@ const escudos = {
   "J.League": "https://img.futebol12.nexus/zas/japan.png",
   "K League": "https://img.futebol12.nexus/zas/korea.png",
   "Copa Argentina": "https://img.futebol12.nexus/zas/ar.png",
-  "Copa Uruguay": "https://img.futebol12.nexus/zas/uy.png",
+  "Multicam": "https://img.futebol12.nexus/zas/uy.png",
   "Primera División": "https://bow.futebol12.nexus/zas/cl.png",
   "Primera División": "https://bow.futebol12.nexus/zas/uy.png",
   "Primera División": "https://bow.futebol12.nexus/zas/paraguay.png",

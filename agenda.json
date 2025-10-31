@@ -1,36 +1,5 @@
 [
   {
-    "nombre": "Eredivisie: PSV vs Fortuna Sittard",
-    "hora": "2025-10-31T14:00:00",
-    "canales": [
-      "disney2",
-      "espn4mx"
-    ]
-  },
-  {
-    "nombre": "LaLiga 2: Racing Santander vs Real Sociedad II",
-    "hora": "2025-10-31T14:30:00",
-    "canales": [
-      "hyper1"
-    ]
-  },
-  {
-    "nombre": "Bundesliga: Augsburg vs Borussia Dortmund",
-    "hora": "2025-10-31T14:30:00",
-    "canales": [
-      "disney3",
-      "espn",
-      "skybundesliga"
-    ]
-  },
-  {
-    "nombre": "FA Cup: Luton Town vs Forest Green Rovers",
-    "hora": "2025-10-31T14:30:00",
-    "canales": [
-      "disney4"
-    ]
-  },
-  {
     "nombre": "Championship: Wrexham vs Coventry City",
     "hora": "2025-10-31T15:00:00",
     "canales": [

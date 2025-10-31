@@ -1,7 +1,159 @@
-[ 
+[
   {
-    "nombre": "CONCACAF Central American Cup:Olimpia vs Alajuelense",
-    "hora": "2025-10-30T21:00:00",
-    "canales": ["disney4"]
+    "nombre": "Liga Profesional Saudí: Al Hilal vs Al Shabab",
+    "hora": "2025-10-31T09:50:00",
+    "canales": [
+      "foxdeportes"
+    ]
+  },
+  {
+    "nombre": "Super Lig: İstanbul Başakşehir vs Kocaelispor",
+    "hora": "2025-10-31T12:00:00",
+    "canales": [
+      "disney1"
+    ]
+  },
+  {
+    "nombre": "Primera División: Audax Italiano vs Cobresal",
+    "hora": "2025-10-31T13:00:00",
+    "canales": [
+      "max1"
+    ]
+  },
+  {
+    "nombre": "Eredivisie: PSV vs Fortuna Sittard",
+    "hora": "2025-10-31T14:00:00",
+    "canales": [
+      "disney2",
+      "espn4mx"
+    ]
+  },
+  {
+    "nombre": "LaLiga 2: Racing Santander vs Real Sociedad II",
+    "hora": "2025-10-31T14:30:00",
+    "canales": [
+      "hyper1"
+    ]
+  },
+  {
+    "nombre": "Bundesliga: Augsburg vs Borussia Dortmund",
+    "hora": "2025-10-31T14:30:00",
+    "canales": [
+      "disney3",
+      "espn",
+      "skybundesliga"
+    ]
+  },
+  {
+    "nombre": "FA Cup: Luton Town vs Forest Green Rovers",
+    "hora": "2025-10-31T14:30:00",
+    "canales": [
+      "disney4"
+    ]
+  },
+  {
+    "nombre": "Championship: Wrexham vs Coventry City",
+    "hora": "2025-10-31T15:00:00",
+    "canales": [
+      "disney5",
+      "espn5",
+      "fox1ar"
+    ]
+  },
+  {
+    "nombre": "LaLiga: Getafe vs Girona",
+    "hora": "2025-10-31T15:00:00",
+    "canales": [
+      "disney6",
+      "espn4",
+      "espndeportes",
+      "skylaliga"
+    ]
+  },
+  {
+    "nombre": "Primera División: Deportes Iquique vs La Serena",
+    "hora": "2025-10-31T15:30:00",
+    "canales": [
+      "max2"
+    ]
+  },
+  {
+    "nombre": "Primera División: General Caballero JLM vs Deportivo Recoleta",
+    "hora": "2025-10-31T15:30:00",
+    "canales": [
+      "eventos1"
+    ]
+  },
+  {
+    "nombre": "Superliga Argentina: San Lorenzo vs Deportivo Riestra",
+    "hora": "2025-10-31T17:00:00",
+    "canales": [
+      "espnpremium"
+    ]
+  },
+  {
+    "nombre": "Primera División: 2 de Mayo vs Atlético Tembetary",
+    "hora": "2025-10-31T18:00:00",
+    "canales": [
+      "eventos2"
+    ]
+  },
+  {
+    "nombre": "Primera División: Wanderers vs Boston River",
+    "hora": "2025-10-31T18:00:00",
+    "canales": [
+      "disney7"
+    ]
+  },
+  {
+    "nombre": "LigaPro: Delfin vs Deportivo Cuenca",
+    "hora": "2025-10-31T19:00:00",
+    "canales": [
+      "eventos3"
+    ]
+  },
+  {
+    "nombre": "Superliga Argentina: Instituto vs Rosario Central",
+    "hora": "2025-10-31T19:15:00",
+    "canales": [
+      "espnpremium"
+    ]
+  },
+  {
+    "nombre": "Superliga Argentina: Newell's Old Boys vs Unión Santa Fe",
+    "hora": "2025-10-31T19:15:00",
+    "canales": [
+      "tntar"
+    ]
+  },
+  {
+    "nombre": "Liga 1: Alianza Lima vs Melgar",
+    "hora": "2025-10-31T20:00:00",
+    "canales": [
+      "liga1max"
+    ]
+  },
+  {
+    "nombre": "Liga MX: Necaxa vs Santos Laguna",
+    "hora": "2025-10-31T20:00:00",
+    "canales": [
+      "azteca7",
+      "tudnus"
+    ]
+  },
+  {
+    "nombre": "Liga MX: Atlético San Luis vs Juárez",
+    "hora": "2025-10-31T22:00:00",
+    "canales": [
+      "espn2mx"
+    ]
+  },
+  {
+    "nombre": "Liga MX: Puebla vs Cruz Azul",
+    "hora": "2025-10-31T22:05:00",
+    "canales": [
+      "azteca7",
+      "calientetv1"
+    ]
   }
 ]

@@ -43,7 +43,7 @@ const escudos = {
   "Copa Paraguay": "https://img.futebol12.nexus/zas/paraguay.png",
   "Copa Venezuela": "https://img.futebol12.nexus/zas/ven.png",
   "Copa Honduras": "https://img.futebol12.nexus/zas/honduras.png",
-  "Super Lig": "https://bow.futebol12.nexus/zas/tr.png",
+  "Super Lig": "https://bow.futebol12.nexus/zas/tr.png"
   // Puedes seguir agregando más si lo deseas
 };
 

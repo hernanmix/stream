@@ -52,7 +52,7 @@
       for (let i = 0; i < lineas.length; i += 3) {
         const nombre = lineas[i];
         const horaTexto = lineas[i + 1];
-        const url = lineas[i + 80];
+        const url = lineas[i + 1];
         const rMatch = url.match(/r=([^&]+)/);
         const r = rMatch?.[1];
         const canal = r ? decodeBase64Url(r) : null;

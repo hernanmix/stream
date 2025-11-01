@@ -1,58 +1,5 @@
 [
   {
-    "nombre": "Serie A: Udinese vs Atalanta",
-    "hora": "2025-11-01T10:00:00",
-    "canales": [
-      "disney9"
-    ]
-  },
-  {
-    "nombre": "Premier League: Crystal Palace vs Brentford",
-    "hora": "2025-11-01T10:00:00",
-    "canales": [
-      "espn",
-      "calientetv1"
-    ]
-  },
-  {
-    "nombre": "Premier League: Fulham vs Wolverhampton Wanderers",
-    "hora": "2025-11-01T10:00:00",
-    "canales": [
-      "max1",
-      "disney11"
-    ]
-  },
-  {
-    "nombre": "Premier League: Brighton & Hove Albion vs Leeds United",
-    "hora": "2025-11-01T10:00:00",
-    "canales": [
-      "max2"
-    ]
-  },
-  {
-    "nombre": "Premier League: Nottingham Forest vs Manchester United",
-    "hora": "2025-11-01T10:00:00",
-    "canales": [
-      "universo_usa",
-      "calientetv2"
-    ]
-  },
-  {
-    "nombre": "Premier League: Burnley vs Arsenal",
-    "hora": "2025-11-01T10:00:00",
-    "canales": [
-      "disney14",
-      "max3"
-    ]
-  },
-  {
-    "nombre": "Championship: Leicester City vs Blackburn Rovers",
-    "hora": "2025-11-01T10:00:00",
-    "canales": [
-      "disney15"
-    ]
-  },
-  {
     "nombre": "LaLiga: Atlético Madrid vs Sevilla",
     "hora": "2025-11-01T10:15:00",
     "canales": [
@@ -128,7 +75,8 @@
     "nombre": "Premier League: Tottenham Hotspur vs Chelsea",
     "hora": "2025-11-01T12:30:00",
     "canales": [
-      "espn"
+      "espn",
+      "max1"
     ]
   },
   {

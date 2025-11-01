@@ -1,17 +1,194 @@
 [
   {
-    "nombre": "Liga MX: Atlético San Luis vs Juárez",
-    "hora": "2025-10-31T22:05:00",
+    "nombre": "Championship: Leicester City vs Blackburn Rovers",
+    "hora": "2025-11-01T07:30:00",
     "canales": [
-      "espn2mx"
+      "espn5",
+      "espnmx"
     ]
   },
   {
-    "nombre": "Liga MX: Puebla vs Cruz Azul",
-    "hora": "2025-10-31T22:13:00",
+    "nombre": "Primera División: Progreso vs Torque",
+    "hora": "2025-11-01T08:00:00",
     "canales": [
-      "azteca7",
+      "disney1"
+    ]
+  },
+  {
+    "nombre": "LaLiga: Villarreal vs Rayo Vallecano",
+    "hora": "2025-11-01T08:00:00",
+    "canales": [
+      "disney2",
+      "espndeportes",
+      "espn"
+    ]
+  },
+  {
+    "nombre": "Bundesliga: Mainz 05 vs Werder Bremen",
+    "hora": "2025-11-01T09:30:00",
+    "canales": [
+      "disney3"
+    ]
+  },
+  {
+    "nombre": "Bundesliga: RB Leipzig vs Stuttgart",
+    "hora": "2025-11-01T09:30:00",
+    "canales": [
+      "disney6",
+      "espn5"
+    ]
+  },
+  {
+    "nombre": "Bundesliga: Heidenheim vs Eintracht Frankfurt",
+    "hora": "2025-11-01T09:30:00",
+    "canales": [
+      "disney7"
+    ]
+  },
+  {
+    "nombre": "Bundesliga: St. Pauli vs Borussia M'gladbach",
+    "hora": "2025-11-01T09:30:00",
+    "canales": [
+      "disney8"
+    ]
+  },
+  {
+    "nombre": "Liga Profesional Saudí: Al Khaleej vs Al Ittihad",
+    "hora": "2025-11-01T09:35:00",
+    "canales": [
+      "sportv1"
+    ]
+  },
+  {
+    "nombre": "Serie A: Udinese vs Atalanta",
+    "hora": "2025-11-01T10:00:00",
+    "canales": [
+      "disney9"
+    ]
+  },
+  {
+    "nombre": "Premier League: Crystal Palace vs Brentford",
+    "hora": "2025-11-01T10:00:00",
+    "canales": [
+      "espn",
       "calientetv1"
+    ]
+  },
+  {
+    "nombre": "Premier League: Fulham vs Wolverhampton Wanderers",
+    "hora": "2025-11-01T10:00:00",
+    "canales": [
+      "max1",
+      "disney11"
+    ]
+  },
+  {
+    "nombre": "Premier League: Brighton & Hove Albion vs Leeds United",
+    "hora": "2025-11-01T10:00:00",
+    "canales": [
+      "max2"
+    ]
+  },
+  {
+    "nombre": "Premier League: Nottingham Forest vs Manchester United",
+    "hora": "2025-11-01T10:00:00",
+    "canales": [
+      "universo_usa",
+      "calientetv2"
+    ]
+  },
+  {
+    "nombre": "Premier League: Burnley vs Arsenal",
+    "hora": "2025-11-01T10:00:00",
+    "canales": [
+      "disney14",
+      "max3"
+    ]
+  },
+  {
+    "nombre": "Championship: Leicester City vs Blackburn Rovers",
+    "hora": "2025-11-01T10:00:00",
+    "canales": [
+      "disney15"
+    ]
+  },
+  {
+    "nombre": "LaLiga: Atlético Madrid vs Sevilla",
+    "hora": "2025-11-01T10:15:00",
+    "canales": [
+      "skylaliga",
+      "espn2"
+    ]
+  },
+  {
+    "nombre": "LaLiga 2: Cultural Leonesa vs Mirandés",
+    "hora": "2025-11-01T10:15:00",
+    "canales": [
+      "hyper1"
+    ]
+  },
+  {
+    "nombre": "Primeira Liga: Nacional vs Famalicão",
+    "hora": "2025-11-01T10:30:00",
+    "canales": [
+      "goltv"
+    ]
+  },
+  {
+    "nombre": "Eredivisie: Ajax vs Heerenveen",
+    "hora": "2025-11-01T10:30:00",
+    "canales": [
+      "goltv"
+    ]
+  },
+  {
+    "nombre": "Eredivisie: Ajax vs Heerenveen",
+    "hora": "2025-11-01T10:30:00",
+    "canales": [
+      "disney17"
+    ]
+  },
+  {
+    "nombre": "Ligue 1: PSG vs Nice",
+    "hora": "2025-11-01T11:00:00",
+    "canales": [
+      "espn4",
+      "calientetv3"
+    ]
+  },
+  {
+    "nombre": "Primera Nacional: Atlanta vs Deportivo Morón",
+    "hora": "2025-11-01T11:45:00",
+    "canales": [
+      "tyc"
+    ]
+  },
+  {
+    "nombre": "Serie A: Napoli vs Como",
+    "hora": "2025-11-01T12:00:00",
+    "canales": [
+      "espn5"
+    ]
+  },
+  {
+    "nombre": "Super Lig: Galatasaray vs Trabzonspor",
+    "hora": "2025-11-01T12:00:00",
+    "canales": [
+      "disney20"
+    ]
+  },
+  {
+    "nombre": "Bundesliga: Bayern München vs Bayer Leverkusen",
+    "hora": "2025-11-01T12:30:00",
+    "canales": [
+      "skybundesliga"
+    ]
+  },
+  {
+    "nombre": "Premier League: Tottenham Hotspur vs Chelsea",
+    "hora": "2025-11-01T12:30:00",
+    "canales": [
+      "espn"
     ]
   }
 ]

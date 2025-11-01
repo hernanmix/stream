@@ -1,25 +1,5 @@
 [
-  {
-    "nombre": "Superliga Argentina: San Lorenzo vs Deportivo Riestra",
-    "hora": "2025-10-31T17:00:00",
-    "canales": [
-      "espnpremium"
-    ]
-  },
-  {
-    "nombre": "Primera División: 2 de Mayo vs Atlético Tembetary",
-    "hora": "2025-10-31T18:00:00",
-    "canales": [
-      "eventos2"
-    ]
-  },
-  {
-    "nombre": "Primera División: Wanderers vs Boston River",
-    "hora": "2025-10-31T18:00:00",
-    "canales": [
-      "disney7"
-    ]
-  },
+  
   {
     "nombre": "LigaPro: Delfin vs Deportivo Cuenca",
     "hora": "2025-10-31T19:00:00",

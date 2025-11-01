@@ -1,61 +1,5 @@
 [
   {
-    "nombre": "Superliga Argentina: Barracas Central vs Argentinos Juniors",
-    "hora": "2025-11-01T14:00:00",
-    "canales": [
-      "espnpremium"
-    ]
-  },
-  {
-    "nombre": "Brasileirão: Cruzeiro vs Vitória",
-    "hora": "2025-11-01T14:00:00",
-    "canales": [
-      "premiere2"
-    ]
-  },
-  {
-    "nombre": "Brasileirão: Santos vs Fortaleza",
-    "hora": "2025-11-01T14:00:00",
-    "canales": [
-      "premiere3"
-    ]
-  },
-  {
-    "nombre": "LigaPro: Técnico Universitario vs Mushuc Runa",
-    "hora": "2025-11-01T14:00:00",
-    "canales": [
-      "eventos1"
-    ]
-  },
-  {
-    "nombre": "Eredivisie: Feyenoord vs Volendam",
-    "hora": "2025-11-01T14:00:00",
-    "canales": [
-      "disney5"
-    ]
-  },
-  {
-    "nombre": "Primera División: Liverpool vs Juventud",
-    "hora": "2025-11-01T14:30:00",
-    "canales": [
-      "disney6"
-    ]
-  },
-  {
-    "nombre": "MLS: New York City vs Charlotte",
-    "hora": "2025-11-01T14:30:00",
-    "canales": [
-      "disney6"
-    ]
-  },
-  {
-    "nombre": "MLS: New York City vs Charlotte",
-    "hora": "2025-11-01T14:30:00",
-    "canales": [
-      "mls1"
-    ]
-  },
-  {
     "nombre": "Serie A: Cremonese vs Juventus",
     "hora": "2025-11-01T14:45:00",
     "canales": [
@@ -133,7 +77,7 @@
     "nombre": "Primera División: Ñublense vs Colo-Colo",
     "hora": "2025-11-01T16:00:00",
     "canales": [
-      "max2"
+      "tntsportschile"
     ]
   },
   {
@@ -161,7 +105,7 @@
     "nombre": "LigaPro: Aucas vs El Nacional",
     "hora": "2025-11-01T16:30:00",
     "canales": [
-      "eventos3"
+      "ecdf"
     ]
   },
   {

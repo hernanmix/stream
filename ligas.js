@@ -5,6 +5,7 @@ const escudos = {
   "LigaPro": "https://bow.futebol12.nexus/zas/ec.png",
   "Portugal": "https://bow.futebol12.nexus/zas/pt.png",
   "Serie B Ecuador": "https://bow.futebol12.nexus/zas/ec.png",
+  "Primera Nacional": "https://bow.futebol12.nexus/zas/ar.png",
   "CONCACAF Central American Cup": "https://bow.futebol12.nexus/zas/centralamericancup.png?new",
   "CONCACAF Champions Cup": "https://bow.futebol12.nexus/zas/concacafcham.png",
   "Copa Libertadores": "https://bow.futebol12.nexus/zas/libertadores.png",

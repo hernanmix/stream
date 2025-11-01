@@ -40,6 +40,7 @@
       width: 100%;
       height: 100%;
       border: none;
+      background: #000;
     }
 
     .boton-recargar {
@@ -69,33 +70,16 @@
     <iframe id="player" allowfullscreen></iframe>
   </div>
 
-  <button class="boton-recargar" onclick="recargar()">🔄 Recargar reproductor</button>
+  <button class="boton-recargar" onclick="location.reload()">🔄 Recargar reproductor</button>
 
   <script>
-    function getParameterByName(name) {
-      const url = window.location.href;
-      name = name.replace(/[
-
-\[\]
-
-]/g, "\\$&");
-      const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-      const results = regex.exec(url);
-      if (!results || !results[2]) return "";
-      return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
-
-    const canal = getParameterByName("canal");
+    const canal = new URLSearchParams(location.search).get("canal");
     const iframe = document.getElementById("player");
 
     if (canal) {
       iframe.src = "https://streamtpmedia.com/global1.php?stream=" + canal;
     } else {
       iframe.srcdoc = "<h2 style='color:white;text-align:center;margin-top:40px;'>Canal no disponible</h2>";
-    }
-
-    function recargar() {
-      location.reload();
     }
   </script>
 </body>

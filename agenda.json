@@ -357,6 +357,163 @@
     "canales": [
       "goltv"
     ]
+  },
+  {
+    "nombre": "Primera División: Nacional Asunción vs Sportivo Trinidense",
+    "hora": "2025-11-01T15:30:00",
+    "canales": [
+      "eventos2"
+    ]
+  },
+  {
+    "nombre": "Primera División: Ñublense vs Colo-Colo",
+    "hora": "2025-11-01T16:00:00",
+    "canales": [
+      "max2"
+    ]
+  },
+  {
+    "nombre": "Liga BetPlay: Alianza vs Boyacá Chicó",
+    "hora": "2025-11-01T16:00:00",
+    "canales": [
+      "winplus"
+    ]
+  },
+  {
+    "nombre": "Brasileirão: Mirassol vs Botafogo",
+    "hora": "2025-11-01T16:00:00",
+    "canales": [
+      "premiere1"
+    ]
+  },
+  {
+    "nombre": "NBA: Kings vs Bucks",
+    "hora": "2025-11-01T16:00:00",
+    "canales": [
+      "espn2mx"
+    ]
+  },
+  {
+    "nombre": "LigaPro: Aucas vs El Nacional",
+    "hora": "2025-11-01T16:30:00",
+    "canales": [
+      "eventos3"
+    ]
+  },
+  {
+    "nombre": "MLS: Chicago Fire vs Philadelphia Union",
+    "hora": "2025-11-01T16:30:00",
+    "canales": [
+      "mls2",
+      "mls2"
+    ]
+  },
+  {
+    "nombre": "Primera División: Cerro vs Nacional",
+    "hora": "2025-11-01T17:00:00",
+    "canales": [
+      "disney11"
+    ]
+  },
+  {
+    "nombre": "Superliga Argentina: Independiente vs Atlético Tucumán",
+    "hora": "2025-11-01T18:00:00",
+    "canales": [
+      "espnpremium"
+    ]
+  },
+  {
+    "nombre": "Primera División: Libertad vs Olimpia",
+    "hora": "2025-11-01T18:00:00",
+    "canales": [
+      "calientetv4"
+    ]
+  },
+  {
+    "nombre": "Liga 1: Deportivo Garcilaso vs ADT",
+    "hora": "2025-11-01T18:00:00",
+    "canales": [
+      "liga1max"
+    ]
+  },
+  {
+    "nombre": "Liga MX: Atlas vs Toluca",
+    "hora": "2025-11-01T18:00:00",
+    "canales": [
+      "canal5mx",
+      "tudnus"
+    ]
+  },
+  {
+    "nombre": "Liga BetPlay: Deportivo Pereira vs Medellín",
+    "hora": "2025-11-01T18:10:00",
+    "canales": [
+      "winplus"
+    ]
+  },
+  {
+    "nombre": "MLS: Nashville SC vs Inter Miami",
+    "hora": "2025-11-01T18:30:00",
+    "canales": [
+      "mls3"
+    ]
+  },
+  {
+    "nombre": "Brasileirão: Flamengo vs Sport Recife",
+    "hora": "2025-11-01T19:00:00",
+    "canales": [
+      "premiere1"
+    ]
+  },
+  {
+    "nombre": "MLB: Dodgers vs Blue Jays | Final (Game #7)",
+    "hora": "2025-11-01T19:00:00",
+    "canales": [
+      "foxdeportes",
+      "espnmx"
+    ]
+  },
+  {
+    "nombre": "NBA: Celtics vs Rockets",
+    "hora": "2025-11-01T19:00:00",
+    "canales": [
+      "max3"
+    ]
+  },
+  {
+    "nombre": "Liga MX: Monterrey vs Tigres UANL",
+    "hora": "2025-11-01T20:05:00",
+    "canales": [
+      "canal5mx"
+    ]
+  },
+  {
+    "nombre": "Liga BetPlay: Once Caldas vs Deportivo Pasto",
+    "hora": "2025-11-01T20:20:00",
+    "canales": [
+      "tudnus"
+    ]
+  },
+  {
+    "nombre": "MLS: Portland Timbers vs San Diego",
+    "hora": "2025-11-01T20:30:00",
+    "canales": [
+      "mls5"
+    ]
+  },
+  {
+    "nombre": "MLS: Dallas vs Vancouver Whitecaps",
+    "hora": "2025-11-01T20:30:00",
+    "canales": [
+      "mls4"
+    ]
+  },
+  {
+    "nombre": "Liga MX: América vs León",
+    "hora": "2025-11-01T22:10:00",
+    "canales": [
+      "canal5mx"
+    ]
   }
 ]
 

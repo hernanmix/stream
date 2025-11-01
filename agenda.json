@@ -190,5 +190,173 @@
     "canales": [
       "espn"
     ]
+  },
+  {
+    "nombre": "LaLiga: Real Sociedad vs Athletic Club",
+    "hora": "2025-11-01T12:30:00",
+    "canales": [
+      "dsports",
+      "espndeportes"
+    ]
+  },
+  {
+    "nombre": "LaLiga 2: Albacete vs Huesca",
+    "hora": "2025-11-01T12:30:00",
+    "canales": [
+      "hyper1"
+    ]
+  },
+  {
+    "nombre": "LaLiga 2: Leganés vs Burgos",
+    "hora": "2025-11-01T12:30:00",
+    "canales": [
+      "foxdeportes"
+    ]
+  },
+  {
+    "nombre": "Superliga Argentina: Aldosivi vs Independiente Rivadavia",
+    "hora": "2025-11-01T12:45:00",
+    "canales": [
+      "tntar"
+    ]
+  },
+  {
+    "nombre": "Ligue 1: Monaco vs Paris",
+    "hora": "2025-11-01T13:00:00",
+    "canales": [
+      "calientetv1",
+      "espn4"
+    ]
+  },
+  {
+    "nombre": "Liga 1: Los Chankas vs Ayacucho",
+    "hora": "2025-11-01T13:00:00",
+    "canales": [
+      "liga1max"
+    ]
+  },
+  {
+    "nombre": "Superliga Argentina: Barracas Central vs Argentinos Juniors",
+    "hora": "2025-11-01T14:00:00",
+    "canales": [
+      "espnpremium"
+    ]
+  },
+  {
+    "nombre": "Brasileirão: Cruzeiro vs Vitória",
+    "hora": "2025-11-01T14:00:00",
+    "canales": [
+      "premiere2"
+    ]
+  },
+  {
+    "nombre": "Brasileirão: Santos vs Fortaleza",
+    "hora": "2025-11-01T14:00:00",
+    "canales": [
+      "premiere3"
+    ]
+  },
+  {
+    "nombre": "LigaPro: Técnico Universitario vs Mushuc Runa",
+    "hora": "2025-11-01T14:00:00",
+    "canales": [
+      "eventos1"
+    ]
+  },
+  {
+    "nombre": "Eredivisie: Feyenoord vs Volendam",
+    "hora": "2025-11-01T14:00:00",
+    "canales": [
+      "disney5"
+    ]
+  },
+  {
+    "nombre": "Primera División: Liverpool vs Juventud",
+    "hora": "2025-11-01T14:30:00",
+    "canales": [
+      "disney6"
+    ]
+  },
+  {
+    "nombre": "MLS: New York City vs Charlotte",
+    "hora": "2025-11-01T14:30:00",
+    "canales": [
+      "disney6"
+    ]
+  },
+  {
+    "nombre": "MLS: New York City vs Charlotte",
+    "hora": "2025-11-01T14:30:00",
+    "canales": [
+      "mls1"
+    ]
+  },
+  {
+    "nombre": "Serie A: Cremonese vs Juventus",
+    "hora": "2025-11-01T14:45:00",
+    "canales": [
+      "espn2",
+      "espnmx"
+    ]
+  },
+  {
+    "nombre": "LaLiga: Real Madrid vs Valencia",
+    "hora": "2025-11-01T15:00:00",
+    "canales": [
+      "espndeportes",
+      "dsports"
+    ]
+  },
+  {
+    "nombre": "LaLiga 2: Almería vs Eibar",
+    "hora": "2025-11-01T15:00:00",
+    "canales": [
+      "hyper1"
+    ]
+  },
+  {
+    "nombre": "Premier League: Liverpool vs Aston Villa",
+    "hora": "2025-11-01T15:00:00",
+    "canales": [
+      "espn",
+      "calientetv2",
+      "universo_usa"
+    ]
+  },
+  {
+    "nombre": "Superliga Argentina: Vélez Sarsfield vs Talleres Córdoba",
+    "hora": "2025-11-01T15:00:00",
+    "canales": [
+      "tntar"
+    ]
+  },
+  {
+    "nombre": "UFC: Steve García vs David Onama",
+    "hora": "2025-11-01T15:00:00",
+    "canales": [
+      "disney9"
+    ]
+  },
+  {
+    "nombre": "Ligue 1: Auxerre vs Olympique Marseille",
+    "hora": "2025-11-01T15:05:00",
+    "canales": [
+      "calientetv3"
+    ]
+  },
+  {
+    "nombre": "Liga 1: Comerciantes Unidos vs Sporting Cristal",
+    "hora": "2025-11-01T15:15:00",
+    "canales": [
+      "liga1max"
+    ]
+  },
+  {
+    "nombre": "Primeira Liga: Vitória Guimarães vs Benfica",
+    "hora": "2025-11-01T15:30:00",
+    "canales": [
+      "goltv"
+    ]
   }
+]
 ]

@@ -1,22 +1,7 @@
 [
   {
-    "nombre": "Liga 1: Alianza Lima vs Melgar",
-    "hora": "2025-10-31T20:00:00",
-    "canales": [
-      "liga1max"
-    ]
-  },
-  {
-    "nombre": "Liga MX: Necaxa vs Santos Laguna",
-    "hora": "2025-10-31T20:00:00",
-    "canales": [
-      "azteca7",
-      "tudnus"
-    ]
-  },
-  {
     "nombre": "Liga MX: Atlético San Luis vs Juárez",
-    "hora": "2025-10-31T22:00:00",
+    "hora": "2025-10-31T22:05:00",
     "canales": [
       "espn2mx"
     ]

@@ -73,7 +73,7 @@
   <button class="boton-recargar" onclick="location.reload()">🔄 Recargar reproductor</button>
 
   <script>
-    const canal = new URLSearchParams(location.search).get("canal");
+    const canal = new URLSearchParams(location.search).get("stream");
     const iframe = document.getElementById("player");
 
     if (canal) {

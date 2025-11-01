@@ -3,6 +3,7 @@ const escudos = {
   "Brasileirão": "https://bow.futebol12.nexus/zas/br.png",
   "Liga BetPlay": "https://bow.futebol12.nexus/zas/co.png",
   "LigaPro": "https://bow.futebol12.nexus/zas/ec.png",
+  "Portugal": "https://bow.futebol12.nexus/zas/pt.png",
   "Serie B Ecuador": "https://bow.futebol12.nexus/zas/ec.png",
   "CONCACAF Central American Cup": "https://bow.futebol12.nexus/zas/centralamericancup.png?new",
   "CONCACAF Champions Cup": "https://bow.futebol12.nexus/zas/concacafcham.png",

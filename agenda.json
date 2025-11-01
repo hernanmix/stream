@@ -1,41 +1,5 @@
 [
   {
-    "nombre": "LaLiga: Atlético Madrid vs Sevilla",
-    "hora": "2025-11-01T10:15:00",
-    "canales": [
-      "skylaliga",
-      "espn2"
-    ]
-  },
-  {
-    "nombre": "LaLiga 2: Cultural Leonesa vs Mirandés",
-    "hora": "2025-11-01T10:15:00",
-    "canales": [
-      "hyper1"
-    ]
-  },
-  {
-    "nombre": "Primeira Liga: Nacional vs Famalicão",
-    "hora": "2025-11-01T10:30:00",
-    "canales": [
-      "goltv"
-    ]
-  },
-  {
-    "nombre": "Eredivisie: Ajax vs Heerenveen",
-    "hora": "2025-11-01T10:30:00",
-    "canales": [
-      "goltv"
-    ]
-  },
-  {
-    "nombre": "Eredivisie: Ajax vs Heerenveen",
-    "hora": "2025-11-01T10:30:00",
-    "canales": [
-      "disney17"
-    ]
-  },
-  {
     "nombre": "Ligue 1: PSG vs Nice",
     "hora": "2025-11-01T11:00:00",
     "canales": [

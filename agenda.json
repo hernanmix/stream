@@ -1,34 +1,4 @@
 [
-  
-  {
-    "nombre": "LigaPro: Delfin vs Deportivo Cuenca",
-    "hora": "2025-10-31T19:00:00",
-    "canales": [
-      "eventos3"
-    ]
-  },
-  {
-    "nombre": "MLB: Dodgers vs Blue Jays | Final (Game #5) ",
-    "hora": "2025-10-31T19:00:00",
-    "canales": [
-      "foxdeportes",
-      "espn2"
-    ]
-  },
-  {
-    "nombre": "Superliga Argentina: Instituto vs Rosario Central",
-    "hora": "2025-10-31T19:15:00",
-    "canales": [
-      "espnpremium"
-    ]
-  },
-  {
-    "nombre": "Superliga Argentina: Newell's Old Boys vs Unión Santa Fe",
-    "hora": "2025-10-31T19:15:00",
-    "canales": [
-      "tntar"
-    ]
-  },
   {
     "nombre": "Liga 1: Alianza Lima vs Melgar",
     "hora": "2025-10-31T20:00:00",

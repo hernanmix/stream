@@ -1,27 +1,5 @@
 [
   {
-    "nombre": "Superliga Argentina: Aldosivi vs Independiente Rivadavia",
-    "hora": "2025-11-01T12:45:00",
-    "canales": [
-      "tntar"
-    ]
-  },
-  {
-    "nombre": "Ligue 1: Monaco vs Paris",
-    "hora": "2025-11-01T13:00:00",
-    "canales": [
-      "calientetv1",
-      "espn4"
-    ]
-  },
-  {
-    "nombre": "Liga 1: Los Chankas vs Ayacucho",
-    "hora": "2025-11-01T13:00:00",
-    "canales": [
-      "liga1max"
-    ]
-  },
-  {
     "nombre": "Superliga Argentina: Barracas Central vs Argentinos Juniors",
     "hora": "2025-11-01T14:00:00",
     "canales": [

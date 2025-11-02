@@ -1,58 +1,3 @@
-// Estilos flotantes pantalla completa
-const estilo = document.createElement("style");
-estilo.textContent = `
-#modalReproductor {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: #000;
-  z-index: 9999;
-}
-#modalReproductor iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-#modalReproductor button {
-  position: absolute;
-  top: 10px;
-  right: 12px;
-  font-size: 18px;
-  background: #0b90c5;
-  color: #fff;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 6px;
-  z-index: 10000;
-  cursor: pointer;
-}
-.estado.envivo {
-  color: red;
-  font-weight: bold;
-  animation: parpadeo 1s infinite;
-}
-@keyframes parpadeo {
-  0% { opacity: 1; }
-  50% { opacity: 0.3; }
-  100% { opacity: 1; }
-}
-`;
-document.head.appendChild(estilo);
-
-// Crear contenedor flotante si no existe
-if (!document.getElementById("modalReproductor")) {
-  const modal = document.createElement("div");
-  modal.id = "modalReproductor";
-  modal.innerHTML = `
-    <iframe id="iframeReproductor" allowfullscreen allow="autoplay; encrypted-media"></iframe>
-    <button onclick="cerrarReproductor()">🏠 INICIO</button>
-  `;
-  document.body.appendChild(modal);
-}
-
 const canalesStream = [
   "espn", "espn2", "espn3", "ecdf", "disney", "disney1", "disney2",
   "foxsports", "foxsports2", "foxsports3", "nba", "tnt", "tyc", "directv",
@@ -66,15 +11,15 @@ function abrirReproductor(canal) {
     ? "https://hernanmix.github.io/stream/reproductor.html?stream=" + canalLower
     : "https://hsports4hd.blogspot.com/p/" + canalLower + ".html";
 
-  const iframe = document.getElementById("iframeReproductor");
+  const iframe = document.getElementById("reproductorIframe");
   iframe.src = url;
-  document.getElementById("modalReproductor").style.display = "block";
+  document.getElementById("reproductorOverlay").style.display = "block";
 }
 
 function cerrarReproductor() {
-  const iframe = document.getElementById("iframeReproductor");
+  const iframe = document.getElementById("reproductorIframe");
   iframe.src = "";
-  document.getElementById("modalReproductor").style.display = "none";
+  document.getElementById("reproductorOverlay").style.display = "none";
 }
 
 function mostrarCanales(el) {

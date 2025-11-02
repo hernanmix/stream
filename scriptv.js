@@ -7,6 +7,7 @@ const canalesStream = [
 function abrirReproductor(canal) {
   const canalLower = canal.toLowerCase();
   const esStream = canalesStream.includes(canalLower);
+
   const url = esStream
     ? "https://hernanmix.github.io/stream/reproductor.html?stream=" + canalLower
     : "https://hsports4hd.blogspot.com/p/" + canalLower + ".html";
@@ -118,3 +119,4 @@ fetch("https://raw.githubusercontent.com/hernanmix/stream/main/agenda.json")
       });
     }, 10000);
   });
+

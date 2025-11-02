@@ -16,7 +16,7 @@ function abrirReproductor(canal) {
     if (canalesStream.includes(canalLower)) {
       url = "https://hernanmix.github.io/stream/reproductor.html?stream=" + canalLower;
     } else {
-      // Canal tipo channel
+      // Canal tipo channel desde agenda JSON
       url = "https://hsports4hd.blogspot.com/2025/09/reproductor-evento.html?channel=" + canalLower;
     }
   }

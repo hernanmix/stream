@@ -32,7 +32,7 @@ const escudos = {
   "MLS": "https://bow.futebol12.nexus/zas/mls.png",
   "MLB": "https://bow.futebol12.nexus/zas/mlbnew.png",
   "Liga MX": "https://bow.futebol12.nexus/zas/mx.png",
-  "NBA": "https://bow.futebol12.nexus/zas/nbanew2.png",
+  "NBA": "https://img.futebol12.nexus/zas/nbanew2.png",
   "Primera División": "https://img.golazoplay.com/uploads/uruguay_e2b9597af8.png",
   "EuroLeague": "https://img.futebol12.nexus/zas/euroleaguebasket.png",
   "Liga Nacional de Básquet": "https://img.futebol12.nexus/zas/endesa.png",

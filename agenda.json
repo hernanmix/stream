@@ -4,7 +4,8 @@
     "hora": "2025-11-01T19:00:00",
     "canales": [
       "ecdf",
-      "mls1es"
+      "mls1es",
+      "winplusonline1"
     ]
   },
   {

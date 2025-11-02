@@ -164,5 +164,5 @@ fetch("https://raw.githubusercontent.com/hernanmix/stream/main/agenda.json")
           estadoSpan.classList.remove("envivo");
         }
       });
-    }, 10000);
+    }, 2000); // ← Actualiza cada 2 segundos
   });

@@ -1,6 +1,6 @@
-// Estilos flotantes pantalla completa
-const estiloPantallaCompleta = document.createElement("style");
-estiloPantallaCompleta.textContent = `
+// Estilos flotantes para el reproductor
+const estilo = document.createElement("style");
+estilo.textContent = `
 #modalReproductor {
   display: none;
   position: fixed;
@@ -40,9 +40,9 @@ estiloPantallaCompleta.textContent = `
   100% { opacity: 1; }
 }
 `;
-document.head.appendChild(estiloPantallaCompleta);
+document.head.appendChild(estilo);
 
-// Crear reproductor si no existe
+// Crear contenedor flotante si no existe
 if (!document.getElementById("modalReproductor")) {
   const modal = document.createElement("div");
   modal.id = "modalReproductor";
@@ -66,13 +66,9 @@ function abrirReproductor(canal) {
     ? "https://hernanmix.github.io/stream/reproductor.html?stream=" + canalLower
     : "https://hsports4hd.blogspot.com/p/" + canalLower + ".html";
 
-  if (esStream) {
-    const iframe = document.getElementById("iframeReproductor");
-    iframe.src = url;
-    document.getElementById("modalReproductor").style.display = "block";
-  } else {
-    window.location.href = url;
-  }
+  const iframe = document.getElementById("iframeReproductor");
+  iframe.src = url;
+  document.getElementById("modalReproductor").style.display = "block";
 }
 
 function cerrarReproductor() {

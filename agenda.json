@@ -1,57 +1,5 @@
 [
   {
-    "nombre": "Brasileirão: Flamengo vs Sport Recife",
-    "hora": "2025-11-01T19:00:00",
-    "canales": [
-      "ecdf",
-      "mls1es",
-      "winplusonline1"
-    ]
-  },
-  {
-    "nombre": "MLB: Dodgers vs Blue Jays | Final (Game #7)",
-    "hora": "2025-11-01T19:00:00",
-    "canales": [
-      "foxdeportes",
-      "espnmx"
-    ]
-  },
-  {
-    "nombre": "NBA: Celtics vs Rockets",
-    "hora": "2025-11-01T19:00:00",
-    "canales": [
-      "max3"
-    ]
-  },
-  {
-    "nombre": "Liga MX: Monterrey vs Tigres UANL",
-    "hora": "2025-11-01T20:05:00",
-    "canales": [
-      "canal5mx"
-    ]
-  },
-  {
-    "nombre": "Liga BetPlay: Once Caldas vs Deportivo Pasto",
-    "hora": "2025-11-01T20:20:00",
-    "canales": [
-      "tudnus"
-    ]
-  },
-  {
-    "nombre": "MLS: Portland Timbers vs San Diego",
-    "hora": "2025-11-01T20:30:00",
-    "canales": [
-      "mls5"
-    ]
-  },
-  {
-    "nombre": "MLS: Dallas vs Vancouver Whitecaps",
-    "hora": "2025-11-01T20:30:00",
-    "canales": [
-      "mls4"
-    ]
-  },
-  {
     "nombre": "Liga MX: América vs León",
     "hora": "2025-11-01T22:10:00",
     "canales": [

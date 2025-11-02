@@ -3,7 +3,9 @@
     "nombre": "Liga MX: América vs León",
     "hora": "2025-11-01T22:10:00",
     "canales": [
-      "canal5mx"
+      "canal5mx",
+      "tudn_usa",
+      "winplusonline1"
     ]
   }
 ]

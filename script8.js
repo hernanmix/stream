@@ -5,7 +5,6 @@ function abrirReproductor(canal) {
   if (canalLower.startsWith("http")) {
     url = canalLower;
   } else {
-    // Todos los canales se abren en tu reproductor GitHub
     url = "https://hernanmix.github.io/stream/reproductor.html?stream=" + canalLower;
   }
 

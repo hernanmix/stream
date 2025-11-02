@@ -88,21 +88,24 @@ fetch("https://raw.githubusercontent.com/hernanmix/stream/main/agenda.json")
     contenedor.innerHTML = "";
 
     data.forEach(evento => {
-      const inicio = new Date(evento.hora);
+      const hora = new Date(evento.hora);
       const ahora = new Date();
-      const minutos = Math.floor((ahora - inicio) / 60000);
+      const minutos = Math.floor((ahora - hora) / 60000);
       let estado = "";
 
-      if (minutos >= 0 && minutos < 45) estado = `EN VIVO ${minutos}'`;
-      else if (minutos >= 45 && minutos < 120) estado = `EN VIVO ${minutos}'`;
-      else if (minutos >= 120) estado = "FT";
-      else {
-        const horaLegible = inicio.toLocaleTimeString("es-EC", {
+      if (minutos < 0) {
+        const horaLegible = hora.toLocaleTimeString("es-EC", {
           hour: "2-digit",
           minute: "2-digit",
           hour12: true
         });
         estado = `${horaLegible} -`;
+      } else if (minutos < 45) {
+        estado = `EN VIVO ${minutos}'`;
+      } else if (minutos < 120) {
+        estado = `EN VIVO ${minutos}'`;
+      } else {
+        estado = "FT";
       }
 
       const div = document.createElement("div");
@@ -137,34 +140,27 @@ fetch("https://raw.githubusercontent.com/hernanmix/stream/main/agenda.json")
       contenedor.appendChild(div);
     });
 
+    // Actualizar estado cada 2 segundos
     setInterval(() => {
       document.querySelectorAll(".evento").forEach(evento => {
         const hora = new Date(evento.getAttribute("data-hora"));
         const ahora = new Date();
         const minutos = Math.floor((ahora - hora) / 60000);
-if (minutos < 0) {
-  // Evento aún no comienza
-  const horaLegible = hora.toLocaleTimeString("es-EC", {
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: true
-  });
-  estado = `${horaLegible} -`;
-} else if (minutos < 45) {
-  estado = `EN VIVO ${minutos}'`;
-} else if (minutos < 120) {
-  estado = `EN VIVO ${minutos}'`;
-} else {
-  estado = "FT";
-}
+        let estado = "";
 
-        else {
+        if (minutos < 0) {
           const horaLegible = hora.toLocaleTimeString("es-EC", {
             hour: "2-digit",
             minute: "2-digit",
             hour12: true
           });
           estado = `${horaLegible} -`;
+        } else if (minutos < 45) {
+          estado = `EN VIVO ${minutos}'`;
+        } else if (minutos < 120) {
+          estado = `EN VIVO ${minutos}'`;
+        } else {
+          estado = "FT";
         }
 
         const estadoSpan = evento.querySelector(".estado");
@@ -175,5 +171,5 @@ if (minutos < 0) {
           estadoSpan.classList.remove("envivo");
         }
       });
-    }, 2000); // ← Actualiza cada 2 segundos
+    }, 2000);
   });

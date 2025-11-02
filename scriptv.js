@@ -142,11 +142,22 @@ fetch("https://raw.githubusercontent.com/hernanmix/stream/main/agenda.json")
         const hora = new Date(evento.getAttribute("data-hora"));
         const ahora = new Date();
         const minutos = Math.floor((ahora - hora) / 60000);
-        let estado = "";
+if (minutos < 0) {
+  // Evento aún no comienza
+  const horaLegible = hora.toLocaleTimeString("es-EC", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true
+  });
+  estado = `${horaLegible} -`;
+} else if (minutos < 45) {
+  estado = `EN VIVO ${minutos}'`;
+} else if (minutos < 120) {
+  estado = `EN VIVO ${minutos}'`;
+} else {
+  estado = "FT";
+}
 
-        if (minutos >= 0 && minutos < 45) estado = `EN VIVO ${minutos}'`;
-        else if (minutos >= 45 && minutos < 120) estado = `EN VIVO ${minutos}'`;
-        else if (minutos >= 120) estado = "FT";
         else {
           const horaLegible = hora.toLocaleTimeString("es-EC", {
             hour: "2-digit",

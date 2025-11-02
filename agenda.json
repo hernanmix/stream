@@ -1,12 +1,12 @@
 [
   {
-    "nombre": "Liga MX: América vs León",
-    "hora": "2025-11-01T22:10:00",
+    "nombre": "Serie A: Torino vs Pisa",
+    "hora": "2025-11-01T22:09:00",
     "canales": [
-      "canal5mx",
-      "tudn_usa",
-      "winplusonline1",
-      "max1"
+      "Fox_deportew_usa",
+      "",
+      "",
+      ""
     ]
   }
 ]

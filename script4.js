@@ -1,7 +1,8 @@
 const canalesStream = [
   "espn", "espn2", "espn3", "ecdf", "disney", "disney1", "disney2",
   "foxsports", "foxsports2", "foxsports3", "nba", "tnt", "tyc", "directv",
-  "win", "goltv", "tves", "caracol", "rcn", "teleamazonas", "telefe", "mls1es"
+  "win", "goltv", "tves", "caracol", "rcn", "teleamazonas", "telefe", "mls1es", 
+  "winplusonline1"
 ];
 
 function abrirReproductor(canal) {

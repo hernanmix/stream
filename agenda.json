@@ -1,5 +1,15 @@
 [
   {
+    "nombre": "Primera División: Platense vs Sarmiento",
+    "hora": "2025-11-03T14:45:00",
+    "canales": [
+      "tntsports",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
     "nombre": "Premier League: Sunderland vs Everton",
     "hora": "2025-11-03T15:00:00",
     "canales": [
@@ -8,8 +18,27 @@
       "",
       ""
     ]
+  },  
+  {
+    "nombre": "Laliga: Real Oviedo vs Osasuna",
+    "hora": "2025-11-03T15:00:00",
+    "canales": [
+      "dsports",
+      "",
+      "",
+      ""
+    ]
   },
-  
+  {
+    "nombre": "Primeira Liga: Gil Vicente vs Santa Clara",
+    "hora": "2025-11-03T15:45:00",
+    "canales": [
+      "goltv",
+      "",
+      "",
+      ""
+    ]
+  },
   {
     "nombre": "Laliga: Real Oviedo vs Osasuna",
     "hora": "2025-11-03T15:00:00",

@@ -57,7 +57,8 @@ function formatoHora12(horaTexto) {
 const canalesStream = [
   "espn", "espn2", "espn3", "ecdf", "disney1", "disney2", "disney3", "disney19"
   "foxsports", "foxsports2", "foxsports3", "nba", "tnt", "tyc", "directv",
-  "win", "goltv", "tves", "caracol", "rcn", "teleamazonas", "telefe", "winplusonline1", "fox_deportes_usa"
+  "win", "goltv", "tves", "caracol", "rcn", "teleamazonas", "telefe", "winplusonline1", "fox_deportes_usa", "laligahypermotion", 
+  "usa_network", 
 ];
 
 function abrirReproductor(canal) {

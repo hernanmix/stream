@@ -42,17 +42,7 @@ estiloPantallaCompleta.textContent = `
 `;
 document.head.appendChild(estiloPantallaCompleta);
 
-// Crear reproductor si no existe
-if (!document.getElementById("modalReproductor")) {
-  const modal = document.createElement("div");
-  modal.id = "modalReproductor";
-  modal.innerHTML = `
-    <iframe id="iframeReproductor" allowfullscreen allow="autoplay; encrypted-media"></iframe>
-    <button onclick="cerrarReproductor()">🏠 INICIO</button>
-  `;
-  document.body.appendChild(modal);
-}
-
+// Canales que deben abrirse con stream=
 const canalesStream = [
   "espn", "espn2", "espn3", "ecdf", "disney", "disney1", "disney2",
   "foxsports", "foxsports2", "foxsports3", "nba", "tnt", "tyc", "directv",
@@ -81,7 +71,7 @@ function mostrarCanales(el) {
   canales.style.display = canales.style.display === "none" ? "block" : "none";
 }
 
-fetch("https://hernanmix.github.io/stream/agenda.json")
+fetch("https://raw.githubusercontent.com/hernanmix/stream/main/agenda.json")
   .then(res => res.json())
   .then(data => {
     const contenedor = document.getElementById("agenda");

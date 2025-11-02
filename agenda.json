@@ -1,9 +1,19 @@
 [
   {
-    "nombre": "Primera División: Platense vs Sarmiento",
+    "nombre": "Primera Nacional: Defensa y Justicia vs Huracán",
     "hora": "2025-11-03T14:45:00",
     "canales": [
-      "tntsports",
+      "tycsports",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nombre": "Laliga: Real Oviedo vs Osasuna",
+    "hora": "2025-11-03T15:00:00",
+    "canales": [
+      "dsports",
       "",
       "",
       ""
@@ -40,10 +50,10 @@
     ]
   },
   {
-    "nombre": "Laliga: Real Oviedo vs Osasuna",
-    "hora": "2025-11-03T15:00:00",
+    "nombre": "Laliga: Palestino vs Deportes Limache",
+    "hora": "2025-11-03T17:00:00",
     "canales": [
-      "dsports",
+      "tntsportschile",
       "",
       "",
       ""

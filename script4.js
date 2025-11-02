@@ -6,20 +6,11 @@ const canalesStream = [
 
 function abrirReproductor(canal) {
   const canalLower = canal.toLowerCase();
-  let url = "";
+  const esStream = canalesStream.includes(canalLower);
 
-  // Si es URL completa, úsala directamente
-  if (canalLower.startsWith("http")) {
-    url = canalLower;
-  } else {
-    // Si es canal tipo stream
-    if (canalesStream.includes(canalLower)) {
-      url = "https://hernanmix.github.io/stream/reproductor.html?stream=" + canalLower;
-    } else {
-      // Canal tipo channel
-      url = "https://hsports4hd.blogspot.com/2025/09/reproductor-evento.html?channel=" + canalLower;
-    }
-  }
+  const url = esStream
+    ? "https://hernanmix.github.io/stream/reproductor.html?stream=" + canalLower
+    : "https://hsports4hd.blogspot.com/p/" + canalLower + ".html";
 
   const iframe = document.getElementById("reproductorIframe");
   iframe.src = url;

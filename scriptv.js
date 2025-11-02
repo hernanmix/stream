@@ -1,4 +1,4 @@
-// Estilos flotantes para el reproductor
+// Estilos flotantes pantalla completa
 const estilo = document.createElement("style");
 estilo.textContent = `
 #modalReproductor {

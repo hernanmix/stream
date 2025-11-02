@@ -81,7 +81,7 @@ function mostrarCanales(el) {
   canales.style.display = canales.style.display === "none" ? "block" : "none";
 }
 
-fetch("https://raw.githubusercontent.com/hernanmix/stream/main/agenda.json")
+fetch("https://hernanmix.github.io/stream/agenda.json")
   .then(res => res.json())
   .then(data => {
     const contenedor = document.getElementById("agenda");

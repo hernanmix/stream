@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>HSPORTSHD FÚTBOL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .titulo {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      padding: 12px 0;
+    }
+
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      height: 56.25vw;
+      max-height: 80vh;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: #000;
+    }
+
+    .boton-recargar {
+      display: block;
+      margin: 20px auto 10px;
+      padding: 10px 20px;
+      background-color: #0b90c5;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .derechos {
+      text-align: center;
+      font-size: 14px;
+      color: #ffffff;
+      margin-top: 8px;
+      font-weight: normal;
+    }
+
+    @media (orientation: landscape) {
+      .iframe-container {
+        height: 70vh;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="titulo">HSPORTSHD FÚTBOL</div>
+
+  <div class="iframe-container">
+    <iframe id="player" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+  </div>
+
+  <button class="boton-recargar" onclick="location.reload()">🔄 Recargar reproductor</button>
+  <div class="derechos">HSPORTSHD TODOS LOS DERECHOS RESERVADOS 2026</div>
+
+  <script>
+    function decodeBase64(str) {
+      try {
+        return decodeURIComponent(escape(atob(str)));
+      } catch (e) {
+        return null;
+      }
+    }
+
+    const encoded = new URLSearchParams(location.search).get("r");
+    const canal = encoded ? decodeBase64(encoded) : null;
+    const iframe = document.getElementById("player");
+
+    if (canal) {
+      iframe.src = "https://streamtpmedia.com/global1.php?stream=" + canal;
+    } else {
+      iframe.srcdoc = "<h2 style='color:white;text-align:center;margin-top:40px;'>Canal no disponible</h2>";
+    }
+  </script>
+</body>
+</html>

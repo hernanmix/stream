@@ -79,9 +79,17 @@
   </div>
 
   <button class="boton-recargar" onclick="location.reload()">🔄 Recargar reproductor</button>
-  <div class="derechos">HSPORTSHD TODOS LOS DERECHOS RESERVADOS 2026</div>
+  <div class="derechos">HSPORTSHD TODOS LOS DERECHOS RESERVADOS 2026©</div>
 
   <script>
+    function encodeBase64(str) {
+      try {
+        return btoa(unescape(encodeURIComponent(str)));
+      } catch (e) {
+        return null;
+      }
+    }
+
     function decodeBase64(str) {
       try {
         return decodeURIComponent(escape(atob(str)));
@@ -91,19 +99,21 @@
     }
 
     const params = new URLSearchParams(location.search);
-    const canalDirecto = params.get("stream");
+    const canalStream = params.get("stream");
     const canalCodificado = params.get("r");
     const iframe = document.getElementById("player");
 
     if (canalCodificado) {
       const url = decodeBase64(canalCodificado);
       iframe.src = url;
-    } else if (canalDirecto) {
-      iframe.src = "https://streamtpmedia.com/global1.php?stream=" + canalDirecto;
+    } else if (canalStream) {
+      const url = "https://streamtpmedia.com/global1.php?stream=" + canalStream;
+      const encoded = encodeBase64(url);
+      // Redirige automáticamente a la versión codificada
+      window.location.href = location.pathname + "?r=" + encoded;
     } else {
       iframe.srcdoc = "<h2 style='color:white;text-align:center;margin-top:40px;'>Canal no disponible</h2>";
     }
   </script>
 </body>
 </html>
-

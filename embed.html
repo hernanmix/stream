@@ -90,15 +90,20 @@
       }
     }
 
-    const encoded = new URLSearchParams(location.search).get("r");
-    const canal = encoded ? decodeBase64(encoded) : null;
+    const params = new URLSearchParams(location.search);
+    const canalDirecto = params.get("stream");
+    const canalCodificado = params.get("r");
     const iframe = document.getElementById("player");
 
-    if (canal) {
-      iframe.src = "https://streamtpmedia.com/global1.php?stream=" + canal;
+    if (canalCodificado) {
+      const url = decodeBase64(canalCodificado);
+      iframe.src = url;
+    } else if (canalDirecto) {
+      iframe.src = "https://streamtpmedia.com/global1.php?stream=" + canalDirecto;
     } else {
       iframe.srcdoc = "<h2 style='color:white;text-align:center;margin-top:40px;'>Canal no disponible</h2>";
     }
   </script>
 </body>
 </html>
+

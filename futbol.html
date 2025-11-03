@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda de Fútbol Dinámica y Responsiva</title>
+  <meta http-equiv="refresh" content="200">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="expires" content="-1">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="header">
+    <div class="nav-content">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo de la página">
+      </div>
+      <ul class="menu-nav" id="main-menu">
+        <li><a href="#">Inicio</a></li>
+        <li>
+          <a href="https://elcanaldeportivo.com/agenda.php">Agenda</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Hoy</a></li>
+            <li><a href="#">Mañana</a></li>
+            <li><a href="#">Esta Semana</a></li>
+          </ul>
+        </li>
+        <li><a href="https://elcanaldeportivo.com/canales.php" target="_blank">Más Canales</a></li>
+        <li><a href="#">Destacados</a></li>
+      </ul>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <main class="main-container">
+    <div class="agenda-section">
+      <div class="agenda-header" id="header-hoy"><h4>Agenda - domingo, 2 de noviembre de 2025</h4></div>
+      <div class="match-list" id="match-list-container-hoy"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Instagram</a>
+    </div>
+    <p>© 2025 Agenda Futbolística. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    async function cargarPartidos() {
+      const contenedorHoy = document.getElementById('match-list-container-hoy');
+      contenedorHoy.innerHTML = '';
+
+      try {
+        const timestamp = new Date().getTime();
+        const url = `partidos.json?v=${timestamp}`;
+        const respuesta = await fetch(url);
+        if (!respuesta.ok) throw new Error('No se pudo cargar el archivo de la agenda.');
+        const agendaData = await respuesta.json();
+        agendaData.sort((a, b) => new Date(a.hora_utc) - new Date(b.hora_utc));
+
+        const ahora = new Date();
+        const tiempoLimiteOcultar = 0 * 60 * 60 * 1000;
+        const duracionEstandarPartido = 2 * 60 * 60 * 1000;
+
+        agendaData.forEach(partido => {
+          const horaPartido = new Date(partido.hora_utc);
+          const duracionPartido = partido.duracionExtendida ? (4 * 60 * 60 * 1000) : duracionEstandarPartido;
+          const tiempoFinPartido = new Date(horaPartido.getTime() + duracionPartido);
+          if (ahora.getTime() > tiempoFinPartido.getTime() + tiempoLimiteOcultar) return;
+
+          const item = document.createElement('div');
+          item.className = 'match-item';
+          item.onclick = function() { toggleSubmenu(this); };
+
+          const info = document.createElement('div');
+          info.className = 'match-info';
+
+          const estadoHora = document.createElement('span');
+          estadoHora.className = 'hora-local';
+          if (ahora.getTime() >= tiempoFinPartido.getTime()) {
+            estadoHora.textContent = 'Finalizado';
+            estadoHora.style.color = '#a0a0a0';
+          } else if (ahora.getTime() >= horaPartido.getTime()) {
+            estadoHora.textContent = 'EN VIVO';
+            estadoHora.style.color = '#ff0000';
+            estadoHora.style.fontWeight = 'bold';
+          } else {
+            const opciones = { hour: '2-digit', minute: '2-digit', hour12: true };
+            estadoHora.textContent = horaPartido.toLocaleTimeString(undefined, opciones);
+          }
+
+          info.appendChild(estadoHora);
+
+          const logo = document.createElement('div');
+          logo.className = 'match-logo';
+          const imgLogo = document.createElement('img');
+          imgLogo.src = partido.logo;
+          imgLogo.alt = 'Logo de la liga';
+          logo.appendChild(imgLogo);
+          info.appendChild(logo);
+
+          const detalles = document.createElement('div');
+          detalles.className = 'match-details';
+          const liga = document.createElement('span');
+          liga.className = 'league';
+          liga.textContent = partido.liga;
+          const equipos = document.createElement('span');
+          equipos.className = 'teams';
+          equipos.textContent = partido.equipos;
+          detalles.appendChild(liga);
+          detalles.appendChild(equipos);
+          info.appendChild(detalles);
+
+          item.appendChild(info);
+
+          const submenu = document.createElement('ul');
+          submenu.className = 'submenu';
+
+          partido.canales.forEach(canal => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = canal.url;
+            a.target = '_blank';
+            const channelName = document.createElement('span');
+            channelName.textContent = canal.nombre;
+            a.appendChild(channelName);
+            const qualitySpan = document.createElement('span');
+            qualitySpan.className = 'quality-text';
+            qualitySpan.textContent = canal.calidad;
+            a.appendChild(qualitySpan);
+            li.appendChild(a);
+            submenu.appendChild(li);
+          });
+
+          item.appendChild(submenu);
+          contenedorHoy.appendChild(item);
+        });
+      } catch (error) {
+        console.error('Error al cargar la agenda:', error);
+        contenedorHoy.innerHTML = '<p>Lo sentimos, no se pudo cargar la agenda en este momento.</p>';
+      }
+    }
+
+    function toggleSubmenu(element) {
+      const submenu = element.querySelector('.submenu');
+      document.querySelectorAll('.submenu.show').forEach(sub => {
+        if (sub !== submenu) sub.classList.remove('show');
+      });
+      if (submenu) submenu.classList.toggle('show');
+    }
+
+    function toggleMenu() {
+      const menu = document.getElementById('main-menu');
+      menu.classList.toggle('active');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const opcionesFecha = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+      const fechaActual = new Date().toLocaleDateString('es-ES', opcionesFecha);
+      document.getElementById('header-hoy').innerHTML = `<h4>Agenda - ${fechaActual}</h4>`;
+      cargarPartidos();
+    });
+  </script>
+</body>
+</html>

@@ -10,6 +10,16 @@
     ]
   },
   {
+    "nombre": "Serie A: Lazio vs Cagliari",
+    "hora": "2025-11-03T14:45:00",
+    "canales": [
+      "espn3",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
     "nombre": "Laliga: Real Oviedo vs Osasuna",
     "hora": "2025-11-03T15:00:00",
     "canales": [
@@ -54,6 +64,15 @@
     "hora": "2025-11-03T17:00:00",
     "canales": [
       "tntsportschile",
+      "",
+      "",
+      ""
+    ]
+  {
+    "nombre": "primera División: Banfield vs Lanús",
+    "hora": "2025-11-03T19:15:00",
+    "canales": [
+      "tntsports",
       "",
       "",
       ""

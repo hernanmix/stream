@@ -20,18 +20,18 @@
     ]
   },
   {
-    "nombre": "Laliga: Real Oviedo vs Osasuna",
-    "hora": "2025-11-03T15:00:00",
+    "nombre": "Champions League: Juventus vs Sporting CP",
+    "hora": "2025-11-04T15:00:00",
     "canales": [
-      "dsports",
+      "espn3",
       "",
       "",
       ""
     ]
   },
   {
-    "nombre": "Premier League: Sunderland vs Everton",
-    "hora": "2025-11-03T15:00:00",
+    "nombre": "Champions League: PSG vs Bayern München",
+    "hora": "2025-11-04T15:00:00",
     "canales": [
       "espn",
       "",
@@ -40,41 +40,51 @@
     ]
   },  
   {
-    "nombre": "Laliga: Real Oviedo vs Osasuna",
-    "hora": "2025-11-03T15:00:00",
+    "nombre": "Champions League: Bodø / Glimt vs Monaco",
+    "hora": "2025-11-04T15:00:00",
     "canales": [
-      "dsports",
+      "espn6",
       "",
       "",
       ""
     ]
   },
   {
-    "nombre": "Primeira Liga: Gil Vicente vs Santa Clara",
-    "hora": "2025-11-03T15:45:00",
+    "nombre": "Champions League: Atlético Madrid vs Union Saint-Gilloise",
+    "hora": "2025-11-04T15:00:00",
     "canales": [
-      "goltv",
+      "espn5",
       "",
       "",
       ""
     ]
   },
   {
-    "nombre": "Primera División: Palestino vs Deportes Limache",
-    "hora": "2025-11-03T17:00:00",
+    "nombre": "Champions League: Olympiakos Piraeus vs PSV",
+    "hora": "2025-11-04T15:00:00",
     "canales": [
-      "tntsportschile",
+      "espn4",
       "",
       "",
       ""
     ]
   },
   {
-    "nombre": "Primera Nacional: Banfield vs Lanús",
+    "nombre": "Champions League: Liverpool vs Real Madrid",
     "hora": "2025-11-03T19:15:00",
     "canales": [
-      "tntsports",
+      "espn2",
+      "fox1ar",
       "",
+      ""
+    ]
+  },
+  {
+    "nombre": "Champions League: Tottenham Hotspur vs København",
+    "hora": "2025-11-03T19:15:00",
+    "canales": [
+      "espn7",
+      "fox2ar",
       "",
       ""
     ]

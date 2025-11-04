@@ -1,32 +1,5 @@
 [
   {
-    "nombre": "AFC Champions League Elite: Al Sadd vs Al-Ahli",
-    "hora": "2025-11-04T11:00:00",
-    "canales": [
-      "disney1"
-    ]
-  },
-  {
-    "nombre": "UEFA Champions League: Slavia Praha vs Arsenal",
-    "hora": "2025-11-04T12:45:00",
-    "canales": [
-      "espn",
-      "fox1ar",
-      "",
-      ""
-    ]
-  },
-  {
-    "nombre": "UEFA Champions League: Napoli vs Eintracht Frankfurt",
-    "hora": "2025-11-04T12:45:00",
-    "canales": [
-      "espn2",
-      "",
-      "",
-      ""
-    ]
-  },
-  {
     "nombre": "UEFA Champions League: Juventus vs Sporting CP",
     "hora": "2025-11-04T15:00:00",
     "canales": [

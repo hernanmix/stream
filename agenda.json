@@ -1,6 +1,6 @@
 [
   {
-    "nombre": "Champions League: Slavia Praha vs Arsenal",
+    "nombre": "UEFA Champions League: Slavia Praha vs Arsenal",
     "hora": "2025-11-04T12:45:00",
     "canales": [
       "espn",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "nombre": "Champions League: Napoli vs Eintracht Frankfurt",
+    "nombre": "UEFA Champions League: Napoli vs Eintracht Frankfurt",
     "hora": "2025-11-04T12:45:00",
     "canales": [
       "espn2",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "nombre": "Champions League: Juventus vs Sporting CP",
+    "nombre": "UEFA Champions League: Juventus vs Sporting CP",
     "hora": "2025-11-04T15:00:00",
     "canales": [
       "espn3",
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "nombre": "Champions League: PSG vs Bayern München",
+    "nombre": "UEFA Champions League: PSG vs Bayern München",
     "hora": "2025-11-04T15:00:00",
     "canales": [
       "espn",
@@ -40,7 +40,7 @@
     ]
   },  
   {
-    "nombre": "Champions League: Bodø / Glimt vs Monaco",
+    "nombre": "UEFA Champions League: Bodø / Glimt vs Monaco",
     "hora": "2025-11-04T15:00:00",
     "canales": [
       "espn6",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "nombre": "Champions League: Olympiakos Piraeus vs PSV",
+    "nombre": "UEFA Champions League: Olympiakos Piraeus vs PSV",
     "hora": "2025-11-04T15:00:00",
     "canales": [
       "espn4",
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "nombre": "Champions League: Liverpool vs Real Madrid",
+    "nombre": "UEFA Champions League: Liverpool vs Real Madrid",
     "hora": "2025-11-04T15:00:00",
     "canales": [
       "espn2",
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "nombre": "Champions League: Tottenham Hotspur vs København",
+    "nombre": "UEFA Champions League: Tottenham Hotspur vs København",
     "hora": "2025-11-04T15:00:00",
     "canales": [
       "espn7",

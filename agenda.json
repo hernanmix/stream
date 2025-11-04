@@ -123,6 +123,27 @@
       "",
       ""
     ]
+  },
+  {
+    "nombre": "LigaPro: LDU Quito vs Orense",
+    "hora": "2025-11-04T19:00:00",
+    "canales": [
+      "eventos1"
+    ]
+  },
+  {
+    "nombre": "NBA: Hawks vs Magic",
+    "hora": "2025-11-04T20:00:00",
+    "canales": [
+      "max1"
+    ]
+  },
+  {
+    "nombre": "NBA: Thunder vs Clipper",
+    "hora": "2025-11-04T23:00:00",
+    "canales": [
+      "tntar"
+    ]
   }
 ]
 

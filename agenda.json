@@ -1,33 +1,5 @@
 [
   {
-    "nombre": "Copa Mundial Sub-17: Brasil Sub-17 vs Honduras Sub-17",
-    "hora": "2025-11-04T07:30:00",
-    "canales": [
-      "dsports"
-    ]
-  },
-  {
-    "nombre": "Copa Mundial Sub-17: México Sub-17 vs Corea del Sur Sub-17",
-    "hora": "2025-11-04T08:00:00",
-    "canales": [
-      "dsportsplus"
-    ]
-  },
-  {
-    "nombre": "Copa Mundial Sub-17: Alemania Sub-17 vs Colombia Sub-17",
-    "hora": "2025-11-04T09:45:00",
-    "canales": [
-      "dsports"
-    ]
-  },
-  {
-    "nombre": "Copa Mundial Sub-17: Inglaterra Sub-17 vs Venezuela Sub-17",
-    "hora": "2025-11-04T10:15:00",
-    "canales": [
-      "dsportsplus"
-    ]
-  },
-  {
     "nombre": "AFC Champions League Elite: Al Sadd vs Al-Ahli",
     "hora": "2025-11-04T11:00:00",
     "canales": [

@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Reproductor HLS</title>
+  <title>Reproductor HLS GitHub</title>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <style>
     body { margin: 0; background: black; }
@@ -13,11 +13,10 @@
   <video id="video" controls autoplay></video>
 
   <script>
-    // Obtener el parámetro ?stream=
     const params = new URLSearchParams(window.location.search);
     const streamKey = params.get("stream");
 
-    // Mapa de streams (puedes expandirlo o cargarlo desde Sheets)
+    // Mapa de streams
     const streams = {
       "espn": "https://streamtpmedia.com/global1.php?stream=espn",
       "fox": "https://streamtpmedia.com/global1.php?stream=fox",
@@ -27,14 +26,14 @@
     const video = document.getElementById("video");
     const url = streams[streamKey];
 
-    if (Hls.isSupported() && url) {
+    if (url && Hls.isSupported()) {
       const hls = new Hls();
       hls.loadSource(url);
       hls.attachMedia(video);
-    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    } else if (url && video.canPlayType('application/vnd.apple.mpegurl')) {
       video.src = url;
     } else {
-      document.body.innerHTML = "<h2 style='color:white;text-align:center;'>Stream no compatible o no encontrado</h2>";
+      document.body.innerHTML = "<h2 style='color:white;text-align:center;'>Stream no disponible o no compatible</h2>";
     }
   </script>
 </body>

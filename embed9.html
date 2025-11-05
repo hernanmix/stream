@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Reproductor con botón forzado</title>
+  <title>Reproductor ESPN</title>
   <style>
     html, body {
       margin: 0; padding: 0;
@@ -15,7 +15,6 @@
       top: 0; left: 0;
       width: 100%; height: 100%;
       border: none;
-      display: none;
       z-index: 1;
     }
     #unmute-button {
@@ -39,12 +38,25 @@
       pointer-events: none;
       transform: scale(0.9);
     }
+    #notice {
+      position: fixed;
+      bottom: 15px;
+      left: 15px;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 8px 12px;
+      font-size: 12px;
+      border-radius: 6px;
+      z-index: 9999;
+      font-family: sans-serif;
+    }
   </style>
 </head>
 <body>
 
-<iframe id="iframe-player" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<button id="unmute-button">🔊 Activar sonido y reproducir</button>
+<iframe id="iframe-player" allow="autoplay; fullscreen" allowfullscreen src=""></iframe>
+<button id="unmute-button">🔊 Activar pantalla completa</button>
+
 
 <script>
   const params = new URLSearchParams(window.location.search);
@@ -54,11 +66,10 @@
   const iframe = document.getElementById("iframe-player");
   const btn = document.getElementById("unmute-button");
 
-  btn.addEventListener("click", () => {
-    // Activar sonido y cargar stream
-    iframe.src = url;
-    iframe.style.display = "block";
+  // Cargar el iframe desde el inicio
+  iframe.src = url;
 
+  btn.addEventListener("click", () => {
     // Forzar pantalla completa
     if (iframe.requestFullscreen) {
       iframe.requestFullscreen();

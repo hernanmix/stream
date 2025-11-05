@@ -2,34 +2,77 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Reproductor HLS GitHub</title>
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <title>Reproductor con botón de sonido</title>
   <style>
-    body { margin: 0; background: black; }
-    video { width: 100vw; height: 100vh; background: black; }
+    html, body {
+      margin: 0; padding: 0;
+      width: 100%; height: 100%;
+      background: #000;
+      overflow: hidden;
+    }
+    #video {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: black;
+    }
+    #unmute-button {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      background-color: #042c41;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.4);
+      z-index: 9999;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    #unmute-button.hidden {
+      opacity: 0;
+      pointer-events: none;
+      transform: scale(0.9);
+    }
   </style>
 </head>
 <body>
-  <video id="video" controls autoplay></video>
 
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const streamKey = params.get("stream");
+<video id="video" muted autoplay playsinline></video>
+<button id="unmute-button">🔊 Activar sonido</button>
 
-    // Construir la URL completa
-    const url = "https://streamtpmedia.com/global1.php?stream=" + streamKey;
-    const video = document.getElementById("video");
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const channel = params.get("channel") || "espn";
+  const url = "https://streamvv11.lat/global1.php?channel=" + channel;
 
-    if (Hls.isSupported()) {
-      const hls = new Hls();
-      hls.loadSource(url);
-      hls.attachMedia(video);
-    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-      video.src = url;
-    } else {
-      document.body.innerHTML = "<h2 style='color:white;text-align:center;'>Stream no compatible o no encontrado</h2>";
+  const video = document.getElementById("video");
+  video.src = url;
+
+  const btn = document.getElementById("unmute-button");
+  btn.addEventListener("click", () => {
+    video.muted = false;
+    video.play();
+
+    // Pantalla completa forzada
+    if (video.requestFullscreen) {
+      video.requestFullscreen();
+    } else if (video.webkitRequestFullscreen) {
+      video.webkitRequestFullscreen();
     }
-  </script>
+
+    // Orientación horizontal (si el dispositivo lo permite)
+    if (screen.orientation && screen.orientation.lock) {
+      screen.orientation.lock("landscape").catch(() => {});
+    }
+
+    btn.classList.add("hidden");
+  });
+</script>
+
 </body>
 </html>
 

@@ -14,7 +14,7 @@ const escudos = {
   "LaLiga": "https://img.futebol12.nexus/zas/es.png",
   "Liga Profesional Saudí": "https://bow.futebol12.nexus/zas/sa.png",
   "Serie A": "https://bow.futebol12.nexus/zas/it.png",
-  "LaLiga 2": "https://img.futebol12.nexus/zas/es.png",
+  "LaLiga 2": "https://bow.futebol12.nexus/zas/es.png",
   "Bundesliga": "https://bow.futebol12.nexus/zas/de.png",
   "Superliga Argentina": "https://bow.futebol12.nexus/zas/ar.png",
   "Ligue 1": "https://bow.futebol12.nexus/zas/fr.png",

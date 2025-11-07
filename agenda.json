@@ -1,182 +1,93 @@
 [
   {
-    "nombre": "Copa Mundial Sub-17: Paraguay Sub-17 vs Uzbekistán Sub-17",
-    "hora": "2025-11-05T08:00:00",
+    "nombre": "Liga1: Cusco vs Sport Boys",
+    "hora": "2025-11-07T13:00:00",
     "canales": [
-      "dsportsplus"
+      "liga1max",
+      "",
+      "",
+      ""
     ]
   },
   {
-    "nombre": "Copa Mundial Sub-17: Estados Unidos Sub-17 vs Burkina Faso Sub-17",
-    "hora": "2025-11-05T10:15:00",
+    "nombre": "Bundesliga: Werder Bremen vs Wolfsburg",
+    "hora": "2025-11-07T14:30:00",
     "canales": [
-      "dsportsplus"
+      "espn5",
+      "",
+      "",
+      ""
     ]
   },
   {
-    "nombre": "Copa Mundial Sub-17: Francia Sub-17 vs Chile Sub-17",
-    "hora": "2025-11-05T10:45:00",
+    "nombre": "SerieA: Pisa vs Cremonese",
+    "hora": "2025-11-07T14:45:00",
     "canales": [
-      "dsports"
+      "espn4"
     ]
   },
   {
-    "nombre": "UEFA Champions League: Qarabağ vs Chelsea",
-    "hora": "2025-11-05T12:45:00",
+    "nombre": "Legue1: Paris vs Rennes",
+    "hora": "2025-11-07T14:45:00",
     "canales": [
-      "espn",
-      "tudnus",
-      "disney1"
+      "disne1"
     ]
   },
   {
-    "nombre": "UEFA Champions League: Paphos vs Villarreal",
-    "hora": "2025-11-05T12:45:00",
+    "nombre": "Primeira Liga: Estoril vs Arouca",
+    "hora": "2025-11-07T15:15:00",
     "canales": [
-      "fox1ar",
-      "max1"
+      "goltv",
+      "",
+      "",
+      ""
     ]
   },
   {
-    "nombre": "AFC Champions League Two: Al Nassr vs Goa",
-    "hora": "2025-11-05T13:15:00",
-    "canales": [
-      "espn2mx",
-      "disney3"
-    ]
-  },
-  {
-    "nombre": "LaLiga 2: Real Sociedad II vs Huesca",
-    "hora": "2025-11-05T14:00:00",
-    "canales": [
-      "hyper1"
-    ]
-  },
-  {
-    "nombre": "UEFA Champions League: Club Brugge vs Barcelona",
-    "hora": "2025-11-05T15:00:00",
-    "canales": [
-      "espn",
-      "tudnus"
-    ]
-  },
-  {
-    "nombre": "UEFA Champions League: Manchester City vs Borussia Dortmund",
-    "hora": "2025-11-05T15:00:00",
-    "canales": [
-      "espn2",
-      "fox1ar"
-    ]
-  },
-  {
-    "nombre": "UEFA Champions League: Ajax vs Galatasaray",
-    "hora": "2025-11-05T15:00:00",
-    "canales": [
-      "espn3",
-      "disney6"
-    ]
-  },
-  {
-    "nombre": "UEFA Champions League: Newcastle United vs Athletic Club",
-    "hora": "2025-11-05T15:00:00",
-    "canales": [
-      "espn4",
-      "max3"
-    ]
-  },
-  {
-    "nombre": "UEFA Champions League: Inter vs Kairat",
-    "hora": "2025-11-05T15:00:00",
-    "canales": [
-      "disney8",
-      "espn5"
-    ]
-  },
-  {
-    "nombre": "UEFA Champions League: Olympique Marseille vs Atalanta",
-    "hora": "2025-11-05T15:00:00",
-    "canales": [
-      "espn6",
-      "disney9"
-    ]
-  },
-  {
-    "nombre": "UEFA Champions League: Benfica vs Bayer Leverkusen",
-    "hora": "2025-11-05T15:00:00",
-    "canales": [
-      "espn7",
-      "fox2ar"
-    ]
-  },
-  {
-    "nombre": "Championship: Portsmouth vs Wrexham",
-    "hora": "2025-11-05T15:00:00",
-    "canales": [
-      "fox1ar"
-    ]
-  },
-  {
-    "nombre": "Liga 1: Los Chankas vs Alianza Lima",
-    "hora": "2025-11-05T15:15:00",
+    "nombre": "Liga1: Sporting Cristal vs Cienciano",
+    "hora": "2025-11-07T15:15:00",
     "canales": [
       "liga1max"
     ]
   },
   {
-    "nombre": "Primera División: Universidad Chile vs Everton",
-    "hora": "2025-11-05T15:30:00",
+    "nombre": "Primera División: Unión La Calera vs Deportes Iquique",
+    "hora": "2025-11-07T18:00:00",
     "canales": [
-      "max1"
+      "tntsportschile",
+      "",
+      "",
+      ""
     ]
   },
   {
-    "nombre": "Brasileirão: RB Bragantino vs Corinthians",
-    "hora": "2025-11-05T17:00:00",
+    "nombre": "Primera División: Rosario Central vs San Lorenzo",
+    "hora": "2025-11-07T19:00:00",
     "canales": [
-      "premiere1"
+      "sportv1",
+      "tycsports",
+      "",
+      ""
     ]
   },
   {
-    "nombre": "Brasileirão: Vitória vs Internacional",
-    "hora": "2025-11-05T17:00:00",
+    "nombre": "Laliga: Deportivo Cuenca vs Macará",
+    "hora": "2025-11-07T19:00:00",
     "canales": [
-      "premiere5"
+      "ecdf",
+      "zapping",
+      "",
+      ""
     ]
   },
   {
-    "nombre": "Brasileirão: Sport Recife vs Juventude",
-    "hora": "2025-11-05T17:00:00",
+    "nombre": "Liga1: Universitario vs Deportivo Garcilaso",
+    "hora": "2025-11-07T21:00:00",
     "canales": [
-      "premiere6"
+      "loga1max",
+      "",
+      "",
+      ""
     ]
   },
-  {
-    "nombre": "Brasileirão: Botafogo vs Vasco da Gama",
-    "hora": "2025-11-05T17:30:00",
-    "canales": [
-      "eventos1"
-    ]
-  },
-  {
-    "nombre": "Brasileirão: Grêmio vs Cruzeiro",
-    "hora": "2025-11-05T18:00:00",
-    "canales": [
-      "premiere2",
-      "premiere3"
-    ]
-  },
-  {
-    "nombre": "Brasileirão: Atlético Mineiro vs Bahia",
-    "hora": "2025-11-05T18:00:00",
-    "canales": [
-      "premiere4"
-    ]
-  },
-  {
-    "nombre": "Copa Argentina: Independiente Rivadavia vs Argentinos Juniors",
-    "hora": "2025-11-05T19:10:00",
-    "canales": [
-      "tyc"
-    ]
-  }
 ]

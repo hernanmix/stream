@@ -2,7 +2,7 @@
   {
     "nombre": "Serie A : Parma vs Milan",
     "hora": "2025-11-08T14:45:00",
-    "canales": [espnmx]
+    "canales": ["espnmx"]
   },
   {
     "nombre": "Premier League: Chelsea vs Wolverhampton Wanderers",
@@ -17,12 +17,12 @@
   {
     "nombre": "Liga Profesional: Racing Club vs Defensa y Justicia",
     "hora": "2025-11-08T15:00:00",
-    "canales": []
+    "canales": ["disney3", "espnpremium"]
   },
   {
     "nombre": "Liga Profesional: Huracán vs Newell's Old Boys",
     "hora": "2025-11-08T15:00:00",
-    "canales": []
+    "canales": ["tntsports"]
   },
   {
     "nombre": "Ligue 1: Monaco vs Lens",

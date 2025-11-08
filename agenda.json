@@ -27,12 +27,12 @@
   {
     "nombre": "Ligue 1: Monaco vs Lens",
     "hora": "2025-11-08T15:00:00",
-    "canales": []
+    "canales": ["disney14"]
   },
   {
     "nombre": "Eredivisie: PEC Zwolle vs Sparta Rotterdam",
     "hora": "2025-11-08T15:00:00",
-    "canales": []
+    "canales": ["goltv"]
   },
   {
     "nombre": "Primera División: Olimpia vs General Caballero JLM",
@@ -42,7 +42,7 @@
   {
     "nombre": "Liga 1: Juan Pablo II College vs Atlético Grau",
     "hora": "2025-11-08T15:15:00",
-    "canales": []
+    "canales": ["liga1max"]
   },
   {
     "nombre": "Primeira Liga: Santa Clara vs Sporting CP",

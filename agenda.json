@@ -7,7 +7,7 @@
   {
     "nombre": "Liga MX: Guadalajara vs Monterrey",
     "hora": "2025-11-08T18:00:00",
-    "canales": ["azteca7", "canal5mx"]
+    "canales": ["azteca7", "canal5mx", "eventos1"]
   },
   {
     "nombre": "Liga MX: Tigres UANL vs Atlético San Luis",
@@ -15,7 +15,7 @@
     "canales": ["tudnus"]
   },
   {
-  re  "nombre": "Primera A: Atlético Nacional vs Rionegro Águilas",
+    "nombre": "Primera A: Atlético Nacional vs Rionegro Águilas",
     "hora": "2025-11-08T18:20:00",
     "canales": ["winplus", "winsports"]
   },

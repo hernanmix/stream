@@ -27,7 +27,7 @@
       try {
         const url = atob(r);
         const u = new URL("https://" + url);
-        return u.searchParams.get("stream") || u.searchParams.get("id") || null;
+        return u.searchParams.get("channel") || u.searchParams.get("id") || null;
       } catch (e) {
         return null;
       }

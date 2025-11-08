@@ -1,93 +1,137 @@
 [
   {
-    "nombre": "Liga1: Cusco vs Sport Boys",
-    "hora": "2025-11-07T13:00:00",
-    "canales": [
-      "liga1max",
-      "",
-      "",
-      ""
-    ]
+    "nombre": "Serie A : Parma vs Milan",
+    "hora": "2025-11-08T14:45:00",
+    "canales": [espnmx]
   },
   {
-    "nombre": "Bundesliga: Werder Bremen vs Wolfsburg",
-    "hora": "2025-11-07T14:30:00",
-    "canales": [
-      "espn5",
-      "",
-      "",
-      ""
-    ]
+    "nombre": "Premier League: Chelsea vs Wolverhampton Wanderers",
+    "hora": "2025-11-08T15:00:00",
+    "canales": ["universousa", "disney12"]
   },
   {
-    "nombre": "SerieA: Pisa vs Cremonese",
-    "hora": "2025-11-07T14:45:00",
-    "canales": [
-      "espn4"
-    ]
+    "nombre": "LaLiga: Espanyol vs Villarreal",
+    "hora": "2025-11-08T15:00:00",
+    "canales": ["espn2", "espndeportes"]
   },
   {
-    "nombre": "Legue1: Paris vs Rennes",
-    "hora": "2025-11-07T14:45:00",
-    "canales": [
-      "disney1"
-    ]
+    "nombre": "Liga Profesional: Racing Club vs Defensa y Justicia",
+    "hora": "2025-11-08T15:00:00",
+    "canales": []
   },
   {
-    "nombre": "Primeira Liga: Estoril vs Arouca",
-    "hora": "2025-11-07T15:15:00",
-    "canales": [
-      "goltv",
-      "",
-      "",
-      ""
-    ]
+    "nombre": "Liga Profesional: Huracán vs Newell's Old Boys",
+    "hora": "2025-11-08T15:00:00",
+    "canales": []
   },
   {
-    "nombre": "Liga1: Sporting Cristal vs Cienciano",
-    "hora": "2025-11-07T15:15:00",
-    "canales": [
-      "liga1max"
-    ]
+    "nombre": "Ligue 1: Monaco vs Lens",
+    "hora": "2025-11-08T15:00:00",
+    "canales": []
   },
   {
-    "nombre": "Primera División: Unión La Calera vs Deportes Iquique",
-    "hora": "2025-11-07T18:00:00",
-    "canales": [
-      "tntsportschile",
-      "",
-      "",
-      ""
-    ]
+    "nombre": "Eredivisie: PEC Zwolle vs Sparta Rotterdam",
+    "hora": "2025-11-08T15:00:00",
+    "canales": []
   },
   {
-    "nombre": "Primera División: Rosario Central vs San Lorenzo",
-    "hora": "2025-11-07T19:00:00",
-    "canales": [
-      "sportv1",
-      "tycsports",
-      "",
-      ""
-    ]
+    "nombre": "Primera División: Olimpia vs General Caballero JLM",
+    "hora": "2025-11-08T15:00:00",
+    "canales": []
   },
   {
-    "nombre": "Laliga: Deportivo Cuenca vs Macará",
-    "hora": "2025-11-07T19:00:00",
-    "canales": [
-      "ecdf",
-      "zapping",
-      "",
-      ""
-    ]
+    "nombre": "Liga 1: Juan Pablo II College vs Atlético Grau",
+    "hora": "2025-11-08T15:15:00",
+    "canales": []
   },
   {
-    "nombre": "Liga1: Universitario vs Deportivo Garcilaso",
-    "hora": "2025-11-07T21:00:00",
-    "canales": [
-      "liga1max",
-      "",
-      "",
-      ""
-    ]
+    "nombre": "Primeira Liga: Santa Clara vs Sporting CP",
+    "hora": "2025-11-08T15:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Palestino vs Coquimbo Unido",
+    "hora": "2025-11-08T15:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Brasileirão: Vasco da Gama vs Juventude",
+    "hora": "2025-11-08T16:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera A: Fortaleza CEIF vs Junior",
+    "hora": "2025-11-08T16:10:00",
+    "canales": []
+  },
+  {
+    "nombre": "Brasileirão: Internacional vs Bahia",
+    "hora": "2025-11-08T16:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Wanderers vs River Plate",
+    "hora": "2025-11-08T17:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga MX: Guadalajara vs Monterrey",
+    "hora": "2025-11-08T18:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga MX: Tigres UANL vs Atlético San Luis",
+    "hora": "2025-11-08T18:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera A: Atlético Nacional vs Rionegro Águilas",
+    "hora": "2025-11-08T18:20:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: O'Higgins vs Ñublense",
+    "hora": "2025-11-08T18:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Brasileirão: São Paulo vs RB Bragantino",
+    "hora": "2025-11-08T19:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "LigaPro: LDU Quito vs Libertad",
+    "hora": "2025-11-08T19:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga Profesional: Unión Santa Fe vs Barracas Central",
+    "hora": "2025-11-08T19:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga Profesional: San Martín San Juan vs Lanús",
+    "hora": "2025-11-08T19:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "League Soccer: Inter Miami vs Nashville SC",
+    "hora": "2025-11-08T20:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera A: Atlético Bucaramanga vs La Equidad",
+    "hora": "2025-11-08T20:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga MX: Toluca vs América",
+    "hora": "2025-11-08T20:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga MX: Cruz Azul vs Pumas UNAM",
+    "hora": "2025-11-08T22:00:00",
+    "canales": []
   }
 ]

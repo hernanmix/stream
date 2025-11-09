@@ -17,17 +17,17 @@
   {
     "nombre": "Primera A: Once Caldas vs Deportivo Pasto",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["winplus"]
   },
   {
     "nombre": "Liga Profesional: Boca Juniors vs River Plate",
     "hora": "2025-10-23T14:30:00",
-    "canales": []
+    "canales": ["espnpremium", "espn" ]
   },
   {
     "nombre": "Primera División: Torque vs Peñarol",
     "hora": "2025-10-23T14:30:00",
-    "canales": []
+    "canales": ["disney9"]
   },
   {
     "nombre": "Primera División: Juventud vs Progreso",

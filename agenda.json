@@ -47,22 +47,22 @@
   {
     "nombre": "Serie A: Internazionale vs Lazio",
     "hora": "2025-10-23T14:45:00",
-    "canales": []
+    "canales": ["disney14"]
   },
   {
     "nombre": "LaLiga: Celta de Vigo vs Barcelona",
     "hora": "2025-10-23T15:00:00",
-    "canales": []
+    "canales": ["espn2"]
   },
   {
     "nombre": "Liga 1: Alianza Atlético vs Alianza Universidad",
     "hora": "2025-10-23T15:15:00",
-    "canales": []
+    "canales": ["liga1max"]
   },
   {
     "nombre": "Primeira Liga: Benfica vs Casa Pia",
     "hora": "2025-10-23T15:30:00",
-    "canales": []
+    "canales": ["goltv"]
   },
   {
     "nombre": "Primeira Liga: Sporting Braga vs Moreirense",
@@ -72,7 +72,7 @@
   {
     "nombre": "Primera División: Universidad Chile vs Deportes Limache",
     "hora": "2025-10-23T15:30:00",
-    "canales": []
+    "canales": ["tntsportschile"]
   },
   {
     "nombre": "Liga Nacional: Deportivo Mixco vs Municipal",
@@ -92,12 +92,12 @@
   {
     "nombre": "Primera División: Sportivo Trinidense vs Cerro Porteño",
     "hora": "2025-10-23T16:00:00",
-    "canales": []
+    "canales": ["disney9"]
   },
   {
     "nombre": "Primera A: Alianza vs Boyacá Chicó",
     "hora": "2025-10-23T16:10:00",
-    "canales": []
+    "canales": ["winplus]
   },
   {
     "nombre": "Brasileirão: Flamengo vs Santos",

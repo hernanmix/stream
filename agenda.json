@@ -1,60 +1,5 @@
 [
   {
-    "Serie A": "Técnico Universitario vs Cuniburo",
-    "hora": "2025-11-09T13:00:00",
-    "canales": ["ecdf", "zapping"]
-  },
-  {
-    "nombre": "Brasileirão: Corinthians vs Ceará",
-    "hora": "2025-11-09T14:00:00",
-    "canales": ["eventos4"]
-  },
-  {
-    "nombre": "Brasileirão: Cruzeiro vs Fluminense",
-    "hora": "2025-11-09T14:00:00",
-    "canales": ["eventos5"]
-  },
-  {
-    "nombre": "Brasileirão: Vitória vs Botafogo",
-    "hora": "2025-11-09T14:00:00",
-    "canales": ["premiere2"]
-  },
-  {
-    "nombre": "Primera A: Once Caldas vs Deportivo Pasto",
-    "hora": "2025-11-09T14:00:00",
-    "canales": ["winplus"]
-  },
-  {
-    "nombre": "Liga Profesional: Boca Juniors vs River Plate",
-    "hora": "2025-11-09T14:30:00",
-    "canales": ["espnpremium", "espn" ]
-  },
-  {
-    "nombre": "Primera División: Torque vs Peñarol",
-    "hora": "2025-11-09T14:30:00",
-    "canales": ["disney9"]
-  },
-  {
-    "nombre": "Primera División: Juventud vs Progreso",
-    "hora": "2025-11-09T14:30:00",
-    "canales": ["disney11"]
-  },
-  {
-    "nombre": "Ligue 1: Olympique Lyonnais vs PSG",
-    "hora": "2025-11-09T14:45:00",
-    "canales": ["disney13"]
-  },
-  {
-    "nombre": "Serie A: Internazionale vs Lazio",
-    "hora": "2025-11-09T14:45:00",
-    "canales": ["disney14"]
-  },
-  {
-    "nombre": "LaLiga: Celta de Vigo vs Barcelona",
-    "hora": "2025-11-09T15:00:00",
-    "canales": ["espn2"]
-  },
-  {
     "nombre": "Liga 1: Alianza Atlético vs Alianza Universidad",
     "hora": "2025-11-09T15:15:00",
     "canales": ["liga1max"]
@@ -98,6 +43,11 @@
     "nombre": "Liga Profesional: Sarmiento vs Instituto",
     "hora": "2025-11-09T17:20:00",
     "canales": []
+  },
+   {
+    "nombre": "Liga Pro: Orense vs Barcelona",
+    "hora": "2025-11-09T18:00:00",
+    "canales": ["zapping", "ecdf"]
   },
   {
     "nombre": "Primera División: Cobresal vs Everton",

@@ -1,5 +1,10 @@
 [
   {
+    "Serie A": "Técnico Universitario vs Cuniburo",
+    "hora": "2025-10-23T20:30:00",
+    "canales": ["ecdf", "zapping"]
+  }
+  {
     "nombre": "Brasileirão: Corinthians vs Ceará",
     "hora": "2025-10-23T14:00:00",
     "canales": ["eventos4"]
@@ -152,6 +157,6 @@
   {
     "nombre": "Primera A: Santa Fe vs Deportivo Cali",
     "hora": "2025-10-23T20:30:00",
-    "canales": []
+    "canales": ["winplus"]
   }
 ]

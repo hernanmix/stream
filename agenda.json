@@ -47,7 +47,7 @@
    {
     "nombre": "Liga Pro: Orense vs Barcelona",
     "hora": "2025-11-09T18:00:00",
-    "canales": ["zapping", "ecdf"]
+    "canales": ["zapping", "ecdf", "vod1"]
   },
   {
     "nombre": "Primera División: Cobresal vs Everton",

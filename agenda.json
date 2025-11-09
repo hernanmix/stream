@@ -40,11 +40,6 @@
     "canales": ["disney11"]
   },
   {
-    "nombre": "Primera División: Defensor Sporting vs Nacional",
-    "hora": "2025-11-09T14:30:00",
-    "canales": []
-  },
-  {
     "nombre": "Ligue 1: Olympique Lyonnais vs PSG",
     "hora": "2025-11-09T14:45:00",
     "canales": ["disney13"]
@@ -70,24 +65,9 @@
     "canales": ["goltv"]
   },
   {
-    "nombre": "Primeira Liga: Sporting Braga vs Moreirense",
-    "hora": "2025-11-09T15:30:00",
-    "canales": []
-  },
-  {
     "nombre": "Primera División: Universidad Chile vs Deportes Limache",
     "hora": "2025-11-09T15:30:00",
     "canales": ["tntsportschile"]
-  },
-  {
-    "nombre": "Liga Nacional: Deportivo Mixco vs Municipal",
-    "hora": "2025-10-23T16:00:00",
-    "canales": []
-  },
-  {
-    "nombre": "Liga Nacional: Genesis vs Olimpia",
-    "hora": "2025-11-09T16:00:00",
-    "canales": []
   },
   {
     "nombre": "Primera División: Guaraní vs Libertad",

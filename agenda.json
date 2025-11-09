@@ -32,7 +32,7 @@
   {
     "nombre": "Primera División: Juventud vs Progreso",
     "hora": "2025-10-23T14:30:00",
-    "canales": []
+    "canales": ["disney11"]
   },
   {
     "nombre": "Primera División: Defensor Sporting vs Nacional",
@@ -42,7 +42,7 @@
   {
     "nombre": "Ligue 1: Olympique Lyonnais vs PSG",
     "hora": "2025-10-23T14:45:00",
-    "canales": []
+    "canales": ["disney13"]
   },
   {
     "nombre": "Serie A: Internazionale vs Lazio",

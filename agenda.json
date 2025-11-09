@@ -2,17 +2,17 @@
   {
     "nombre": "Brasileirão: Corinthians vs Ceará",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["eventos4"]
   },
   {
     "nombre": "Brasileirão: Cruzeiro vs Fluminense",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["eventos5"]
   },
   {
     "nombre": "Brasileirão: Vitória vs Botafogo",
     "hora": "2025-10-23T14:00:00",
-    "canales": []
+    "canales": ["premiere2"]
   },
   {
     "nombre": "Primera A: Once Caldas vs Deportivo Pasto",

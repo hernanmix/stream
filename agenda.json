@@ -1,67 +1,157 @@
 [
   {
-    "nombre": "Primera División: Wanderers vs River Plate",
-    "hora": "2025-11-08T17:00:00",
-    "canales": ["goltv"]
-  },
-  {
-    "nombre": "Liga MX: Guadalajara vs Monterrey",
-    "hora": "2025-11-08T18:00:00",
-    "canales": ["azteca7", "canal5mx", "eventos1"]
-  },
-  {
-    "nombre": "Liga MX: Tigres UANL vs Atlético San Luis",
-    "hora": "2025-11-08T18:00:00",
-    "canales": ["tudnus"]
-  },
-  {
-    "nombre": "Primera A: Atlético Nacional vs Rionegro Águilas",
-    "hora": "2025-11-08T18:20:00",
-    "canales": ["winplus", "winsports"]
-  },
-  {
-    "nombre": "Primera División: O'Higgins vs Ñublense",
-    "hora": "2025-11-08T18:30:00",
-    "canales": ["tntsportschile"]
-  },
-  {
-    "nombre": "Brasileirão: São Paulo vs RB Bragantino",
-    "hora": "2025-11-08T19:00:00",
-    "canales": ["premier1"]
-  },
-  {
-    "nombre": "LigaPro: LDU Quito vs Libertad",
-    "hora": "2025-11-08T19:00:00",
-    "canales": ["zapping", "ecdf"]
-  },
-  {
-    "nombre": "Liga Profesional: Unión Santa Fe vs Barracas Central",
-    "hora": "2025-11-08T19:30:00",
-    "canales": ["tntsports"]
-  },
-  {
-    "nombre": "Liga Profesional: San Martín San Juan vs Lanús",
-    "hora": "2025-11-08T19:30:00",
-    "canales": ["espnpremium"]
-  },
-  {
-    "nombre": "League Soccer: Inter Miami vs Nashville SC",
-    "hora": "2025-11-08T20:00:00",
-    "canales": ["mls-1es"]
-  },
-  {
-    "nombre": "Primera A: Atlético Bucaramanga vs La Equidad",
-    "hora": "2025-11-08T20:30:00",
+    "nombre": "Brasileirão: Corinthians vs Ceará",
+    "hora": "2025-10-23T14:00:00",
     "canales": []
   },
   {
-    "nombre": "Liga MX: Toluca vs América",
-    "hora": "2025-11-08T20:00:00",
+    "nombre": "Brasileirão: Cruzeiro vs Fluminense",
+    "hora": "2025-10-23T14:00:00",
     "canales": []
   },
   {
-    "nombre": "Liga MX: Cruz Azul vs Pumas UNAM",
-    "hora": "2025-11-08T22:00:00",
-    "canales": ["tudnus", "azteca7", "canal5mx"]
+    "nombre": "Brasileirão: Vitória vs Botafogo",
+    "hora": "2025-10-23T14:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera A: Once Caldas vs Deportivo Pasto",
+    "hora": "2025-10-23T14:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga Profesional: Boca Juniors vs River Plate",
+    "hora": "2025-10-23T14:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Torque vs Peñarol",
+    "hora": "2025-10-23T14:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Juventud vs Progreso",
+    "hora": "2025-10-23T14:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Defensor Sporting vs Nacional",
+    "hora": "2025-10-23T14:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Ligue 1: Olympique Lyonnais vs PSG",
+    "hora": "2025-10-23T14:45:00",
+    "canales": []
+  },
+  {
+    "nombre": "Serie A: Internazionale vs Lazio",
+    "hora": "2025-10-23T14:45:00",
+    "canales": []
+  },
+  {
+    "nombre": "LaLiga: Celta de Vigo vs Barcelona",
+    "hora": "2025-10-23T15:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga 1: Alianza Atlético vs Alianza Universidad",
+    "hora": "2025-10-23T15:15:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primeira Liga: Benfica vs Casa Pia",
+    "hora": "2025-10-23T15:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primeira Liga: Sporting Braga vs Moreirense",
+    "hora": "2025-10-23T15:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Universidad Chile vs Deportes Limache",
+    "hora": "2025-10-23T15:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga Nacional: Deportivo Mixco vs Municipal",
+    "hora": "2025-10-23T16:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga Nacional: Genesis vs Olimpia",
+    "hora": "2025-10-23T16:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Guaraní vs Libertad",
+    "hora": "2025-10-23T16:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Sportivo Trinidense vs Cerro Porteño",
+    "hora": "2025-10-23T16:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera A: Alianza vs Boyacá Chicó",
+    "hora": "2025-10-23T16:10:00",
+    "canales": []
+  },
+  {
+    "nombre": "Brasileirão: Flamengo vs Santos",
+    "hora": "2025-10-23T16:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga Profesional: Banfield vs Aldosivi",
+    "hora": "2025-10-23T17:20:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga Profesional: Sarmiento vs Instituto",
+    "hora": "2025-10-23T17:20:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera División: Cobresal vs Everton",
+    "hora": "2025-10-23T18:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga MX: Santos Laguna vs Pachuca",
+    "hora": "2025-10-23T18:00:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera A: América de Cali vs Unión Magdalena",
+    "hora": "2025-10-23T18:20:00",
+    "canales": []
+  },
+  {
+    "nombre": "Brasileirão: Fortaleza vs Grêmio",
+    "hora": "2025-10-23T18:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Brasileirão: Mirassol vs Palmeiras",
+    "hora": "2025-10-23T18:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga Profesional: Tigre vs Estudiantes",
+    "hora": "2025-10-23T19:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Liga Profesional: Atlético Tucumán vs Godoy Cruz",
+    "hora": "2025-10-23T19:30:00",
+    "canales": []
+  },
+  {
+    "nombre": "Primera A: Santa Fe vs Deportivo Cali",
+    "hora": "2025-10-23T20:30:00",
+    "canales": []
   }
 ]

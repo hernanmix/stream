@@ -123,7 +123,7 @@
   {
     "nombre": "Amistoso: Canadá vs Ecuador",
     "hora": "2025-11-13T19:30:00",
-    "canales": []
+    "canales": ["fox2usa"]
   },
   {
     "nombre": "Clasificación Mundial: Haiti vs Costa Rica",
@@ -133,6 +133,6 @@
   {
     "nombre": "Clasificación Mundial: Guatemala vs Panama",
     "hora": "2025-11-13T21:00:00",
-    "canales": []
+    "canales": ["universousa"]
   }
 ]

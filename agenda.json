@@ -1,4 +1,4 @@
-[
+no[
   {
     "nombre": "Clasificación Mundial: Emiratos Árabes Unidos vs Iraq",
     "hora": "2025-11-13T11:00:00",
@@ -88,17 +88,17 @@
   {
     "nombre": "Primera A: Medellín vs América de Cali",
     "hora": "2025-11-13T19:00:00",
-    "canales": []
+    "canales": ["winsports"]
   },
   {
     "nombre": "Primera A: Junior vs Atlético Nacional",
     "hora": "2025-11-13T19:00:00",
-    "canales": []
+    "canales": ["wnplus"]
   },
   {
     "nombre": "Primera A: Llaneros vs Envigado",
     "hora": "2025-11-13T19:00:00",
-    "canales": []
+    "canales": ["winplus"]
   },
   {
     "nombre": "Primera A: Santa Fe vs Alianza",
@@ -108,7 +108,7 @@
   {
     "nombre": "Primera A: Unión Magdalena vs Fortaleza",
     "hora": "2025-11-13T19:00:00",
-    "canales": []
+    "canales": ["winsports"]
   },
   {
     "nombre": "Clasificación Mundial: Bermudas vs Curazao",

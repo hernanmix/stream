@@ -43,7 +43,7 @@
   {
     "nombre": "Clasificación Mundial: República de Irlanda vs Portugal",
     "hora": "2025-11-13T14:45:00",
-    "canales": []
+    "canales": ["espn2"]
   },
   {
     "nombre": "Clasificación Mundial: Inglaterra vs Serbia",
@@ -53,7 +53,7 @@
   {
     "nombre": "Clasificación Mundial: Francia vs Ucrania",
     "hora": "2025-11-13T14:45:00",
-    "canales": []
+    "canales": ["espn"]
   },
   {
     "nombre": "Clasificación Mundial: Moldavia vs Italia",

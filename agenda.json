@@ -1,68 +1,57 @@
 [
-  
   {
-    "nombre": "Primera A: Rionegro Águilas vs Deportes Tolima",
-    "hora": "2025-11-13T19:00:00",
+    "nombre": "Amistoso: Angola vs Argentina",
+    "hora": "2025-11-14T11:00:00",
+    "canales": [
+      "tycsports"
+    ]
+  },
+  {
+    "nombre": "Amistoso: Uzbekistán vs Egipto",
+    "hora": "2025-11-14T11:00:00",
+    "canales": [
+      "foxdeportes"
+    ]
+  },
+  {
+    "nombre": "Clasificación Mundial: Eslovaquia vs Irlanda del Norte",
+    "hora": "2025-11-14T14:45:00",
+    "canales": [
+      "disney6"
+    ]
+  },
+  {
+    "nombre": "Clasificación Mundial: Gibraltar vs Montenegro",
+    "hora": "2025-11-14T14:45:00",
+    "canales": [
+      "disney7"
+    ]
+  },
+  {
+    "nombre": "Clasificación Mundial: Luxemburgo vs Alemania",
+    "hora": "2025-11-14T14:45:00",
+    "canales": [
+      "disney8",
+      "foxdeportesusa"
+    ]
+  },
+  {
+    "nombre": "Clasificación Mundial: Polonia vs Países Bajos",
+    "hora": "2025-11-14T14:45:00",
+    "canales": [
+      "disney9"
+    ]
+  },
+  {
+    "nombre": "Liga Profesional: Lanús vs Atlético Tucumán",
+    "hora": "2025-11-14T18:00:00",
+    "canales": [
+      "espnpremium"
+    ]
+  },
+  {
+    "nombre": "Amistoso: Venezuela vs Australia",
+    "hora": "2025-11-14T21:00:00",
     "canales": []
-  },
-  {
-    "nombre": "Primera A: Deportivo Cali vs Once Caldas",
-    "hora": "2025-11-13T19:00:00",
-    "canales": []
-  },
-  {
-    "nombre": "Primera A: Deportivo Pasto vs Atlético Bucaramanga",
-    "hora": "2025-11-13T19:00:00",
-    "canales": []
-  },
-  {
-    "nombre": "Primera A: Medellín vs América de Cali",
-    "hora": "2025-11-13T19:00:00",
-    "canales": ["winsports"]
-  },
-  {
-    "nombre": "Primera A: Junior vs Atlético Nacional",
-    "hora": "2025-11-13T19:00:00",
-    "canales": ["wnplus"]
-  },
-  {
-    "nombre": "Primera A: Llaneros vs Envigado",
-    "hora": "2025-11-13T19:00:00",
-    "canales": ["winplus"]
-  },
-  {
-    "nombre": "Primera A: Santa Fe vs Alianza",
-    "hora": "2025-11-13T19:00:00",
-    "canales": []
-  },
-  {
-    "nombre": "Primera A: Unión Magdalena vs Fortaleza",
-    "hora": "2025-11-13T19:00:00",
-    "canales": ["winsports"]
-  },
-  {
-    "nombre": "Clasificación Mundial: Bermudas vs Curazao",
-    "hora": "2025-11-13T19:00:00",
-    "canales": []
-  },
-  {
-    "nombre": "Clasificación Mundial: Trinidad & Tobago vs Jamaica",
-    "hora": "2025-11-13T19:00:00",
-    "canales": []
-  },
-  {
-    "nombre": "Amistoso: Canadá vs Ecuador",
-    "hora": "2025-11-13T19:48:00",
-    "canales": ["fox2usa", "ecdf2"]
-  },
-  {
-    "nombre": "Clasificación Mundial: Haiti vs Costa Rica",
-    "hora": "2025-11-13T21:00:00",
-    "canales": []
-  },
-  {
-    "nombre": "Clasificación Mundial: Guatemala vs Panama",
-    "hora": "2025-11-13T21:00:00",
-    "canales": ["universousa"]
   }
 ]

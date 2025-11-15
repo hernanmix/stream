@@ -1,57 +1,16 @@
 [
   {
-    "nombre": "Amistoso: Angola vs Argentina",
-    "hora": "2025-11-14T11:00:00",
+    "nombre": "Clasificación Mundial: Georgia vs España",
+    "hora": "2025-11-15T12:00:00",
     "canales": [
-      "tycsports"
+      "espn"
     ]
   },
   {
-    "nombre": "Amistoso: Uzbekistán vs Egipto",
-    "hora": "2025-11-14T11:00:00",
+    "nombre": "Clasificación Mundial:Suiza vs Suecia",
+    "hora": "2025-11-15T14:45:00",
     "canales": [
-      "foxdeportes"
+      "espn2"
     ]
-  },
-  {
-    "nombre": "Clasificación Mundial: Eslovaquia vs Irlanda del Norte",
-    "hora": "2025-11-14T14:45:00",
-    "canales": [
-      "disney6"
-    ]
-  },
-  {
-    "nombre": "Clasificación Mundial: Gibraltar vs Montenegro",
-    "hora": "2025-11-14T14:45:00",
-    "canales": [
-      "disney7"
-    ]
-  },
-  {
-    "nombre": "Clasificación Mundial: Luxemburgo vs Alemania",
-    "hora": "2025-11-14T14:45:00",
-    "canales": [
-      "disney8",
-      "foxdeportesusa"
-    ]
-  },
-  {
-    "nombre": "Clasificación Mundial: Polonia vs Países Bajos",
-    "hora": "2025-11-14T14:45:00",
-    "canales": [
-      "disney9"
-    ]
-  },
-  {
-    "nombre": "Liga Profesional: Lanús vs Atlético Tucumán",
-    "hora": "2025-11-14T18:00:00",
-    "canales": [
-      "espnpremium"
-    ]
-  },
-  {
-    "nombre": "Amistoso: Venezuela vs Australia",
-    "hora": "2025-11-14T21:00:00",
-    "canales": []
   }
 ]
